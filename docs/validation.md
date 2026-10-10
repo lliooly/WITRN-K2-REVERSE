@@ -18,3 +18,7 @@
 模拟器只检查主机流程和错误停止，不能证明 Bootloader 的时序、电气能力或其他型号兼容性。HID 写入命令会修改设备，擦除后失败可能留下不完整应用。固件 XOR 与加法校验不验证来源可信度。
 
 此次发布验证结果记录在 [publication-validation.json](../evidence/publication-validation.json)。核心测试不依赖 USB、厂商文件或私人数据。静态历史摘要的说明见 [evidence/README.md](../evidence/README.md)。
+
+## 本次整理发现的定位疑点
+
+K2Picture 原报告同时记录解码入口 RID 724 和 VM 程序 1 token `0x06000724`。token 低位 `0x724` 对应十进制 RID 1828，不等于 724。现有资料不足以确认两者关系，暂不标为同一个方法；原报告保留，函数索引明确标注，需在对应元数据 / VM 输出中复核。

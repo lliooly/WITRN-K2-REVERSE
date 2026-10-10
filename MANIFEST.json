@@ -15,8 +15,8 @@
     },
     {
       "path": "CATALOG.md",
-      "size_bytes": 7878,
-      "sha256": "144319fbbb068fe1398bb81747bfa3bcc056b7d7729941b631dbb26f37a7e726"
+      "size_bytes": 9600,
+      "sha256": "35bddc6e313a5e958c9b092fedb16da7642ba847b43b5d7e0613dfca96e0af78"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -30,18 +30,43 @@
     },
     {
       "path": "NOTICE.md",
-      "size_bytes": 2189,
-      "sha256": "ab46dc25e1175062657043b6fa719b3f4e593f9925b0e8a9f400b981e55912aa"
+      "size_bytes": 2237,
+      "sha256": "1cf5444940901658d4bace12454c2e42acf967b1be7dba17709882a9afca36d8"
     },
     {
       "path": "README.md",
-      "size_bytes": 6722,
-      "sha256": "3db7b932103c8dedd62dc856c9a3b9ebb2fd21883f5bc545edce9b9f9109a9ca"
+      "size_bytes": 4147,
+      "sha256": "c51e486c915b62f9bc1442840b3438e0b342ed07a51921738ed23e175d9481de"
     },
     {
       "path": "TAKEDOWN.md",
       "size_bytes": 1443,
       "sha256": "5c7a289be77b30f809ea05a09e9832fc99714b89b1d29b80ed1ad7e2ae5ec9f4"
+    },
+    {
+      "path": "archive/application/README.md",
+      "size_bytes": 523,
+      "sha256": "042b30326c4f1d9dc2e6857a98d72506a57fd6f240d93ec92b37c4cde0bcff46"
+    },
+    {
+      "path": "archive/application/macos-app.md",
+      "size_bytes": 15781,
+      "sha256": "95e988533943f1b7228a382c206136e75092ea3ca14c9b88a723a551c9f304c2"
+    },
+    {
+      "path": "archive/application/ui-layout-design.md",
+      "size_bytes": 14148,
+      "sha256": "0d71fd5e8d3a04bacbd7422bb0f02db8c0c118b1e2d58f6eb7498121bf7f9bdb"
+    },
+    {
+      "path": "archive/application/ui-layout-plan.md",
+      "size_bytes": 1117,
+      "sha256": "9431972e0be943116b40e567a7db0df31fe93948c757fcb2beaa2920ff887aae"
+    },
+    {
+      "path": "archive/application/ui-layout-validation.md",
+      "size_bytes": 3532,
+      "sha256": "23b3422f546f9553dde31d6377f39d28d7641f7d5958f5b50d1c94b7a3295a2b"
     },
     {
       "path": "docs/k2-emark-design.md",
@@ -84,14 +109,9 @@
       "sha256": "f6d6f87ed80762bb86d9c11b09cb8122804e6ca8d79a28be81f1d29068d66163"
     },
     {
-      "path": "docs/macos-app.md",
-      "size_bytes": 15756,
-      "sha256": "9da5ae1362c22418d49de74e3f654b1dc78de7cec851336fe443b93d3b4f8f02"
-    },
-    {
       "path": "docs/materials.md",
-      "size_bytes": 2772,
-      "sha256": "40c25f09bae52e938d9f281f459c7b6f750493a91c52d9e15333981565981368"
+      "size_bytes": 3325,
+      "sha256": "e2ca85a5c377a88264e81a0581e01233ecbac63ce8b5217aca890cd74100b625"
     },
     {
       "path": "docs/monitor-performance.md",
@@ -109,24 +129,9 @@
       "sha256": "0aeb490dd39c8452b0c40443220e7fc4b059198edf37e93d4f0d47e676ea3f1d"
     },
     {
-      "path": "docs/ui-layout-design.md",
-      "size_bytes": 14148,
-      "sha256": "0d71fd5e8d3a04bacbd7422bb0f02db8c0c118b1e2d58f6eb7498121bf7f9bdb"
-    },
-    {
-      "path": "docs/ui-layout-plan.md",
-      "size_bytes": 1117,
-      "sha256": "9431972e0be943116b40e567a7db0df31fe93948c757fcb2beaa2920ff887aae"
-    },
-    {
-      "path": "docs/ui-layout-validation.md",
-      "size_bytes": 3532,
-      "sha256": "23b3422f546f9553dde31d6377f39d28d7641f7d5958f5b50d1c94b7a3295a2b"
-    },
-    {
       "path": "docs/validation.md",
-      "size_bytes": 2167,
-      "sha256": "83fdc069735c05a2dceaf4e829e744383479b2626dedcd3d91bca45758990079"
+      "size_bytes": 2522,
+      "sha256": "9aa3a4464787d8b110249ced98c501e6f0372250423c4dc64b363c933a374018"
     },
     {
       "path": "evidence/README.md",
@@ -150,8 +155,8 @@
     },
     {
       "path": "evidence/publication-validation.json",
-      "size_bytes": 753,
-      "sha256": "0c09505370ae849d0ae8b70bba6121ae3d75c9ba789c0c921dd20b11a286001b"
+      "size_bytes": 1191,
+      "sha256": "9e564f87a47f2e2bec71f8ea0046700b3a5726362ff18f804245e7a6f3665d58"
     },
     {
       "path": "evidence/snapshot.json",
@@ -287,6 +292,51 @@
       "path": "requirements.txt",
       "size_bytes": 15,
       "sha256": "6e78c6c5a61dbebf36f570a14685c795efcdb3d8bb6b6118b6aa78dd0aca54d4"
+    },
+    {
+      "path": "research/01-method-recovery.md",
+      "size_bytes": 3556,
+      "sha256": "b76906e4c9dd1ca0b98b03086cb3221edeb59b07570d2066824510ca33bf9838"
+    },
+    {
+      "path": "research/02-firmware-dfu.md",
+      "size_bytes": 3658,
+      "sha256": "271008792e69ccb20c6cd5efff3466b0e767aba970edf30f1c63bd6e2f27331a"
+    },
+    {
+      "path": "research/03-picture.md",
+      "size_bytes": 3073,
+      "sha256": "c930046a5216af1b70a1c0eede98066a2045499b2b050841311e75fceb937538"
+    },
+    {
+      "path": "research/04-emark.md",
+      "size_bytes": 2568,
+      "sha256": "b547fad053ea6b7e3f6e31e32d5f8910f2655c00df921cc57d131f028d04e9d1"
+    },
+    {
+      "path": "research/05-monitor-files.md",
+      "size_bytes": 3138,
+      "sha256": "2bc88db12e0229d7c75b6e041e9ac750db851fb2c45a93d7c097ff7ce783246c"
+    },
+    {
+      "path": "research/README.md",
+      "size_bytes": 3209,
+      "sha256": "4a5c310b1eb535dbd52faeb85e5875b312ff8b3085e7dfd5119af5ea858b18b1"
+    },
+    {
+      "path": "research/functions/README.md",
+      "size_bytes": 4630,
+      "sha256": "143951350afe0669e3f2166bcd2257ed60eff3c8098f2c8b8c1e4d73a6c68a23"
+    },
+    {
+      "path": "research/functions/upv30-methods.json",
+      "size_bytes": 370183,
+      "sha256": "1fd7bf7e3a411917a2d4562019ddfdacf96fa015286ef471e9b9ef462e3e6e34"
+    },
+    {
+      "path": "research/functions/upv30-proxies.json",
+      "size_bytes": 127520,
+      "sha256": "8ae3c65952813b59e7a2a6b2eb0be0fc3aea7932c0671af72aabfa1bae394ac9"
     },
     {
       "path": "reverse/K2EMARK.md",

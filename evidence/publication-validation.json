@@ -16,5 +16,16 @@
     "usb_accessed": false
   },
   "publication_scope": "Historical static summaries and sanitized reports; no private hardware logs or vendor executable artifacts.",
-  "github_ci": "Configured for Python 3.9 and 3.13; remote status must be checked separately."
+  "github_ci": "Configured for Python 3.9 and 3.13; remote status must be checked separately.",
+  "organized_research": {
+    "date": "2026-10-10",
+    "method_records": 1269,
+    "proxy_mappings": 574,
+    "unique_rids_and_tokens": "passed",
+    "unique_fields_and_target_token_kinds": "passed",
+    "focused_cs_worker_rid": 439,
+    "k2picture_token_rid_discrepancy": "Documented; not resolved without corresponding metadata / VM output.",
+    "reference_implementation_changed": false,
+    "relative_markdown_links": "passed"
+  }
 }

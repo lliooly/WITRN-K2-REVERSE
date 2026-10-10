@@ -1,0 +1,4025 @@
+{
+  "source_sha256": "315d274a3c8a1d546174b0f0566089377b278810a20a46bb817f14a75e4c0a37",
+  "source": "Historical static delegate_map.json; token/name associations, no function bodies.",
+  "count": 574,
+  "mappings": [
+    {
+      "field_token": "0x40002ba",
+      "field": ".\u0088\u008d\u0086::\u0088\u008d\u0087",
+      "target_token": "0x600027a",
+      "target": "\u0087\u008a\u009b.\u0087\u008a\u009a::\u0087\u008b\u009b",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002bb",
+      "field": ".\u0088\u008d\u0086::\u0088\u008d\u0088",
+      "target_token": "0x6000271",
+      "target": "\u0087\u008a\u009b.\u0087\u008a\u009a::\u0087\u008b\u0092",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002c2",
+      "field": ".\u0088\u008d\u0089::\u0088\u008d\u008a",
+      "target_token": "0x6000282",
+      "target": "\u0087\u008a\u009b.\u0087\u008a\u009a::\u0087\u008c\u008a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002c3",
+      "field": ".\u0088\u008d\u008b::\u0088\u008d\u008c",
+      "target_token": "0xa000177",
+      "target": "System.String::Format",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002c4",
+      "field": ".\u0088\u008d\u008d::\u0088\u008d\u008e",
+      "target_token": "0xa000178",
+      "target": "System.Windows.Application::set_StartupUri",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002c5",
+      "field": ".\u0088\u008d\u008f::\u0088\u008d\u0090",
+      "target_token": "0xa000179",
+      "target": "System.Windows.Application::LoadComponent",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002c6",
+      "field": ".\u0088\u008d\u0091::\u0088\u008d\u0092",
+      "target_token": "0x6000015",
+      "target": "\u0094.\u0093::\u0095",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40002da",
+      "field": ".\u0088\u008d\u0093::\u0088\u008d\u0094",
+      "target_token": "0xa00017a",
+      "target": "System.Windows.Application::Run",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40002e2",
+      "field": ".\u0088\u008d\u0095::\u0088\u008d\u0096",
+      "target_token": "0x600003f",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u008c",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002e3",
+      "field": ".\u0088\u008d\u0097::\u0088\u008d\u0098",
+      "target_token": "0x600003e",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u008b",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002e4",
+      "field": ".\u0088\u008d\u0099::\u0088\u008d\u009a",
+      "target_token": "0x6000021",
+      "target": "\u0087\u009d.\u0087\u009c::\u0088\u0087",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002e5",
+      "field": ".\u0088\u008d\u009b::\u0088\u008d\u009c",
+      "target_token": "0x6000022",
+      "target": "\u0087\u009d.\u0087\u009c::\u0088\u0088",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002e6",
+      "field": ".\u0088\u008d\u009d::\u0088\u008d\u009e",
+      "target_token": "0x6000023",
+      "target": "\u0087\u009d.\u0087\u009c::\u0088\u0089",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002bc",
+      "field": ".\u0088\u008d\u0086::\u0088\u008e\u0086",
+      "target_token": "0x6000020",
+      "target": "\u0087\u009d.\u0087\u009c::\u0088\u0086",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002e7",
+      "field": ".\u0088\u008e\u0087::\u0088\u008e\u0088",
+      "target_token": "0x6000024",
+      "target": "\u0087\u009d.\u0087\u009c::\u0088\u008a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002e8",
+      "field": ".\u0088\u008e\u0089::\u0088\u008e\u008a",
+      "target_token": "0x6000029",
+      "target": "\u0087\u009d.\u0087\u009c::\u0088\u008f",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002e9",
+      "field": ".\u0088\u008e\u0089::\u0088\u008e\u008b",
+      "target_token": "0x600002a",
+      "target": "\u0087\u009d.\u0087\u009c::\u0088\u0090",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002bd",
+      "field": ".\u0088\u008d\u0086::\u0088\u008e\u008c",
+      "target_token": "0x600002b",
+      "target": "\u0087\u009d.\u0087\u009c::\u0088\u0091",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002be",
+      "field": ".\u0088\u008d\u0086::\u0088\u008e\u008d",
+      "target_token": "0x600002c",
+      "target": "\u0087\u009d.\u0087\u009c::\u0088\u0092",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002ea",
+      "field": ".\u0088\u008e\u008e::\u0088\u008e\u008f",
+      "target_token": "0x6000038",
+      "target": "\u0087\u009d.\u0087\u009c::\u0088\u009e",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002eb",
+      "field": ".\u0088\u008e\u008e::\u0088\u008e\u0090",
+      "target_token": "0x6000039",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u0086",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002ec",
+      "field": ".\u0088\u008e\u008e::\u0088\u008e\u0091",
+      "target_token": "0x600003a",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u0087",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002ef",
+      "field": ".\u0088\u008e\u0092::\u0088\u008e\u0093",
+      "target_token": "0x600003b",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u0088",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002ed",
+      "field": ".\u0088\u008e\u008e::\u0088\u008e\u0094",
+      "target_token": "0x600003c",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u0089",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002ee",
+      "field": ".\u0088\u008e\u008e::\u0088\u008e\u0095",
+      "target_token": "0x600003d",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u008a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002f0",
+      "field": ".\u0088\u008e\u0096::\u0088\u008e\u0097",
+      "target_token": "0x600005d",
+      "target": "\u008d\u0087.\u008d\u0086::\u008d\u008e",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002f1",
+      "field": ".\u0088\u008e\u0098::\u0088\u008e\u0099",
+      "target_token": "0xa00017b",
+      "target": "System.BitConverter::ToSingle",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002f2",
+      "field": ".\u0088\u008e\u009a::\u0088\u008e\u009b",
+      "target_token": "0x6000066",
+      "target": "\u008d\u0094.\u008d\u0093::\u008d\u0095",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002f3",
+      "field": ".\u0088\u008e\u009c::\u0088\u008e\u009d",
+      "target_token": "0xa00017c",
+      "target": "System.Environment::get_TickCount",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002f5",
+      "field": ".\u0088\u008e\u009e::\u0088\u008f\u0086",
+      "target_token": "0x600005a",
+      "target": "\u008d\u0087.\u008d\u0086::\u008d\u008b",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002f6",
+      "field": ".\u0088\u008f\u0087::\u0088\u008f\u0088",
+      "target_token": "0x6000067",
+      "target": "\u008d\u0094.\u008d\u0093::\u008d\u0096",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002f7",
+      "field": ".\u0088\u008f\u0089::\u0088\u008f\u008a",
+      "target_token": "0xa00004a",
+      "target": "System.Runtime.CompilerServices.RuntimeHelpers::InitializeArray",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002c7",
+      "field": ".\u0088\u008d\u0091::\u0088\u008f\u008b",
+      "target_token": "0x6000045",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u0091",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40002f8",
+      "field": ".\u0088\u008f\u008c::\u0088\u008f\u008d",
+      "target_token": "0xa00017d",
+      "target": "System.Threading.WaitHandle::WaitOne",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40002c8",
+      "field": ".\u0088\u008d\u0091::\u0088\u008f\u008e",
+      "target_token": "0xa00017e",
+      "target": "System.Threading.Mutex::ReleaseMutex",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400030c",
+      "field": ".\u0088\u008f\u008f::\u0088\u008f\u0090",
+      "target_token": "0xa00017f",
+      "target": "System.Runtime.InteropServices.Marshal::FreeHGlobal",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400030d",
+      "field": ".\u0088\u008f\u0091::\u0088\u008f\u0092",
+      "target_token": "0xa000180",
+      "target": "System.Runtime.InteropServices.Marshal::AllocHGlobal",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400030e",
+      "field": ".\u0088\u008f\u0093::\u0088\u008f\u0094",
+      "target_token": "0x6000061",
+      "target": "\u008d\u0087.\u008d\u0086::\u008d\u0092",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002c9",
+      "field": ".\u0088\u008d\u0091::\u0088\u008f\u0095",
+      "target_token": "0x600006f",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u0086",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400030f",
+      "field": ".\u0088\u008f\u0096::\u0088\u008f\u0097",
+      "target_token": "0xa000181",
+      "target": "System.Threading.Thread::set_Name",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40002ca",
+      "field": ".\u0088\u008d\u0091::\u0088\u008f\u0098",
+      "target_token": "0xa000182",
+      "target": "System.Threading.Thread::Start",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40002f9",
+      "field": ".\u0088\u008f\u008c::\u0088\u008f\u0099",
+      "target_token": "0xa000183",
+      "target": "System.Threading.Thread::get_IsAlive",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40002cb",
+      "field": ".\u0088\u008d\u0091::\u0088\u008f\u009a",
+      "target_token": "0x600004c",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u0098",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000314",
+      "field": ".\u0088\u008f\u009b::\u0088\u008f\u009c",
+      "target_token": "0xa000184",
+      "target": "System.Threading.Thread::Sleep",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002cc",
+      "field": ".\u0088\u008d\u0091::\u0088\u008f\u009d",
+      "target_token": "0x600004b",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u0097",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000315",
+      "field": ".\u0088\u008f\u009e::\u0088\u0090\u0086",
+      "target_token": "0x6000085",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u009c",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000316",
+      "field": ".\u0088\u0090\u0087::\u0088\u0090\u0088",
+      "target_token": "0x600006a",
+      "target": "\u008d\u0094.\u008d\u0093::\u008d\u0099",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000317",
+      "field": ".\u0088\u0090\u0089::\u0088\u0090\u008a",
+      "target_token": "0x6000070",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u0087",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002db",
+      "field": ".\u0088\u008d\u0093::\u0088\u0090\u008b",
+      "target_token": "0xa000185",
+      "target": "System.Threading.Semaphore::Release",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40002fa",
+      "field": ".\u0088\u008f\u008c::\u0088\u0090\u008c",
+      "target_token": "0x600007f",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u0096",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002fb",
+      "field": ".\u0088\u008f\u008c::\u0088\u0090\u008d",
+      "target_token": "0x6000080",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u0097",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002cd",
+      "field": ".\u0088\u008d\u0091::\u0088\u0090\u008e",
+      "target_token": "0x6000076",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u008d",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002ce",
+      "field": ".\u0088\u008d\u0091::\u0088\u0090\u008f",
+      "target_token": "0x6000077",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u008e",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002fc",
+      "field": ".\u0088\u008f\u008c::\u0088\u0090\u0090",
+      "target_token": "0x6000081",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u0098",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000319",
+      "field": ".\u0088\u0090\u0091::\u0088\u0090\u0092",
+      "target_token": "0xa000186",
+      "target": "System.Random::Next",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400031a",
+      "field": ".\u0088\u0090\u0093::\u0088\u0090\u0094",
+      "target_token": "0x6000041",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u008d",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400031c",
+      "field": ".\u0088\u0090\u0095::\u0088\u0090\u0096",
+      "target_token": "0x6000043",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u008f",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400031d",
+      "field": ".\u0088\u0090\u0095::\u0088\u0090\u0097",
+      "target_token": "0x6000042",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u008e",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40002fd",
+      "field": ".\u0088\u008f\u008c::\u0088\u0090\u0098",
+      "target_token": "0x6000046",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u0092",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40002fe",
+      "field": ".\u0088\u008f\u008c::\u0088\u0090\u0099",
+      "target_token": "0x6000047",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u0093",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40002ff",
+      "field": ".\u0088\u008f\u008c::\u0088\u0090\u009a",
+      "target_token": "0x6000048",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u0094",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400031e",
+      "field": ".\u0088\u0090\u009b::\u0088\u0090\u009c",
+      "target_token": "0x6000051",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u009d",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400031f",
+      "field": ".\u0088\u0090\u009d::\u0088\u0090\u009e",
+      "target_token": "0x600004a",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u0096",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000320",
+      "field": ".\u0088\u0090\u009d::\u0088\u0091\u0086",
+      "target_token": "0x6000049",
+      "target": "\u0087\u009d.\u0087\u009c::\u0089\u0095",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000321",
+      "field": ".\u0088\u0091\u0087::\u0088\u0091\u0088",
+      "target_token": "0x6000073",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u008a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000322",
+      "field": ".\u0088\u0091\u0089::\u0088\u0091\u008a",
+      "target_token": "0x6000072",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u0089",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000323",
+      "field": ".\u0088\u0091\u008b::\u0088\u0091\u008c",
+      "target_token": "0x6000068",
+      "target": "\u008d\u0094.\u008d\u0093::\u008d\u0097",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000324",
+      "field": ".\u0088\u0091\u008d::\u0088\u0091\u008e",
+      "target_token": "0x6000083",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u009a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000326",
+      "field": ".\u0088\u0091\u008f::\u0088\u0091\u0090",
+      "target_token": "0x6000057",
+      "target": "\u008d\u0087.\u008d\u0086::\u008d\u0088",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000325",
+      "field": ".\u0088\u0091\u008d::\u0088\u0091\u0091",
+      "target_token": "0x6000084",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u009b",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000327",
+      "field": ".\u0088\u0091\u0092::\u0088\u0091\u0093",
+      "target_token": "0x6000069",
+      "target": "\u008d\u0094.\u008d\u0093::\u008d\u0098",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000328",
+      "field": ".\u0088\u0091\u0094::\u0088\u0091\u0095",
+      "target_token": "0x6000086",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u009d",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000329",
+      "field": ".\u0088\u0091\u0096::\u0088\u0091\u0097",
+      "target_token": "0x6000087",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u009e",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400032a",
+      "field": ".\u0088\u0091\u0098::\u0088\u0091\u0099",
+      "target_token": "0x600008b",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u0089",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000300",
+      "field": ".\u0088\u008f\u008c::\u0088\u0091\u009a",
+      "target_token": "0x600008e",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u008c",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000301",
+      "field": ".\u0088\u008f\u008c::\u0088\u0091\u009b",
+      "target_token": "0x600008d",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u008b",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400032b",
+      "field": ".\u0088\u0091\u009c::\u0088\u0091\u009d",
+      "target_token": "0xa0000ce",
+      "target": "System.Runtime.InteropServices.Marshal::Copy",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400032c",
+      "field": ".\u0088\u0091\u009e::\u0088\u0092\u0086",
+      "target_token": "0x6000092",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u0090",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000330",
+      "field": ".\u0088\u0092\u0087::\u0088\u0092\u0088",
+      "target_token": "0x600008a",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u0088",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000331",
+      "field": ".\u0088\u0092\u0089::\u0088\u0092\u008a",
+      "target_token": "0xa000187",
+      "target": "System.Runtime.InteropServices.Marshal::Copy",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000332",
+      "field": ".\u0088\u0092\u008b::\u0088\u0092\u008c",
+      "target_token": "0x6000089",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u0087",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000333",
+      "field": ".\u0088\u0092\u008d::\u0088\u0092\u008e",
+      "target_token": "0x6000098",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u0096",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002dc",
+      "field": ".\u0088\u008d\u0093::\u0088\u0092\u008f",
+      "target_token": "0xa000052",
+      "target": "System.String::get_Length",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000334",
+      "field": ".\u0088\u0092\u0090::\u0088\u0092\u0091",
+      "target_token": "0x600009c",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u009a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000335",
+      "field": ".\u0088\u0092\u0092::\u0088\u0092\u0093",
+      "target_token": "0xa000188",
+      "target": "System.IO.File::Exists",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000336",
+      "field": ".\u0088\u0092\u0094::\u0088\u0092\u0095",
+      "target_token": "0xa000059",
+      "target": "System.IO.Stream::get_Length",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000339",
+      "field": ".\u0088\u0092\u0096::\u0088\u0092\u0097",
+      "target_token": "0xa000084",
+      "target": "System.IO.Stream::Read",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40002cf",
+      "field": ".\u0088\u008d\u0091::\u0088\u0092\u0098",
+      "target_token": "0xa0000d9",
+      "target": "System.IO.Stream::Close",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400033a",
+      "field": ".\u0088\u0092\u0099::\u0088\u0092\u009a",
+      "target_token": "0x600005c",
+      "target": "\u008d\u0087.\u008d\u0086::\u008d\u008d",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400033b",
+      "field": ".\u0088\u0092\u009b::\u0088\u0092\u009c",
+      "target_token": "0x600009a",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u0098",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400033e",
+      "field": ".\u0088\u0092\u009d::\u0088\u0092\u009e",
+      "target_token": "0xa0000be",
+      "target": "System.Text.Encoding::get_UTF8",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000340",
+      "field": ".\u0088\u0093\u0086::\u0088\u0093\u0087",
+      "target_token": "0xa000189",
+      "target": "System.Text.Encoding::GetString",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000341",
+      "field": ".\u0088\u0093\u0088::\u0088\u0093\u0089",
+      "target_token": "0xa0000a9",
+      "target": "System.String::Concat",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000342",
+      "field": ".\u0088\u0093\u008a::\u0088\u0093\u008b",
+      "target_token": "0xa0000ab",
+      "target": "System.String::Concat",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000343",
+      "field": ".\u0088\u0093\u008c::\u0088\u0093\u008d",
+      "target_token": "0xa00018a",
+      "target": "System.Threading.SynchronizationContext::Post",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000344",
+      "field": ".\u0088\u0093\u008e::\u0088\u0093\u008f",
+      "target_token": "0x6000091",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u008f",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000347",
+      "field": ".\u0088\u0093\u0090::\u0088\u0093\u0091",
+      "target_token": "0xa00018b",
+      "target": "System.IO.File::Open",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000348",
+      "field": ".\u0088\u0093\u0092::\u0088\u0093\u0093",
+      "target_token": "0x6000095",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u0093",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000349",
+      "field": ".\u0088\u0093\u0092::\u0088\u0093\u0094",
+      "target_token": "0x600009b",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u0099",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400032d",
+      "field": ".\u0088\u0091\u009e::\u0088\u0093\u0095",
+      "target_token": "0x6000096",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u0094",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400034a",
+      "field": ".\u0088\u0093\u0096::\u0088\u0093\u0097",
+      "target_token": "0x60000b3",
+      "target": "\u0091\u0097.\u0091\u0096::\u0091\u0098",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002d0",
+      "field": ".\u0088\u008d\u0091::\u0088\u0093\u0098",
+      "target_token": "0x60000b8",
+      "target": "\u0092\u008d.\u0092\u008c::\u0092\u008e",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400034b",
+      "field": ".\u0088\u0093\u0099::\u0088\u0093\u009a",
+      "target_token": "0xa00004b",
+      "target": "System.Type::GetTypeFromHandle",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400034c",
+      "field": ".\u0088\u0093\u009b::\u0088\u0093\u009c",
+      "target_token": "0xa00018c",
+      "target": "System.Runtime.InteropServices.Marshal::SizeOf",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400034e",
+      "field": ".\u0088\u0093\u009d::\u0088\u0093\u009e",
+      "target_token": "0x60000cb",
+      "target": "\u0094\u008f.\u0094\u008e::\u0094\u0090",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400034f",
+      "field": ".\u0088\u0094\u0086::\u0088\u0094\u0087",
+      "target_token": "0xa00018d",
+      "target": "System.String::ToCharArray",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000350",
+      "field": ".\u0088\u0094\u0088::\u0088\u0094\u0089",
+      "target_token": "0x60000d3",
+      "target": "\u0094\u0095.\u0094\u0094::\u0094\u0096",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000351",
+      "field": ".\u0088\u0094\u008a::\u0088\u0094\u008b",
+      "target_token": "0x60000d4",
+      "target": "\u0094\u0095.\u0094\u0094::\u0094\u0097",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000352",
+      "field": ".\u0088\u0094\u008c::\u0088\u0094\u008d",
+      "target_token": "0x60000e5",
+      "target": "\u0094\u009a.\u0094\u0099::\u0095\u0093",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000353",
+      "field": ".\u0088\u0094\u008c::\u0088\u0094\u008e",
+      "target_token": "0x60000e3",
+      "target": "\u0094\u009a.\u0094\u0099::\u0095\u0090",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000354",
+      "field": ".\u0088\u0094\u008c::\u0088\u0094\u008f",
+      "target_token": "0x60000e1",
+      "target": "\u0094\u009a.\u0094\u0099::\u0095\u008d",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000355",
+      "field": ".\u0088\u0094\u008c::\u0088\u0094\u0090",
+      "target_token": "0x60000df",
+      "target": "\u0094\u009a.\u0094\u0099::\u0095\u008a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000356",
+      "field": ".\u0088\u0094\u008c::\u0088\u0094\u0091",
+      "target_token": "0x60000dd",
+      "target": "\u0094\u009a.\u0094\u0099::\u0095\u0087",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000357",
+      "field": ".\u0088\u0094\u008c::\u0088\u0094\u0092",
+      "target_token": "0x60000db",
+      "target": "\u0094\u009a.\u0094\u0099::\u0094\u009d",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000358",
+      "field": ".\u0088\u0094\u0093::\u0088\u0094\u0094",
+      "target_token": "0x60000eb",
+      "target": "\u0095\u0097.\u0095\u0096::\u0095\u009a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000359",
+      "field": ".\u0088\u0094\u0093::\u0088\u0094\u0095",
+      "target_token": "0x60000f3",
+      "target": "\u0095\u0097.\u0095\u0096::\u0096\u008d",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400035a",
+      "field": ".\u0088\u0094\u0093::\u0088\u0094\u0096",
+      "target_token": "0x60000ed",
+      "target": "\u0095\u0097.\u0095\u0096::\u0095\u009d",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400035b",
+      "field": ".\u0088\u0094\u0093::\u0088\u0094\u0097",
+      "target_token": "0x60000f1",
+      "target": "\u0095\u0097.\u0095\u0096::\u0096\u008a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400035e",
+      "field": ".\u0088\u0094\u0098::\u0088\u0094\u0099",
+      "target_token": "0x600010f",
+      "target": "\u0097\u0088.\u0097\u0087::\u0097\u0099",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400035f",
+      "field": ".\u0088\u0094\u0098::\u0088\u0094\u009a",
+      "target_token": "0x600010d",
+      "target": "\u0097\u0088.\u0097\u0087::\u0097\u0096",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000360",
+      "field": ".\u0088\u0094\u0098::\u0088\u0094\u009b",
+      "target_token": "0x6000109",
+      "target": "\u0097\u0088.\u0097\u0087::\u0097\u0091",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000361",
+      "field": ".\u0088\u0094\u0098::\u0088\u0094\u009c",
+      "target_token": "0x6000107",
+      "target": "\u0097\u0088.\u0097\u0087::\u0097\u008e",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000362",
+      "field": ".\u0088\u0094\u0098::\u0088\u0094\u009d",
+      "target_token": "0x6000111",
+      "target": "\u0097\u0088.\u0097\u0087::\u0097\u009c",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000368",
+      "field": ".\u0088\u0094\u009e::\u0088\u0095\u0086",
+      "target_token": "0x600012d",
+      "target": "\u0098\u0090.\u0098\u008f::\u0099\u0092",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000369",
+      "field": ".\u0088\u0094\u009e::\u0088\u0095\u0087",
+      "target_token": "0x600012b",
+      "target": "\u0098\u0090.\u0098\u008f::\u0099\u008f",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400036a",
+      "field": ".\u0088\u0094\u009e::\u0088\u0095\u0088",
+      "target_token": "0x600011f",
+      "target": "\u0098\u0090.\u0098\u008f::\u0098\u0096",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400036b",
+      "field": ".\u0088\u0094\u009e::\u0088\u0095\u0089",
+      "target_token": "0x600011d",
+      "target": "\u0098\u0090.\u0098\u008f::\u0098\u0093",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400036c",
+      "field": ".\u0088\u0095\u008a::\u0088\u0095\u008b",
+      "target_token": "0x600013d",
+      "target": "\u009a\u0087.\u009a\u0086::\u009a\u008d",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400036d",
+      "field": ".\u0088\u0095\u008a::\u0088\u0095\u008c",
+      "target_token": "0x600013b",
+      "target": "\u009a\u0087.\u009a\u0086::\u009a\u008a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400036e",
+      "field": ".\u0088\u0095\u008d::\u0088\u0095\u008e",
+      "target_token": "0x600014d",
+      "target": "\u009b\u0087.\u009b\u0086::\u009b\u0088",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400036f",
+      "field": ".\u0088\u0095\u008f::\u0088\u0095\u0090",
+      "target_token": "0x60000e6",
+      "target": "\u0094\u009a.\u0094\u0099::\u0094\u009b",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000370",
+      "field": ".\u0088\u0095\u0091::\u0088\u0095\u0092",
+      "target_token": "0x60000f8",
+      "target": "\u0095\u0097.\u0095\u0096::\u0095\u0098",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000371",
+      "field": ".\u0088\u0095\u0093::\u0088\u0095\u0094",
+      "target_token": "0x6000100",
+      "target": "\u0096\u0097.\u0096\u0096::\u0096\u0098",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000372",
+      "field": ".\u0088\u0095\u0095::\u0088\u0095\u0096",
+      "target_token": "0x6000118",
+      "target": "\u0097\u0088.\u0097\u0087::\u0097\u0089",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000373",
+      "field": ".\u0088\u0095\u0097::\u0088\u0095\u0098",
+      "target_token": "0x600012e",
+      "target": "\u0098\u0090.\u0098\u008f::\u0098\u0091",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000374",
+      "field": ".\u0088\u0095\u0099::\u0088\u0095\u009a",
+      "target_token": "0x6000135",
+      "target": "\u0099\u0096.\u0099\u0095::\u0099\u009c",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000375",
+      "field": ".\u0088\u0095\u0099::\u0088\u0095\u009b",
+      "target_token": "0x6000133",
+      "target": "\u0099\u0096.\u0099\u0095::\u0099\u0099",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000376",
+      "field": ".\u0088\u0095\u009c::\u0088\u0095\u009d",
+      "target_token": "0x6000151",
+      "target": "\u009b\u008f.\u009b\u008e::\u009b\u0090",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000378",
+      "field": ".\u0088\u0095\u009e::\u0088\u0096\u0086",
+      "target_token": "0x6000157",
+      "target": "\u009b\u0096.\u009b\u0095::\u009b\u0097",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000377",
+      "field": ".\u0088\u0095\u009c::\u0088\u0096\u0087",
+      "target_token": "0x6000153",
+      "target": "\u009b\u008f.\u009b\u008e::\u009b\u0091",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000379",
+      "field": ".\u0088\u0095\u009e::\u0088\u0096\u0088",
+      "target_token": "0x6000158",
+      "target": "\u009b\u0096.\u009b\u0095::\u009b\u0098",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400037a",
+      "field": ".\u0088\u0096\u0089::\u0088\u0096\u008a",
+      "target_token": "0xa00018e",
+      "target": "System.Char::ToString",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400037b",
+      "field": ".\u0088\u0096\u008b::\u0088\u0096\u008c",
+      "target_token": "0x600015d",
+      "target": "\u009b\u009c.\u009b\u009b::\u009b\u009d",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400037c",
+      "field": ".\u0088\u0096\u008d::\u0088\u0096\u008e",
+      "target_token": "0xa00018f",
+      "target": "System.Byte::ToString",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400037d",
+      "field": ".\u0088\u0096\u008f::\u0088\u0096\u0090",
+      "target_token": "0xa000190",
+      "target": "System.String::Concat",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400037e",
+      "field": ".\u0088\u0096\u0091::\u0088\u0096\u0092",
+      "target_token": "0xa000191",
+      "target": "System.Int32::ToString",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400037f",
+      "field": ".\u0088\u0096\u0093::\u0088\u0096\u0094",
+      "target_token": "0xa000192",
+      "target": "System.UInt32::ToString",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000380",
+      "field": ".\u0088\u0096\u0095::\u0088\u0096\u0096",
+      "target_token": "0x600015e",
+      "target": "\u009b\u009c.\u009b\u009b::\u009b\u009e",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000381",
+      "field": ".\u0088\u0096\u0097::\u0088\u0096\u0098",
+      "target_token": "0x6000160",
+      "target": "\u009b\u009c.\u009b\u009b::\u009c\u0086",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000382",
+      "field": ".\u0088\u0096\u0099::\u0088\u0096\u009a",
+      "target_token": "0xa000193",
+      "target": "System.Windows.Window::set_WindowStartupLocation",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002d1",
+      "field": ".\u0088\u008d\u0091::\u0088\u0096\u009b",
+      "target_token": "0x6000190",
+      "target": "\u009c\u0094.\u009c\u0093::InitializeComponent",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002d2",
+      "field": ".\u0088\u008d\u0091::\u0088\u0096\u009c",
+      "target_token": "0x600016a",
+      "target": "\u009c\u0094.\u009c\u0093::\u009c\u0096",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000383",
+      "field": ".\u0088\u0096\u009d::\u0088\u0096\u009e",
+      "target_token": "0x6000164",
+      "target": "\u009c\u008d.\u009c\u008c::\u009c\u008e",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002d3",
+      "field": ".\u0088\u008d\u0091::\u0088\u0097\u0086",
+      "target_token": "0x600017f",
+      "target": "\u009c\u0094.\u009c\u0093::\u009d\u0092",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000384",
+      "field": ".\u0088\u0097\u0087::\u0088\u0097\u0088",
+      "target_token": "0xa000194",
+      "target": "System.Windows.Threading.DispatcherTimer::add_Tick",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000387",
+      "field": ".\u0088\u0097\u0089::\u0088\u0097\u008a",
+      "target_token": "0xa000195",
+      "target": "System.Windows.Threading.DispatcherTimer::set_Interval",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40002d4",
+      "field": ".\u0088\u008d\u0091::\u0088\u0097\u008b",
+      "target_token": "0xa000196",
+      "target": "System.Windows.Threading.DispatcherTimer::Start",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000302",
+      "field": ".\u0088\u008f\u008c::\u0088\u0097\u008c",
+      "target_token": "0x6000187",
+      "target": "\u009c\u0094.\u009c\u0093::\u009d\u009a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002d5",
+      "field": ".\u0088\u008d\u0091::\u0088\u0097\u008d",
+      "target_token": "0x600017e",
+      "target": "\u009c\u0094.\u009c\u0093::\u009d\u0091",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002d6",
+      "field": ".\u0088\u008d\u0091::\u0088\u0097\u008e",
+      "target_token": "0x6000186",
+      "target": "\u009c\u0094.\u009c\u0093::\u009d\u0099",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000388",
+      "field": ".\u0088\u0097\u008f::\u0088\u0097\u0090",
+      "target_token": "0xa000197",
+      "target": "System.Windows.Controls.ItemsControl::get_Items",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000389",
+      "field": ".\u0088\u0097\u0091::\u0088\u0097\u0092",
+      "target_token": "0xa000198",
+      "target": "System.Windows.Controls.ItemCollection::Add",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400038a",
+      "field": ".\u0088\u0097\u0093::\u0088\u0097\u0094",
+      "target_token": "0xa000199",
+      "target": "System.Windows.Controls.Primitives.Selector::set_SelectedIndex",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400038b",
+      "field": ".\u0088\u0097\u0095::\u0088\u0097\u0096",
+      "target_token": "0x6000239",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_id_header_connect_type_0",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400038c",
+      "field": ".\u0088\u0097\u0095::\u0088\u0097\u0097",
+      "target_token": "0x600023a",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_id_header_connect_type_1",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400038d",
+      "field": ".\u0088\u0097\u0095::\u0088\u0097\u0098",
+      "target_token": "0x600023b",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_id_header_connect_type_2",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400038e",
+      "field": ".\u0088\u0097\u0095::\u0088\u0097\u0099",
+      "target_token": "0x600023c",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_id_header_connect_type_3",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400038f",
+      "field": ".\u0088\u0097\u0095::\u0088\u0097\u009a",
+      "target_token": "0x600023d",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_id_header_modal_0",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000390",
+      "field": ".\u0088\u0097\u0095::\u0088\u0097\u009b",
+      "target_token": "0x600023e",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_id_header_modal_1",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000391",
+      "field": ".\u0088\u0097\u0095::\u0088\u0097\u009c",
+      "target_token": "0x600023f",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_id_header_ufp_0",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000392",
+      "field": ".\u0088\u0097\u0095::\u0088\u0097\u009d",
+      "target_token": "0x6000240",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_id_header_ufp_1",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000393",
+      "field": ".\u0088\u0097\u0095::\u0088\u0097\u009e",
+      "target_token": "0x6000241",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_id_header_ufp_2",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000394",
+      "field": ".\u0088\u0097\u0095::\u0088\u0098\u0086",
+      "target_token": "0x6000242",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_id_header_ufp_3",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000395",
+      "field": ".\u0088\u0097\u0095::\u0088\u0098\u0087",
+      "target_token": "0x6000243",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_id_header_ufp_4",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000396",
+      "field": ".\u0088\u0097\u0095::\u0088\u0098\u0088",
+      "target_token": "0x6000244",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_id_header_ufp_5",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000397",
+      "field": ".\u0088\u0097\u0095::\u0088\u0098\u0089",
+      "target_token": "0x6000245",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_id_header_ufp_6",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000398",
+      "field": ".\u0088\u0097\u0095::\u0088\u0098\u008a",
+      "target_token": "0x6000246",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_id_header_ufp_7",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000399",
+      "field": ".\u0088\u0097\u0095::\u0088\u0098\u008b",
+      "target_token": "0x600022f",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_as_device_0",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400039a",
+      "field": ".\u0088\u0097\u0095::\u0088\u0098\u008c",
+      "target_token": "0x6000230",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_as_device_1",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400039b",
+      "field": ".\u0088\u0097\u0095::\u0088\u0098\u008d",
+      "target_token": "0x6000231",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_as_host_0",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400039c",
+      "field": ".\u0088\u0097\u0095::\u0088\u0098\u008e",
+      "target_token": "0x6000232",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_as_host_1",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400039d",
+      "field": ".\u0088\u0097\u0095::\u0088\u0098\u008f",
+      "target_token": "0x6000235",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_cable_type_0",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400039e",
+      "field": ".\u0088\u0097\u0095::\u0088\u0098\u0090",
+      "target_token": "0x6000236",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_cable_type_1",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400039f",
+      "field": ".\u0088\u0098\u0091::\u0088\u0098\u0092",
+      "target_token": "0x6000233",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_cable_epr_0",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003a0",
+      "field": ".\u0088\u0098\u0091::\u0088\u0098\u0093",
+      "target_token": "0x6000234",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_cable_epr_1",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003a1",
+      "field": ".\u0088\u0098\u0091::\u0088\u0098\u0094",
+      "target_token": "0x6000237",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_cable_typec_2",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003a2",
+      "field": ".\u0088\u0098\u0091::\u0088\u0098\u0095",
+      "target_token": "0x6000238",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_item_cable_typec_3",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003b3",
+      "field": ".\u0088\u0098\u0096::\u0088\u0098\u0097",
+      "target_token": "0xa00019a",
+      "target": "System.Windows.Controls.TextBox::get_Text",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003b9",
+      "field": ".\u0088\u0098\u0098::\u0088\u0098\u0099",
+      "target_token": "0xa00019b",
+      "target": "System.String::Contains",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000303",
+      "field": ".\u0088\u008f\u008c::\u0088\u0098\u009a",
+      "target_token": "0x600016b",
+      "target": "\u009c\u0094.\u009c\u0093::\u009c\u0097",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003a3",
+      "field": ".\u0088\u0098\u0091::\u0088\u0098\u009b",
+      "target_token": "0x60001fe",
+      "target": "WITRNUP.Properties.Langs.Langs::get_dev_busy",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003be",
+      "field": ".\u0088\u0098\u009c::\u0088\u0098\u009d",
+      "target_token": "0xa00019c",
+      "target": "MahApps.Metro.Controls.Dialogs.DialogManager::ShowModalMessageExternal",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002dd",
+      "field": ".\u0088\u008d\u0093::\u0088\u0098\u009e",
+      "target_token": "0xa00019d",
+      "target": "System.Windows.Data.CollectionView::get_Count",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40002de",
+      "field": ".\u0088\u008d\u0093::\u0088\u0099\u0086",
+      "target_token": "0xa00019e",
+      "target": "System.Windows.Controls.Primitives.Selector::get_SelectedIndex",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000304",
+      "field": ".\u0088\u008f\u008c::\u0088\u0099\u0087",
+      "target_token": "0xa00019f",
+      "target": "System.Threading.EventWaitHandle::Set",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003a4",
+      "field": ".\u0088\u0098\u0091::\u0088\u0099\u0088",
+      "target_token": "0x6000212",
+      "target": "WITRNUP.Properties.Langs.Langs::get_sel_emark_file",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003a5",
+      "field": ".\u0088\u0098\u0091::\u0088\u0099\u0089",
+      "target_token": "0x6000200",
+      "target": "WITRNUP.Properties.Langs.Langs::get_dev_not_sup_this_op",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003a6",
+      "field": ".\u0088\u0098\u0091::\u0088\u0099\u008a",
+      "target_token": "0x6000222",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_dev_not_connect",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000318",
+      "field": ".\u0088\u0090\u0089::\u0088\u0099\u008b",
+      "target_token": "0x6000071",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u0088",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003bf",
+      "field": ".\u0088\u0099\u008c::\u0088\u0099\u008d",
+      "target_token": "0x600016e",
+      "target": "\u009c\u0094.\u009c\u0093::\u009c\u009a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002d7",
+      "field": ".\u0088\u008d\u0091::\u0088\u0099\u008e",
+      "target_token": "0xa0001a0",
+      "target": "System.Windows.Controls.ItemCollection::Clear",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003c1",
+      "field": ".\u0088\u0099\u008f::\u0088\u0099\u0090",
+      "target_token": "0x60000ce",
+      "target": "\u0094\u008f.\u0094\u008e::\u0094\u0093",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003a7",
+      "field": ".\u0088\u0098\u0091::\u0088\u0099\u0091",
+      "target_token": "0x60001fd",
+      "target": "WITRNUP.Properties.Langs.Langs::get_copy_emark",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003c2",
+      "field": ".\u0088\u0099\u0092::\u0088\u0099\u0093",
+      "target_token": "0xa0001a1",
+      "target": "System.Windows.Threading.DispatcherObject::get_Dispatcher",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003c3",
+      "field": ".\u0088\u0099\u0094::\u0088\u0099\u0095",
+      "target_token": "0x600007a",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u0091",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400031b",
+      "field": ".\u0088\u0090\u0093::\u0088\u0099\u0096",
+      "target_token": "0x600007c",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u0093",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000305",
+      "field": ".\u0088\u008f\u008c::\u0088\u0099\u0097",
+      "target_token": "0x600007f",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u0096",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40002d8",
+      "field": ".\u0088\u008d\u0091::\u0088\u0099\u0098",
+      "target_token": "0x6000074",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u008b",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000306",
+      "field": ".\u0088\u008f\u008c::\u0088\u0099\u0099",
+      "target_token": "0x600008c",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u008a",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003c4",
+      "field": ".\u0088\u0099\u009a::\u0088\u0099\u009b",
+      "target_token": "0x60000c1",
+      "target": "\u0093\u009b.\u0093\u009a::\u0093\u009c",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400033c",
+      "field": ".\u0088\u0092\u009b::\u0088\u0099\u009c",
+      "target_token": "0x600009a",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u0098",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003c6",
+      "field": ".\u0088\u0099\u009d::\u0088\u0099\u009e",
+      "target_token": "0xa0001a2",
+      "target": "System.Runtime.InteropServices.Marshal::PtrToStructure",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003c5",
+      "field": ".\u0088\u0099\u009a::\u0088\u009a\u0086",
+      "target_token": "0x60000c2",
+      "target": "\u0093\u009b.\u0093\u009a::\u0093\u009e",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002d9",
+      "field": ".\u0088\u008d\u0091::\u0088\u009a\u0087",
+      "target_token": "0x6000075",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u008c",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000307",
+      "field": ".\u0088\u008f\u008c::\u0088\u009a\u0088",
+      "target_token": "0x600008e",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u008c",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000345",
+      "field": ".\u0088\u0093\u008e::\u0088\u009a\u0089",
+      "target_token": "0x6000091",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u008f",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400033d",
+      "field": ".\u0088\u0092\u009b::\u0088\u009a\u008a",
+      "target_token": "0x6000094",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u0092",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000308",
+      "field": ".\u0088\u008f\u008c::\u0088\u009a\u008b",
+      "target_token": "0x600008d",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u008b",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003a8",
+      "field": ".\u0088\u0098\u0091::\u0088\u009a\u008c",
+      "target_token": "0x600020e",
+      "target": "WITRNUP.Properties.Langs.Langs::get_no_device",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003c7",
+      "field": ".\u0088\u009a\u008d::\u0088\u009a\u008e",
+      "target_token": "0xa0001a3",
+      "target": "System.Windows.Threading.DispatcherTimer::Stop",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003d7",
+      "field": ".\u0088\u009a\u008f::\u0088\u009a\u0090",
+      "target_token": "0xa0001a4",
+      "target": "System.ComponentModel.CancelEventArgs::set_Cancel",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003df",
+      "field": ".\u0088\u009a\u0091::\u0088\u009a\u0092",
+      "target_token": "0xa0001a5",
+      "target": "System.Windows.Input.KeyEventArgs::get_Key",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003d8",
+      "field": ".\u0088\u009a\u008f::\u0088\u009a\u0093",
+      "target_token": "0xa0001a6",
+      "target": "System.Windows.RoutedEventArgs::set_Handled",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000310",
+      "field": ".\u0088\u008f\u0096::\u0088\u009a\u0094",
+      "target_token": "0xa0001a7",
+      "target": "System.Windows.Controls.TextBox::set_Text",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003e0",
+      "field": ".\u0088\u009a\u0095::\u0088\u009a\u0096",
+      "target_token": "0xa0001a8",
+      "target": "System.String::IndexOf",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003e1",
+      "field": ".\u0088\u009a\u0097::\u0088\u009a\u0098",
+      "target_token": "0xa0001a9",
+      "target": "System.String::Substring",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003e2",
+      "field": ".\u0088\u009a\u0099::\u0088\u009a\u009a",
+      "target_token": "0x60000d5",
+      "target": "\u0094\u0095.\u0094\u0094::\u0094\u0098",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003e3",
+      "field": ".\u0088\u009a\u009b::\u0088\u009a\u009c",
+      "target_token": "0xa0001aa",
+      "target": "System.UInt32::Parse",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003e4",
+      "field": ".\u0088\u009a\u009d::\u0088\u009a\u009e",
+      "target_token": "0xa0001ab",
+      "target": "System.Windows.Data.CollectionView::GetItemAt",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003b4",
+      "field": ".\u0088\u0098\u0096::\u0088\u009b\u0086",
+      "target_token": "0xa00001c",
+      "target": "System.Object::ToString",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003e6",
+      "field": ".\u0088\u009b\u0087::\u0088\u009b\u0088",
+      "target_token": "0x600017a",
+      "target": "\u009c\u0094.\u009c\u0093::\u009d\u008d",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003e8",
+      "field": ".\u0088\u009b\u0089::\u0088\u009b\u008a",
+      "target_token": "0x600017c",
+      "target": "\u009c\u0094.\u009c\u0093::\u009d\u008f",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003e7",
+      "field": ".\u0088\u009b\u0087::\u0088\u009b\u008b",
+      "target_token": "0x600017b",
+      "target": "\u009c\u0094.\u009c\u0093::\u009d\u008e",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003e9",
+      "field": ".\u0088\u009b\u008c::\u0088\u009b\u008d",
+      "target_token": "0xa0001ac",
+      "target": "System.Windows.Controls.Primitives.Selector::get_SelectedItem",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400035c",
+      "field": ".\u0088\u0094\u0093::\u0088\u009b\u008e",
+      "target_token": "0x60000f5",
+      "target": "\u0095\u0097.\u0095\u0096::\u0096\u0090",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400035d",
+      "field": ".\u0088\u0094\u0093::\u0088\u009b\u008f",
+      "target_token": "0x60000f7",
+      "target": "\u0095\u0097.\u0095\u0096::\u0096\u0093",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003ea",
+      "field": ".\u0088\u009b\u0090::\u0088\u009b\u0091",
+      "target_token": "0x60000fd",
+      "target": "\u0096\u0097.\u0096\u0096::\u0096\u009a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003eb",
+      "field": ".\u0088\u009b\u0090::\u0088\u009b\u0092",
+      "target_token": "0x60000ff",
+      "target": "\u0096\u0097.\u0096\u0096::\u0096\u009d",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000363",
+      "field": ".\u0088\u0094\u0098::\u0088\u009b\u0093",
+      "target_token": "0x6000105",
+      "target": "\u0097\u0088.\u0097\u0087::\u0097\u008b",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000364",
+      "field": ".\u0088\u0094\u0098::\u0088\u009b\u0094",
+      "target_token": "0x600010b",
+      "target": "\u0097\u0088.\u0097\u0087::\u0097\u0094",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000365",
+      "field": ".\u0088\u0094\u0098::\u0088\u009b\u0095",
+      "target_token": "0x6000113",
+      "target": "\u0097\u0088.\u0097\u0087::\u0098\u0086",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000366",
+      "field": ".\u0088\u0094\u0098::\u0088\u009b\u0096",
+      "target_token": "0x6000115",
+      "target": "\u0097\u0088.\u0097\u0087::\u0098\u0089",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000367",
+      "field": ".\u0088\u0094\u0098::\u0088\u009b\u0097",
+      "target_token": "0x6000117",
+      "target": "\u0097\u0088.\u0097\u0087::\u0098\u008c",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003ec",
+      "field": ".\u0088\u009b\u0098::\u0088\u009b\u0099",
+      "target_token": "0xa0001ad",
+      "target": "System.Windows.Controls.ContentControl::set_Content",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003ed",
+      "field": ".\u0088\u009b\u009a::\u0088\u009b\u009b",
+      "target_token": "0x60000cd",
+      "target": "\u0094\u008f.\u0094\u008e::\u0094\u0092",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003ee",
+      "field": ".\u0088\u009b\u009c::\u0088\u009b\u009d",
+      "target_token": "0x60000ea",
+      "target": "\u0095\u0097.\u0095\u0096::\u0095\u0099",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003ef",
+      "field": ".\u0088\u009b\u009c::\u0088\u009b\u009e",
+      "target_token": "0x60000f2",
+      "target": "\u0095\u0097.\u0095\u0096::\u0096\u008c",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003f4",
+      "field": ".\u0088\u009c\u0086::\u0088\u009c\u0087",
+      "target_token": "0x600017d",
+      "target": "\u009c\u0094.\u009c\u0093::\u009d\u0090",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003f0",
+      "field": ".\u0088\u009b\u009c::\u0088\u009c\u0088",
+      "target_token": "0x60000ec",
+      "target": "\u0095\u0097.\u0095\u0096::\u0095\u009c",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003f1",
+      "field": ".\u0088\u009b\u009c::\u0088\u009c\u0089",
+      "target_token": "0x60000f0",
+      "target": "\u0095\u0097.\u0095\u0096::\u0096\u0089",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003f2",
+      "field": ".\u0088\u009b\u009c::\u0088\u009c\u008a",
+      "target_token": "0x60000f4",
+      "target": "\u0095\u0097.\u0095\u0096::\u0096\u008f",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003f3",
+      "field": ".\u0088\u009b\u009c::\u0088\u009c\u008b",
+      "target_token": "0x60000f6",
+      "target": "\u0095\u0097.\u0095\u0096::\u0096\u0092",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003f5",
+      "field": ".\u0088\u009c\u008c::\u0088\u009c\u008d",
+      "target_token": "0x60000fc",
+      "target": "\u0096\u0097.\u0096\u0096::\u0096\u0099",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003f6",
+      "field": ".\u0088\u009c\u008c::\u0088\u009c\u008e",
+      "target_token": "0x60000fe",
+      "target": "\u0096\u0097.\u0096\u0096::\u0096\u009c",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003f7",
+      "field": ".\u0088\u009c\u008f::\u0088\u009c\u0090",
+      "target_token": "0x6000104",
+      "target": "\u0097\u0088.\u0097\u0087::\u0097\u008a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003f8",
+      "field": ".\u0088\u009c\u008f::\u0088\u009c\u0091",
+      "target_token": "0x6000106",
+      "target": "\u0097\u0088.\u0097\u0087::\u0097\u008d",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003f9",
+      "field": ".\u0088\u009c\u008f::\u0088\u009c\u0092",
+      "target_token": "0x6000108",
+      "target": "\u0097\u0088.\u0097\u0087::\u0097\u0090",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003fa",
+      "field": ".\u0088\u009c\u008f::\u0088\u009c\u0093",
+      "target_token": "0x600010a",
+      "target": "\u0097\u0088.\u0097\u0087::\u0097\u0093",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003fb",
+      "field": ".\u0088\u009c\u008f::\u0088\u009c\u0094",
+      "target_token": "0x600010c",
+      "target": "\u0097\u0088.\u0097\u0087::\u0097\u0095",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003fc",
+      "field": ".\u0088\u009c\u008f::\u0088\u009c\u0095",
+      "target_token": "0x600010e",
+      "target": "\u0097\u0088.\u0097\u0087::\u0097\u0098",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003fd",
+      "field": ".\u0088\u009c\u008f::\u0088\u009c\u0096",
+      "target_token": "0x6000110",
+      "target": "\u0097\u0088.\u0097\u0087::\u0097\u009b",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003fe",
+      "field": ".\u0088\u009c\u008f::\u0088\u009c\u0097",
+      "target_token": "0x6000112",
+      "target": "\u0097\u0088.\u0097\u0087::\u0097\u009e",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003ff",
+      "field": ".\u0088\u009c\u008f::\u0088\u009c\u0098",
+      "target_token": "0x6000114",
+      "target": "\u0097\u0088.\u0097\u0087::\u0098\u0088",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000400",
+      "field": ".\u0088\u009c\u008f::\u0088\u009c\u0099",
+      "target_token": "0x6000116",
+      "target": "\u0097\u0088.\u0097\u0087::\u0098\u008b",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000401",
+      "field": ".\u0088\u009c\u009a::\u0088\u009c\u009b",
+      "target_token": "0xa0000d7",
+      "target": "System.IO.Stream::Seek",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000402",
+      "field": ".\u0088\u009c\u009c::\u0088\u009c\u009d",
+      "target_token": "0xa0000d8",
+      "target": "System.IO.Stream::Write",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003c8",
+      "field": ".\u0088\u009a\u008d::\u0088\u009c\u009e",
+      "target_token": "0xa0001ae",
+      "target": "System.IO.Stream::Flush",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003b5",
+      "field": ".\u0088\u0098\u0096::\u0088\u009d\u0086",
+      "target_token": "0xa0001af",
+      "target": "System.Exception::get_Message",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003a9",
+      "field": ".\u0088\u0098\u0091::\u0088\u009d\u0087",
+      "target_token": "0x6000210",
+      "target": "WITRNUP.Properties.Langs.Langs::get_note",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003aa",
+      "field": ".\u0088\u0098\u0091::\u0088\u009d\u0088",
+      "target_token": "0x600020d",
+      "target": "WITRNUP.Properties.Langs.Langs::get_name_cannot_empty",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000311",
+      "field": ".\u0088\u008f\u0096::\u0088\u009d\u0089",
+      "target_token": "0xa0001b0",
+      "target": "Microsoft.Win32.FileDialog::set_Filter",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000312",
+      "field": ".\u0088\u008f\u0096::\u0088\u009d\u008a",
+      "target_token": "0xa0001b1",
+      "target": "Microsoft.Win32.FileDialog::set_FileName",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000403",
+      "field": ".\u0088\u009d\u008b::\u0088\u009d\u008c",
+      "target_token": "0xa0001b2",
+      "target": "Microsoft.Win32.CommonDialog::ShowDialog",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003b6",
+      "field": ".\u0088\u0098\u0096::\u0088\u009d\u008d",
+      "target_token": "0xa0001b3",
+      "target": "Microsoft.Win32.FileDialog::get_FileName",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000405",
+      "field": ".\u0088\u009d\u008e::\u0088\u009d\u008f",
+      "target_token": "0x6000180",
+      "target": "\u009c\u0094.\u009c\u0093::\u009d\u0093",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003d9",
+      "field": ".\u0088\u009a\u008f::\u0088\u009d\u0090",
+      "target_token": "0xa0001b4",
+      "target": "Microsoft.Win32.OpenFileDialog::set_Multiselect",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000406",
+      "field": ".\u0088\u009d\u008e::\u0088\u009d\u0091",
+      "target_token": "0x6000181",
+      "target": "\u009c\u0094.\u009c\u0093::\u009d\u0094",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000309",
+      "field": ".\u0088\u008f\u008c::\u0088\u009d\u0092",
+      "target_token": "0xa0001b5",
+      "target": "System.Windows.UIElement::get_IsFocused",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000407",
+      "field": ".\u0088\u009d\u0093::\u0088\u009d\u0094",
+      "target_token": "0x6000178",
+      "target": "\u009c\u0094.\u009c\u0093::\u009d\u008b",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003c9",
+      "field": ".\u0088\u009a\u008d::\u0088\u009d\u0095",
+      "target_token": "0x6000185",
+      "target": "\u009c\u0094.\u009c\u0093::\u009d\u0098",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000408",
+      "field": ".\u0088\u009d\u0096::\u0088\u009d\u0097",
+      "target_token": "0xa0001b6",
+      "target": "Microsoft.Win32.FileDialog::get_FileNames",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003ab",
+      "field": ".\u0088\u0098\u0091::\u0088\u009d\u0098",
+      "target_token": "0x600020c",
+      "target": "WITRNUP.Properties.Langs.Langs::get_max_10",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003ca",
+      "field": ".\u0088\u009a\u008d::\u0088\u009d\u0099",
+      "target_token": "0x6000171",
+      "target": "\u009c\u0094.\u009c\u0093::\u009c\u009d",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003ac",
+      "field": ".\u0088\u0098\u0091::\u0088\u009d\u009a",
+      "target_token": "0x6000213",
+      "target": "WITRNUP.Properties.Langs.Langs::get_sel_save_idx",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000385",
+      "field": ".\u0088\u0097\u0087::\u0088\u009d\u009b",
+      "target_token": "0xa0001b7",
+      "target": "System.Windows.Window::add_Closed",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000409",
+      "field": ".\u0088\u009d\u009c::\u0088\u009d\u009d",
+      "target_token": "0xa0001b8",
+      "target": "System.Windows.Window::add_Closing",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000386",
+      "field": ".\u0088\u0097\u0087::\u0088\u009d\u009e",
+      "target_token": "0xa0001b9",
+      "target": "System.Windows.FrameworkElement::add_Initialized",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400040a",
+      "field": ".\u0088\u009e\u0086::\u0088\u009e\u0087",
+      "target_token": "0xa0001ba",
+      "target": "System.Windows.Controls.Primitives.ButtonBase::add_Click",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400040c",
+      "field": ".\u0088\u009e\u0088::\u0088\u009e\u0089",
+      "target_token": "0xa0001bb",
+      "target": "System.Windows.UIElement::add_KeyDown",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400040d",
+      "field": ".\u0088\u009e\u008a::\u0088\u009e\u008b",
+      "target_token": "0xa0001bc",
+      "target": "System.Windows.Controls.Primitives.TextBoxBase::add_TextChanged",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400040b",
+      "field": ".\u0088\u009e\u0086::\u0088\u009e\u008c",
+      "target_token": "0xa0001bd",
+      "target": "System.Windows.UIElement::add_GotFocus",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400040e",
+      "field": ".\u0088\u009e\u008d::\u0088\u009e\u008e",
+      "target_token": "0xa0001be",
+      "target": "System.Windows.EventSetter::set_Event",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400040f",
+      "field": ".\u0088\u009e\u008f::\u0088\u009e\u0090",
+      "target_token": "0xa0001bf",
+      "target": "System.Windows.EventSetter::set_Handler",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000410",
+      "field": ".\u0088\u009e\u0091::\u0088\u009e\u0092",
+      "target_token": "0xa0001c0",
+      "target": "System.Windows.Style::get_Setters",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003cb",
+      "field": ".\u0088\u009a\u008d::\u0088\u009e\u0093",
+      "target_token": "0x600016c",
+      "target": "\u009c\u0094.\u009c\u0093::\u009c\u0098",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003cc",
+      "field": ".\u0088\u009a\u008d::\u0088\u009e\u0094",
+      "target_token": "0x6000170",
+      "target": "\u009c\u0094.\u009c\u0093::\u009c\u009c",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003ad",
+      "field": ".\u0088\u0098\u0091::\u0088\u009e\u0095",
+      "target_token": "0x60001ff",
+      "target": "WITRNUP.Properties.Langs.Langs::get_dev_not_dfu",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003ae",
+      "field": ".\u0088\u0098\u0091::\u0088\u009e\u0096",
+      "target_token": "0x6000201",
+      "target": "WITRNUP.Properties.Langs.Langs::get_dev_open_fail",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003af",
+      "field": ".\u0088\u0098\u0091::\u0088\u009e\u0097",
+      "target_token": "0x6000204",
+      "target": "WITRNUP.Properties.Langs.Langs::get_emark_write_ok",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000411",
+      "field": ".\u0088\u009e\u0098::\u0088\u009e\u0099",
+      "target_token": "0x60001f0",
+      "target": "WITRNUP.Properties.Settings::get_Default",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000412",
+      "field": ".\u0088\u009e\u009a::\u0088\u009e\u009b",
+      "target_token": "0x60001f2",
+      "target": "WITRNUP.Properties.Settings::set_lang",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000413",
+      "field": ".\u0088\u009e\u009c::\u0088\u009e\u009d",
+      "target_token": "0x60001f1",
+      "target": "WITRNUP.Properties.Settings::get_lang",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003cd",
+      "field": ".\u0088\u009a\u008d::\u0088\u009e\u009e",
+      "target_token": "0xa0001c1",
+      "target": "System.Configuration.SettingsBase::Save",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000415",
+      "field": ".\u0089\u0086\u0086::\u0089\u0086\u0087",
+      "target_token": "0xa0001c2",
+      "target": "WPFLocalizeExtension.Engine.LocalizeDictionary::get_Instance",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000416",
+      "field": ".\u0089\u0086\u0088::\u0089\u0086\u0089",
+      "target_token": "0xa0001c3",
+      "target": "System.Globalization.CultureInfo::GetCultureInfo",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000417",
+      "field": ".\u0089\u0086\u008a::\u0089\u0086\u008b",
+      "target_token": "0xa0001c4",
+      "target": "WPFLocalizeExtension.Engine.LocalizeDictionary::set_Culture",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003ce",
+      "field": ".\u0088\u009a\u008d::\u0089\u0086\u008c",
+      "target_token": "0x60001bd",
+      "target": "\u0087\u0086\u0098.\u0087\u0086\u0097::InitializeComponent",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000418",
+      "field": ".\u0089\u0086\u008d::\u0089\u0086\u008e",
+      "target_token": "0x60001a2",
+      "target": "\u0087\u0086\u0091.\u0087\u0086\u0090::\u0087\u0086\u0093",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003cf",
+      "field": ".\u0088\u009a\u008d::\u0089\u0086\u008f",
+      "target_token": "0x60001aa",
+      "target": "\u0087\u0086\u0098.\u0087\u0086\u0097::\u0087\u0086\u009a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000419",
+      "field": ".\u0089\u0086\u0090::\u0089\u0086\u0091",
+      "target_token": "0xa0001c5",
+      "target": "System.Windows.UIElement::set_Visibility",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400041a",
+      "field": ".\u0089\u0086\u0092::\u0089\u0086\u0093",
+      "target_token": "0xa0001c6",
+      "target": "System.Threading.SynchronizationContext::get_Current",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003b0",
+      "field": ".\u0088\u0098\u0091::\u0089\u0086\u0094",
+      "target_token": "0x600024e",
+      "target": "WITRNUP.Properties.Langs.Langs::get_static_support_dev_list",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400041b",
+      "field": ".\u0089\u0086\u0095::\u0089\u0086\u0096",
+      "target_token": "0xa0001c7",
+      "target": "System.Net.WebRequest::Create",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400041c",
+      "field": ".\u0089\u0086\u0097::\u0089\u0086\u0098",
+      "target_token": "0xa0001c8",
+      "target": "System.Net.WebRequest::GetResponse",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400041d",
+      "field": ".\u0089\u0086\u0099::\u0089\u0086\u009a",
+      "target_token": "0xa0001c9",
+      "target": "System.Net.WebResponse::GetResponseStream",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003b7",
+      "field": ".\u0088\u0098\u0096::\u0089\u0086\u009b",
+      "target_token": "0xa0001ca",
+      "target": "System.String::ToUpper",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400041f",
+      "field": ".\u0089\u0086\u009c::\u0089\u0086\u009d",
+      "target_token": "0xa0001cb",
+      "target": "System.String::IndexOf",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000420",
+      "field": ".\u0089\u0086\u009e::\u0089\u0087\u0086",
+      "target_token": "0xa0001cc",
+      "target": "System.String::IndexOf",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000421",
+      "field": ".\u0089\u0087\u0087::\u0089\u0087\u0088",
+      "target_token": "0x60001ab",
+      "target": "\u0087\u0086\u0098.\u0087\u0086\u0097::\u0087\u0086\u009b",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000422",
+      "field": ".\u0089\u0087\u0089::\u0089\u0087\u008a",
+      "target_token": "0x60001ae",
+      "target": "\u0087\u0086\u0098.\u0087\u0086\u0097::\u0087\u0086\u009e",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000423",
+      "field": ".\u0089\u0087\u008b::\u0089\u0087\u008c",
+      "target_token": "0x600005e",
+      "target": "\u008d\u0087.\u008d\u0086::\u008d\u008f",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000424",
+      "field": ".\u0089\u0087\u008d::\u0089\u0087\u008e",
+      "target_token": "0x60001af",
+      "target": "\u0087\u0086\u0098.\u0087\u0086\u0097::\u0087\u0087\u0086",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003c0",
+      "field": ".\u0088\u0099\u008c::\u0089\u0087\u008f",
+      "target_token": "0x60001b0",
+      "target": "\u0087\u0086\u0098.\u0087\u0086\u0097::\u0087\u0087\u0087",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003b1",
+      "field": ".\u0088\u0098\u0091::\u0089\u0087\u0090",
+      "target_token": "0x6000211",
+      "target": "WITRNUP.Properties.Langs.Langs::get_open_upgrade_file",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000425",
+      "field": ".\u0089\u0087\u0091::\u0089\u0087\u0092",
+      "target_token": "0xa0001cd",
+      "target": "MahApps.Metro.Controls.Dialogs.DialogManager::ShowMessageAsync",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003da",
+      "field": ".\u0088\u009a\u008f::\u0089\u0087\u0093",
+      "target_token": "0xa0001ce",
+      "target": "Microsoft.Win32.CommonItemDialog::set_ValidateNames",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003db",
+      "field": ".\u0088\u009a\u008f::\u0089\u0087\u0094",
+      "target_token": "0xa0001cf",
+      "target": "Microsoft.Win32.FileDialog::set_CheckFileExists",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003dc",
+      "field": ".\u0088\u009a\u008f::\u0089\u0087\u0095",
+      "target_token": "0xa0001d0",
+      "target": "Microsoft.Win32.FileDialog::set_CheckPathExists",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003ba",
+      "field": ".\u0088\u0098\u0098::\u0089\u0087\u0096",
+      "target_token": "0x60000a1",
+      "target": "\u008d\u009e.\u008d\u009d::\u0090\u0086",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000426",
+      "field": ".\u0089\u0087\u0097::\u0089\u0087\u0098",
+      "target_token": "0x60000a2",
+      "target": "\u008d\u009e.\u008d\u009d::\u0090\u0087",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000427",
+      "field": ".\u0089\u0087\u0099::\u0089\u0087\u009a",
+      "target_token": "0xa0001d1",
+      "target": "System.Int32::ToString",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000428",
+      "field": ".\u0089\u0087\u009b::\u0089\u0087\u009c",
+      "target_token": "0xa0001d2",
+      "target": "System.String::Concat",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003b2",
+      "field": ".\u0088\u0098\u0091::\u0089\u0087\u009d",
+      "target_token": "0x6000207",
+      "target": "WITRNUP.Properties.Langs.Langs::get_error",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000429",
+      "field": ".\u0089\u0087\u009e::\u0089\u0088\u0086",
+      "target_token": "0x6000257",
+      "target": "WITRNUP.Properties.Langs.Langs::get_unknow_file",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400043c",
+      "field": ".\u0089\u0088\u0087::\u0089\u0088\u0088",
+      "target_token": "0xa0001d3",
+      "target": "System.Windows.Controls.Primitives.RangeBase::set_Value",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400043d",
+      "field": ".\u0089\u0088\u0089::\u0089\u0088\u008a",
+      "target_token": "0xa0001d4",
+      "target": "System.DateTime::get_Now",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400043e",
+      "field": ".\u0089\u0088\u008b::\u0089\u0088\u008c",
+      "target_token": "0xa0001d5",
+      "target": "System.DateTime::get_Hour",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400043f",
+      "field": ".\u0089\u0088\u008b::\u0089\u0088\u008d",
+      "target_token": "0xa0001d6",
+      "target": "System.DateTime::get_Minute",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000440",
+      "field": ".\u0089\u0088\u008b::\u0089\u0088\u008e",
+      "target_token": "0xa0001d7",
+      "target": "System.DateTime::get_Second",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000441",
+      "field": ".\u0089\u0088\u008f::\u0089\u0088\u0090",
+      "target_token": "0x6000059",
+      "target": "\u008d\u0087.\u008d\u0086::\u008d\u008a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000442",
+      "field": ".\u0089\u0088\u0091::\u0089\u0088\u0092",
+      "target_token": "0xa0000b0",
+      "target": "System.String::op_Equality",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400030a",
+      "field": ".\u0088\u008f\u008c::\u0089\u0088\u0093",
+      "target_token": "0x6000080",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u0097",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400032e",
+      "field": ".\u0088\u0091\u009e::\u0089\u0088\u0094",
+      "target_token": "0x6000096",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u0094",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000443",
+      "field": ".\u0089\u0088\u0095::\u0089\u0088\u0096",
+      "target_token": "0x6000097",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u0095",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000444",
+      "field": ".\u0089\u0088\u0097::\u0089\u0088\u0098",
+      "target_token": "0xa0001d8",
+      "target": "System.UInt32::ToString",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400030b",
+      "field": ".\u0088\u008f\u008c::\u0089\u0088\u0099",
+      "target_token": "0x6000081",
+      "target": "\u008d\u009e.\u008d\u009d::\u008e\u0098",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000445",
+      "field": ".\u0089\u0088\u009a::\u0089\u0088\u009b",
+      "target_token": "0x60001ac",
+      "target": "\u0087\u0086\u0098.\u0087\u0086\u0097::\u0087\u0086\u009c",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400032f",
+      "field": ".\u0088\u0091\u009e::\u0089\u0088\u009c",
+      "target_token": "0x6000092",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u0090",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400042a",
+      "field": ".\u0089\u0087\u009e::\u0089\u0088\u009d",
+      "target_token": "0x60001fc",
+      "target": "WITRNUP.Properties.Langs.Langs::get_connected",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400042b",
+      "field": ".\u0089\u0087\u009e::\u0089\u0088\u009e",
+      "target_token": "0x6000203",
+      "target": "WITRNUP.Properties.Langs.Langs::get_dev_state",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000446",
+      "field": ".\u0089\u0089\u0086::\u0089\u0089\u0087",
+      "target_token": "0x60000a9",
+      "target": "\u008d\u009e.\u008d\u009d::\u0090\u008e",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000447",
+      "field": ".\u0089\u0089\u0088::\u0089\u0089\u0089",
+      "target_token": "0x60000a3",
+      "target": "\u008d\u009e.\u008d\u009d::\u0090\u0088",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000448",
+      "field": ".\u0089\u0089\u008a::\u0089\u0089\u008b",
+      "target_token": "0x600009d",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u009b",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003bb",
+      "field": ".\u0088\u0098\u0098::\u0089\u0089\u008c",
+      "target_token": "0x600009f",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u009d",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000346",
+      "field": ".\u0088\u0093\u008e::\u0089\u0089\u008d",
+      "target_token": "0x60000a5",
+      "target": "\u008d\u009e.\u008d\u009d::\u0090\u008a",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003bc",
+      "field": ".\u0088\u0098\u0098::\u0089\u0089\u008e",
+      "target_token": "0x60000a6",
+      "target": "\u008d\u009e.\u008d\u009d::\u0090\u008b",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003bd",
+      "field": ".\u0088\u0098\u0098::\u0089\u0089\u008f",
+      "target_token": "0x60000a7",
+      "target": "\u008d\u009e.\u008d\u009d::\u0090\u008c",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000449",
+      "field": ".\u0089\u0089\u008a::\u0089\u0089\u0090",
+      "target_token": "0x60000a8",
+      "target": "\u008d\u009e.\u008d\u009d::\u0090\u008d",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400044a",
+      "field": ".\u0089\u0089\u008a::\u0089\u0089\u0091",
+      "target_token": "0x60000a0",
+      "target": "\u008d\u009e.\u008d\u009d::\u008f\u009e",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003d0",
+      "field": ".\u0088\u009a\u008d::\u0089\u0089\u0092",
+      "target_token": "0xa0001d9",
+      "target": "System.Threading.Tasks.Task::Wait",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000404",
+      "field": ".\u0088\u009d\u008b::\u0089\u0089\u0093",
+      "target_token": "0xa0001da",
+      "target": "System.Windows.Window::ShowDialog",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400045b",
+      "field": ".\u0089\u0089\u0094::\u0089\u0089\u0095",
+      "target_token": "0x60001a1",
+      "target": "\u0087\u0086\u0091.\u0087\u0086\u0090::\u0087\u0086\u0094",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002bf",
+      "field": ".\u0088\u008d\u0086::\u0089\u0089\u0096",
+      "target_token": "0x60001a3",
+      "target": "\u0087\u0086\u0091.\u0087\u0086\u0090::\u0087\u0086\u0092",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400045c",
+      "field": ".\u0089\u0089\u0097::\u0089\u0089\u0098",
+      "target_token": "0x60001a8",
+      "target": "\u0087\u0086\u0098.\u0087\u0086\u0097::\u0087\u0086\u0099",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400045d",
+      "field": ".\u0089\u0089\u0099::\u0089\u0089\u009a",
+      "target_token": "0xa0001db",
+      "target": "System.Windows.Controls.Primitives.Selector::add_SelectionChanged",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400045e",
+      "field": ".\u0089\u0089\u009b::\u0089\u0089\u009c",
+      "target_token": "0xa00004c",
+      "target": "System.Type::get_Assembly",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400045f",
+      "field": ".\u0089\u0089\u009d::\u0089\u0089\u009e",
+      "target_token": "0xa0001dc",
+      "target": "System.Configuration.SettingsBase::get_Item",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000460",
+      "field": ".\u0089\u008a\u0086::\u0089\u008a\u0087",
+      "target_token": "0xa0001dd",
+      "target": "System.Configuration.SettingsBase::set_Item",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000461",
+      "field": ".\u0089\u008a\u0088::\u0089\u008a\u0089",
+      "target_token": "0xa0001de",
+      "target": "System.Configuration.SettingsBase::Synchronized",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000462",
+      "field": ".\u0089\u008a\u008a::\u0089\u008a\u008b",
+      "target_token": "0x60001f8",
+      "target": "WITRNUP.Properties.Langs.Langs::get_ResourceManager",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000463",
+      "field": ".\u0089\u008a\u008c::\u0089\u008a\u008d",
+      "target_token": "0xa0001df",
+      "target": "System.Resources.ResourceManager::GetString",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003d1",
+      "field": ".\u0088\u009a\u008d::\u0089\u008a\u008e",
+      "target_token": "0x60001b5",
+      "target": "\u0087\u0086\u0098.\u0087\u0086\u0097::\u0087\u0087\u008c",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003dd",
+      "field": ".\u0088\u009a\u008f::\u0089\u008a\u008f",
+      "target_token": "0xa0001e0",
+      "target": "System.Windows.UIElement::set_IsEnabled",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400042c",
+      "field": ".\u0089\u0087\u009e::\u0089\u008a\u0090",
+      "target_token": "0x6000214",
+      "target": "WITRNUP.Properties.Langs.Langs::get_start_erase",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000313",
+      "field": ".\u0088\u008f\u0096::\u0089\u008a\u0091",
+      "target_token": "0x60001b6",
+      "target": "\u0087\u0086\u0098.\u0087\u0086\u0097::\u0087\u0087\u008d",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400042d",
+      "field": ".\u0089\u0087\u009e::\u0089\u008a\u0092",
+      "target_token": "0x6000206",
+      "target": "WITRNUP.Properties.Langs.Langs::get_erase_ok",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400042e",
+      "field": ".\u0089\u0087\u009e::\u0089\u008a\u0093",
+      "target_token": "0x6000215",
+      "target": "WITRNUP.Properties.Langs.Langs::get_start_install",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400042f",
+      "field": ".\u0089\u0087\u009e::\u0089\u008a\u0094",
+      "target_token": "0x600020b",
+      "target": "WITRNUP.Properties.Langs.Langs::get_install_ok",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000430",
+      "field": ".\u0089\u0087\u009e::\u0089\u008a\u0095",
+      "target_token": "0x6000216",
+      "target": "WITRNUP.Properties.Langs.Langs::get_start_verify",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000431",
+      "field": ".\u0089\u0087\u009e::\u0089\u008a\u0096",
+      "target_token": "0x600025a",
+      "target": "WITRNUP.Properties.Langs.Langs::get_verify_ok",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000432",
+      "field": ".\u0089\u0087\u009e::\u0089\u008a\u0097",
+      "target_token": "0x6000202",
+      "target": "WITRNUP.Properties.Langs.Langs::get_dev_restarted",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000433",
+      "field": ".\u0089\u0087\u009e::\u0089\u008a\u0098",
+      "target_token": "0x6000256",
+      "target": "WITRNUP.Properties.Langs.Langs::get_successfully",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000434",
+      "field": ".\u0089\u0087\u009e::\u0089\u008a\u0099",
+      "target_token": "0x6000258",
+      "target": "WITRNUP.Properties.Langs.Langs::get_upgrade_ok",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000435",
+      "field": ".\u0089\u0087\u009e::\u0089\u008a\u009a",
+      "target_token": "0x6000259",
+      "target": "WITRNUP.Properties.Langs.Langs::get_verify_fail",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000436",
+      "field": ".\u0089\u0087\u009e::\u0089\u008a\u009b",
+      "target_token": "0x6000208",
+      "target": "WITRNUP.Properties.Langs.Langs::get_fail",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000437",
+      "field": ".\u0089\u0087\u009e::\u0089\u008a\u009c",
+      "target_token": "0x600020a",
+      "target": "WITRNUP.Properties.Langs.Langs::get_install_fail",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000438",
+      "field": ".\u0089\u0087\u009e::\u0089\u008a\u009d",
+      "target_token": "0x6000209",
+      "target": "WITRNUP.Properties.Langs.Langs::get_file_error",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000439",
+      "field": ".\u0089\u0087\u009e::\u0089\u008a\u009e",
+      "target_token": "0x6000205",
+      "target": "WITRNUP.Properties.Langs.Langs::get_erase_fail",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400043a",
+      "field": ".\u0089\u0087\u009e::\u0089\u008b\u0086",
+      "target_token": "0x60001fb",
+      "target": "WITRNUP.Properties.Langs.Langs::get_cannot_open_file",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400043b",
+      "field": ".\u0089\u0087\u009e::\u0089\u008b\u0087",
+      "target_token": "0x600020f",
+      "target": "WITRNUP.Properties.Langs.Langs::get_no_find_dev",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000464",
+      "field": ".\u0089\u008b\u0088::\u0089\u008b\u0089",
+      "target_token": "0xa000053",
+      "target": "System.Threading.Monitor::Enter",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002c0",
+      "field": ".\u0088\u008d\u0086::\u0089\u008b\u008a",
+      "target_token": "0x6000392",
+      "target": "\u0087\u0091\u0095.\u0087\u0091\u0094::\u0087\u0091\u009c",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000465",
+      "field": ".\u0089\u008b\u008b::\u0089\u008b\u008c",
+      "target_token": "0xa00005e",
+      "target": "System.Threading.Monitor::Exit",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400041e",
+      "field": ".\u0089\u0086\u0099::\u0089\u008b\u008d",
+      "target_token": "0xa000057",
+      "target": "System.IO.BinaryReader::get_BaseStream",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000466",
+      "field": ".\u0089\u008b\u008e::\u0089\u008b\u008f",
+      "target_token": "0xa000058",
+      "target": "System.IO.Stream::set_Position",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000467",
+      "field": ".\u0089\u008b\u0090::\u0089\u008b\u0091",
+      "target_token": "0xa000062",
+      "target": "System.Type::get_Module",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000468",
+      "field": ".\u0089\u008b\u0092::\u0089\u008b\u0093",
+      "target_token": "0x6000394",
+      "target": "\u0087\u0091\u0095.\u0087\u0091\u0094::\u0087\u0091\u009e",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000469",
+      "field": ".\u0089\u008b\u0094::\u0089\u008b\u0095",
+      "target_token": "0xa000103",
+      "target": "System.Reflection.Module::ResolveMethod",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400046a",
+      "field": ".\u0089\u008b\u0096::\u0089\u008b\u0097",
+      "target_token": "0xa000069",
+      "target": "System.Reflection.MethodBase::GetParameters",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400046b",
+      "field": ".\u0089\u008b\u0098::\u0089\u008b\u0099",
+      "target_token": "0xa00006d",
+      "target": "System.Reflection.ParameterInfo::get_ParameterType",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400044b",
+      "field": ".\u0089\u0089\u008a::\u0089\u008b\u009a",
+      "target_token": "0xa0001e1",
+      "target": "System.Type::get_IsByRef",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400046c",
+      "field": ".\u0089\u008b\u0098::\u0089\u008b\u009b",
+      "target_token": "0xa0001e2",
+      "target": "System.Type::GetElementType",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000474",
+      "field": ".\u0089\u008b\u009c::\u0089\u008b\u009d",
+      "target_token": "0xa0001e3",
+      "target": "System.Type::op_Equality",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000476",
+      "field": ".\u0089\u008b\u009e::\u0089\u008c\u0086",
+      "target_token": "0xa0001e4",
+      "target": "System.Reflection.Module::ResolveType",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000414",
+      "field": ".\u0088\u009e\u009c::\u0089\u008c\u0087",
+      "target_token": "0xa0001e5",
+      "target": "System.IO.BinaryReader::ReadByte",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000337",
+      "field": ".\u0088\u0092\u0094::\u0089\u008c\u0088",
+      "target_token": "0xa0001e6",
+      "target": "System.IO.BinaryReader::ReadInt64",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000477",
+      "field": ".\u0089\u008c\u0089::\u0089\u008c\u008a",
+      "target_token": "0xa0001e7",
+      "target": "System.IO.BinaryReader::ReadSingle",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000478",
+      "field": ".\u0089\u008c\u008b::\u0089\u008c\u008c",
+      "target_token": "0xa0001e8",
+      "target": "System.IO.BinaryReader::ReadDouble",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400046d",
+      "field": ".\u0089\u008b\u0098::\u0089\u008c\u008d",
+      "target_token": "0xa00006f",
+      "target": "System.Reflection.MethodInfo::get_ReturnType",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000475",
+      "field": ".\u0089\u008b\u009c::\u0089\u008c\u008e",
+      "target_token": "0xa0000f5",
+      "target": "System.Type::op_Inequality",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400044c",
+      "field": ".\u0089\u0089\u008a::\u0089\u008c\u008f",
+      "target_token": "0xa000065",
+      "target": "System.Reflection.MethodBase::get_IsStatic",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000479",
+      "field": ".\u0089\u008c\u0090::\u0089\u008c\u0091",
+      "target_token": "0x60006b5",
+      "target": ".\u0088\u0086\u0087::\u0088\u0086\u008f",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400046e",
+      "field": ".\u0089\u008b\u0098::\u0089\u008c\u0092",
+      "target_token": "0xa00006a",
+      "target": "System.Reflection.MemberInfo::get_DeclaringType",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400044d",
+      "field": ".\u0089\u0089\u008a::\u0089\u008c\u0093",
+      "target_token": "0xa00006b",
+      "target": "System.Type::get_IsValueType",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003d2",
+      "field": ".\u0088\u009a\u008d::\u0089\u008c\u0094",
+      "target_token": "0x6000651",
+      "target": ".\u0087\u0096\u0096::\u0087\u0096\u0097",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003d3",
+      "field": ".\u0088\u009a\u008d::\u0089\u008c\u0095",
+      "target_token": "0x6000652",
+      "target": ".\u0087\u0096\u0096::\u0087\u0096\u0098",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400047a",
+      "field": ".\u0089\u008c\u0096::\u0089\u008c\u0097",
+      "target_token": "0x60006ad",
+      "target": ".\u0088\u0086\u0087::o\u009ap",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400047d",
+      "field": ".\u0089\u008c\u0098::\u0089\u008c\u0099",
+      "target_token": "0xa000055",
+      "target": "System.Reflection.Assembly::GetManifestResourceStream",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400047e",
+      "field": ".\u0089\u008c\u009a::\u0089\u008c\u009b",
+      "target_token": "0xa00005a",
+      "target": "System.IO.BinaryReader::ReadBytes",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003d4",
+      "field": ".\u0088\u009a\u008d::\u0089\u008c\u009c",
+      "target_token": "0xa00005b",
+      "target": "System.IO.BinaryReader::Close",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400047f",
+      "field": ".\u0089\u008c\u009d::\u0089\u008c\u009e",
+      "target_token": "0x6000393",
+      "target": "\u0087\u0091\u0095.\u0087\u0091\u0094::\u0087\u0091\u009d",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400033f",
+      "field": ".\u0088\u0092\u009d::\u0089\u008d\u0086",
+      "target_token": "0xa0000a0",
+      "target": "System.Text.Encoding::get_Unicode",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000480",
+      "field": ".\u0089\u008d\u0087::\u0089\u008d\u0088",
+      "target_token": "0xa0000bf",
+      "target": "System.Text.Encoding::GetString",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000338",
+      "field": ".\u0088\u0092\u0094::\u0089\u008d\u0089",
+      "target_token": "0xa0000ea",
+      "target": "System.IO.Stream::get_Position",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000481",
+      "field": ".\u0089\u008d\u008a::\u0089\u008d\u008b",
+      "target_token": "0x60006b3",
+      "target": ".\u0088\u0086\u0087::C\u009aj",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400044e",
+      "field": ".\u0089\u0089\u008a::\u0089\u008d\u008c",
+      "target_token": "0x6000505",
+      "target": ".\u0087\u0094\u0087::f\u009am",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400044f",
+      "field": ".\u0089\u0089\u008a::\u0089\u008d\u008d",
+      "target_token": "0x6000506",
+      "target": ".\u0087\u0094\u0087::l\u009an",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000450",
+      "field": ".\u0089\u0089\u008a::\u0089\u008d\u008e",
+      "target_token": "0xa0001e9",
+      "target": "System.Type::get_IsEnum",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400047b",
+      "field": ".\u0089\u008c\u0096::\u0089\u008d\u008f",
+      "target_token": "0x60003a6",
+      "target": ".\u0087\u0092\u0095::\u0087\u0092\u0096",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000486",
+      "field": ".\u0089\u008d\u0090::\u0089\u008d\u0091",
+      "target_token": "0xa0001ea",
+      "target": "System.Enum::GetUnderlyingType",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000487",
+      "field": ".\u0089\u008d\u0092::\u0089\u008d\u0093",
+      "target_token": "0xa0001eb",
+      "target": "System.Enum::ToObject",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000488",
+      "field": ".\u0089\u008d\u0094::\u0089\u008d\u0095",
+      "target_token": "0xa0001ec",
+      "target": "System.Enum::ToObject",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000489",
+      "field": ".\u0089\u008d\u0096::\u0089\u008d\u0097",
+      "target_token": "0xa0001ed",
+      "target": "System.Enum::ToObject",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400048a",
+      "field": ".\u0089\u008d\u0098::\u0089\u008d\u0099",
+      "target_token": "0xa0001ee",
+      "target": "System.Enum::ToObject",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400048b",
+      "field": ".\u0089\u008d\u009a::\u0089\u008d\u009b",
+      "target_token": "0xa0001ef",
+      "target": "System.Enum::ToObject",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400048c",
+      "field": ".\u0089\u008d\u009c::\u0089\u008d\u009d",
+      "target_token": "0xa0001f0",
+      "target": "System.Enum::ToObject",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400048d",
+      "field": ".\u0089\u008d\u009e::\u0089\u008e\u0086",
+      "target_token": "0xa0001f1",
+      "target": "System.Enum::ToObject",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400048e",
+      "field": ".\u0089\u008e\u0087::\u0089\u008e\u0088",
+      "target_token": "0xa0001f2",
+      "target": "System.Enum::ToObject",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002f4",
+      "field": ".\u0088\u008e\u009c::\u0089\u008e\u0089",
+      "target_token": "0xa0000b4",
+      "target": "System.IntPtr::get_Size",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000451",
+      "field": ".\u0089\u0089\u008a::\u0089\u008e\u008a",
+      "target_token": "0x60006a8",
+      "target": ".\u0088\u0086\u0087::b\u009c\u008c",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400048f",
+      "field": ".\u0089\u008e\u008b::\u0089\u008e\u008c",
+      "target_token": "0x60006b1",
+      "target": ".\u0088\u0086\u0087::T\u009bs",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000452",
+      "field": ".\u0089\u0089\u008a::\u0089\u008e\u008d",
+      "target_token": "0x60006a3",
+      "target": ".\u0088\u0086\u0087::\u0088\u0086\u0089",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000453",
+      "field": ".\u0089\u0089\u008a::\u0089\u008e\u008e",
+      "target_token": "0x60006a4",
+      "target": ".\u0088\u0086\u0087::\u0088\u0086\u008a",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000495",
+      "field": ".\u0089\u008e\u008f::\u0089\u008e\u0090",
+      "target_token": "0x6000533",
+      "target": ".\u0087\u0094\u0087::D\u009b8",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000496",
+      "field": ".\u0089\u008e\u008f::\u0089\u008e\u0091",
+      "target_token": "0x6000534",
+      "target": ".\u0087\u0094\u0087::T\u009b9",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000497",
+      "field": ".\u0089\u008e\u008f::\u0089\u008e\u0092",
+      "target_token": "0x6000535",
+      "target": ".\u0087\u0094\u0087::S\u009ba",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000498",
+      "field": ".\u0089\u008e\u008f::\u0089\u008e\u0093",
+      "target_token": "0x60004bf",
+      "target": ".\u0087\u0093\u0091::\u0087\u0093\u0094",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000499",
+      "field": ".\u0089\u008e\u008f::\u0089\u008e\u0094",
+      "target_token": "0x60004c1",
+      "target": ".\u0087\u0093\u0091::\u0087\u0093\u0095",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400049a",
+      "field": ".\u0089\u008e\u008f::\u0089\u008e\u0095",
+      "target_token": "0x60004c3",
+      "target": ".\u0087\u0093\u0091::\u0087\u0093\u0096",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400049b",
+      "field": ".\u0089\u008e\u008f::\u0089\u008e\u0096",
+      "target_token": "0x6000539",
+      "target": ".\u0087\u0094\u0087::B\u009be",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400049c",
+      "field": ".\u0089\u008e\u008f::\u0089\u008e\u0097",
+      "target_token": "0x600053a",
+      "target": ".\u0087\u0094\u0087::v\u009bf",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400049d",
+      "field": ".\u0089\u008e\u008f::\u0089\u008e\u0098",
+      "target_token": "0x600053b",
+      "target": ".\u0087\u0094\u0087::K\u009bg",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400049e",
+      "field": ".\u0089\u008e\u008f::\u0089\u008e\u0099",
+      "target_token": "0x60004c8",
+      "target": ".\u0087\u0093\u0091::\u0087\u0093\u0097",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400049f",
+      "field": ".\u0089\u008e\u008f::\u0089\u008e\u009a",
+      "target_token": "0x60004ca",
+      "target": ".\u0087\u0093\u0091::\u0087\u0093\u0098",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004a0",
+      "field": ".\u0089\u008e\u008f::\u0089\u008e\u009b",
+      "target_token": "0x60004cc",
+      "target": ".\u0087\u0093\u0091::\u0087\u0093\u0099",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004a1",
+      "field": ".\u0089\u008e\u008f::\u0089\u008e\u009c",
+      "target_token": "0x60004ce",
+      "target": ".\u0087\u0093\u0091::\u0087\u0093\u009a",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004a2",
+      "field": ".\u0089\u008e\u008f::\u0089\u008e\u009d",
+      "target_token": "0x6000540",
+      "target": ".\u0087\u0094\u0087::z\u009bl",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004a3",
+      "field": ".\u0089\u008e\u008f::\u0089\u008e\u009e",
+      "target_token": "0x6000541",
+      "target": ".\u0087\u0094\u0087::e\u009bm",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004a4",
+      "field": ".\u0089\u008e\u008f::\u0089\u008f\u0086",
+      "target_token": "0x6000543",
+      "target": ".\u0087\u0094\u0087::e\u009bo",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000454",
+      "field": ".\u0089\u0089\u008a::\u0089\u008f\u0087",
+      "target_token": "0x60006a2",
+      "target": ".\u0088\u0086\u0087::\u0088\u0086\u0088",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004a9",
+      "field": ".\u0089\u008f\u0088::\u0089\u008f\u0089",
+      "target_token": "0x60006ae",
+      "target": ".\u0088\u0086\u0087::N\u009bu",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000455",
+      "field": ".\u0089\u0089\u008a::\u0089\u008f\u008a",
+      "target_token": "0x60006b2",
+      "target": ".\u0088\u0086\u0087::u\u009bt",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000456",
+      "field": ".\u0089\u0089\u008a::\u0089\u008f\u008b",
+      "target_token": "0x60006a5",
+      "target": ".\u0088\u0086\u0087::\u0088\u0086\u008b",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004aa",
+      "field": ".\u0089\u008f\u0088::\u0089\u008f\u008c",
+      "target_token": "0x60006af",
+      "target": ".\u0088\u0086\u0087::A\u009bv",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004ab",
+      "field": ".\u0089\u008f\u0088::\u0089\u008f\u008d",
+      "target_token": "0x600054c",
+      "target": ".\u0087\u0094\u0087::N\u009c\u0086",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004ac",
+      "field": ".\u0089\u008f\u0088::\u0089\u008f\u008e",
+      "target_token": "0x600054d",
+      "target": ".\u0087\u0094\u0087::I\u009c\u0087",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004ad",
+      "field": ".\u0089\u008f\u0088::\u0089\u008f\u008f",
+      "target_token": "0x600054e",
+      "target": ".\u0087\u0094\u0087::S\u009c\u0088",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004ae",
+      "field": ".\u0089\u008f\u0088::\u0089\u008f\u0090",
+      "target_token": "0x600054f",
+      "target": ".\u0087\u0094\u0087::S\u009c\u0089",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004af",
+      "field": ".\u0089\u008f\u0088::\u0089\u008f\u0091",
+      "target_token": "0x6000548",
+      "target": ".\u0087\u0094\u0087::x\u009bw",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004b0",
+      "field": ".\u0089\u008f\u0088::\u0089\u008f\u0092",
+      "target_token": "0x6000549",
+      "target": ".\u0087\u0094\u0087::R\u009bx",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004b1",
+      "field": ".\u0089\u008f\u0088::\u0089\u008f\u0093",
+      "target_token": "0x600054a",
+      "target": ".\u0087\u0094\u0087::j\u009by",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004b2",
+      "field": ".\u0089\u008f\u0088::\u0089\u008f\u0094",
+      "target_token": "0x600054b",
+      "target": ".\u0087\u0094\u0087::z\u009bz",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400047c",
+      "field": ".\u0089\u008c\u0096::\u0089\u008f\u0095",
+      "target_token": "0x6000419",
+      "target": ".\u0087\u0093\u008b::\u0087\u0093\u008c",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000457",
+      "field": ".\u0089\u0089\u008a::\u0089\u008f\u0096",
+      "target_token": "0x60006ab",
+      "target": ".\u0088\u0086\u0087::P\u009c\u008b",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004b3",
+      "field": ".\u0089\u008f\u0097::\u0089\u008f\u0098",
+      "target_token": "0xa0001f3",
+      "target": "System.Int64::ToString",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004b4",
+      "field": ".\u0089\u008f\u0099::\u0089\u008f\u009a",
+      "target_token": "0xa0001f4",
+      "target": "System.UInt64::ToString",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004b5",
+      "field": ".\u0089\u008f\u009b::\u0089\u008f\u009c",
+      "target_token": "0xa0001f5",
+      "target": "System.IntPtr::op_Explicit",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004b6",
+      "field": ".\u0089\u008f\u009d::\u0089\u008f\u009e",
+      "target_token": "0xa0000b3",
+      "target": "System.IntPtr::ToInt64",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004b7",
+      "field": ".\u0089\u0090\u0086::\u0089\u0090\u0087",
+      "target_token": "0xa0000cb",
+      "target": "System.IntPtr::ToInt32",
+      "virtual": false
+    },
+    {
+      "field_token": "0x400046f",
+      "field": ".\u0089\u008b\u0098::\u0089\u0090\u0088",
+      "target_token": "0xa000091",
+      "target": "System.Object::GetType",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004b8",
+      "field": ".\u0089\u0090\u0089::\u0089\u0090\u008a",
+      "target_token": "0xa0001f6",
+      "target": "System.UIntPtr::ToUInt64",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004b9",
+      "field": ".\u0089\u0090\u008b::\u0089\u0090\u008c",
+      "target_token": "0xa0001f7",
+      "target": "System.UIntPtr::ToUInt32",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004ba",
+      "field": ".\u0089\u0090\u008d::\u0089\u0090\u008e",
+      "target_token": "0xa0001f8",
+      "target": "System.Double::ToString",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000458",
+      "field": ".\u0089\u0089\u008a::\u0089\u0090\u008f",
+      "target_token": "0x60006a6",
+      "target": ".\u0088\u0086\u0087::\u0088\u0086\u008c",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000482",
+      "field": ".\u0089\u008d\u008a::\u0089\u0090\u0090",
+      "target_token": "0x60005d0",
+      "target": ".\u0087\u0094\u0092::S\u009c\u008e",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000459",
+      "field": ".\u0089\u0089\u008a::\u0089\u0090\u0091",
+      "target_token": "0x60006b0",
+      "target": ".\u0088\u0086\u0087::a\u009ar",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004bb",
+      "field": ".\u0089\u0090\u0092::\u0089\u0090\u0093",
+      "target_token": "0xa0001f9",
+      "target": "System.Array::SetValue",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003e5",
+      "field": ".\u0088\u009a\u009d::\u0089\u0090\u0094",
+      "target_token": "0xa0001fa",
+      "target": "System.Array::GetValue",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004bc",
+      "field": ".\u0089\u0090\u0095::\u0089\u0090\u0096",
+      "target_token": "0xa000068",
+      "target": "System.Reflection.FieldInfo::SetValue",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000470",
+      "field": ".\u0089\u008b\u0098::\u0089\u0090\u0097",
+      "target_token": "0xa000066",
+      "target": "System.Reflection.FieldInfo::get_FieldType",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004bd",
+      "field": ".\u0089\u0090\u0098::\u0089\u0090\u0099",
+      "target_token": "0xa0000af",
+      "target": "System.Reflection.FieldInfo::GetValue",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004be",
+      "field": ".\u0089\u0090\u009a::\u0089\u0090\u009b",
+      "target_token": "0xa0001fb",
+      "target": "System.Reflection.FieldInfo::op_Inequality",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004bf",
+      "field": ".\u0089\u0090\u009c::\u0089\u0090\u009d",
+      "target_token": "0xa0001fc",
+      "target": "System.Reflection.MethodBase::op_Inequality",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002df",
+      "field": ".\u0088\u008d\u0093::\u0089\u0090\u009e",
+      "target_token": "0xa0001fd",
+      "target": "System.Object::GetHashCode",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004c0",
+      "field": ".\u0089\u0091\u0086::\u0089\u0091\u0087",
+      "target_token": "0x6000653",
+      "target": ".\u0087\u0096\u0096::\u0087\u0096\u0099",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40003d5",
+      "field": ".\u0088\u009a\u008d::\u0089\u0091\u0088",
+      "target_token": "0x60006d6",
+      "target": ".\u0088\u0086\u0098::\u0088\u0086\u0099",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004c1",
+      "field": ".\u0089\u0091\u0089::\u0089\u0091\u008a",
+      "target_token": "0x6000655",
+      "target": ".\u0087\u0096\u0096::\u0087\u0096\u009b",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004c3",
+      "field": ".\u0089\u0091\u008b::\u0089\u0091\u008c",
+      "target_token": "0x6000658",
+      "target": ".\u0087\u0096\u0096::\u0087\u0096\u009e",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004c4",
+      "field": ".\u0089\u0091\u008d::\u0089\u0091\u008e",
+      "target_token": "0xa0001fe",
+      "target": "System.Exception::get_InnerException",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004c5",
+      "field": ".\u0089\u0091\u008f::\u0089\u0091\u0090",
+      "target_token": "0x6000656",
+      "target": ".\u0087\u0096\u0096::\u0087\u0096\u009c",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004c6",
+      "field": ".\u0089\u0091\u0091::\u0089\u0091\u0092",
+      "target_token": "0x6000657",
+      "target": ".\u0087\u0096\u0096::\u0087\u0096\u009d",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000483",
+      "field": ".\u0089\u008d\u008a::\u0089\u0091\u0093",
+      "target_token": "0x60006d7",
+      "target": ".\u0088\u0086\u0098::\u0088\u0086\u009a",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003d6",
+      "field": ".\u0088\u009a\u008d::\u0089\u0091\u0094",
+      "target_token": "0x6000651",
+      "target": ".\u0087\u0096\u0096::\u0087\u0096\u0097",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004c2",
+      "field": ".\u0089\u0091\u0089::\u0089\u0091\u0095",
+      "target_token": "0x6000654",
+      "target": ".\u0087\u0096\u0096::\u0087\u0096\u009a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000471",
+      "field": ".\u0089\u008b\u0098::\u0089\u0091\u0096",
+      "target_token": "0xa0001ff",
+      "target": "System.Exception::GetType",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003b8",
+      "field": ".\u0088\u0098\u0096::\u0089\u0091\u0097",
+      "target_token": "0xa000200",
+      "target": "System.Type::get_FullName",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000490",
+      "field": ".\u0089\u008e\u008b::\u0089\u0091\u0098",
+      "target_token": "0x60006d9",
+      "target": ".\u0088\u0086\u0098::\u0088\u0086\u009c",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004c7",
+      "field": ".\u0089\u0091\u0099::\u0089\u0091\u009a",
+      "target_token": "0x6000659",
+      "target": ".\u0087\u0096\u0096::\u0087\u0097\u0087",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004c8",
+      "field": ".\u0089\u0091\u009b::\u0089\u0091\u009c",
+      "target_token": "0x600048e",
+      "target": ".\u0087\u0093\u0091::\u0087\u0093\u0093",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000491",
+      "field": ".\u0089\u008e\u008b::\u0089\u0091\u009d",
+      "target_token": "0x60006d8",
+      "target": ".\u0088\u0086\u0098::\u0088\u0086\u009b",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004ca",
+      "field": ".\u0089\u0091\u009e::\u0089\u0092\u0086",
+      "target_token": "0xa000201",
+      "target": "System.Double::IsNaN",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004cb",
+      "field": ".\u0089\u0091\u009e::\u0089\u0092\u0087",
+      "target_token": "0xa000202",
+      "target": "System.Double::IsInfinity",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004a5",
+      "field": ".\u0089\u008e\u008f::\u0089\u0092\u0088",
+      "target_token": "0x6000536",
+      "target": ".\u0087\u0094\u0087::R\u009bb",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000492",
+      "field": ".\u0089\u008e\u008b::\u0089\u0092\u0089",
+      "target_token": "0x6000532",
+      "target": ".\u0087\u0094\u0087::A\u009b7",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004cc",
+      "field": ".\u0089\u0092\u008a::\u0089\u0092\u008b",
+      "target_token": "0xa000203",
+      "target": "System.Type::IsAssignableFrom",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004a6",
+      "field": ".\u0089\u008e\u008f::\u0089\u0092\u008c",
+      "target_token": "0x600053f",
+      "target": ".\u0087\u0094\u0087::W\u009bk",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40003de",
+      "field": ".\u0088\u009a\u008f::\u0089\u0092\u008d",
+      "target_token": "0x600065f",
+      "target": ".\u0087\u0096\u0096::\u0087\u009d\u0093",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004a7",
+      "field": ".\u0089\u008e\u008f::\u0089\u0092\u008e",
+      "target_token": "0x600053d",
+      "target": ".\u0087\u0094\u0087::j\u009bi",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000484",
+      "field": ".\u0089\u008d\u008a::\u0089\u0092\u008f",
+      "target_token": "0x60006aa",
+      "target": ".\u0088\u0086\u0087::D\u009ak",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004cd",
+      "field": ".\u0089\u0092\u0090::\u0089\u0092\u0091",
+      "target_token": "0x6000666",
+      "target": ".\u0087\u0096\u0096::\u0087\u009d\u009a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004ce",
+      "field": ".\u0089\u0092\u0092::\u0089\u0092\u0093",
+      "target_token": "0xa0000d1",
+      "target": "System.IntPtr::op_Inequality",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004cf",
+      "field": ".\u0089\u0092\u0094::\u0089\u0092\u0095",
+      "target_token": "0x6000669",
+      "target": ".\u0087\u0096\u0096::\u0087\u009d\u009d",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004d0",
+      "field": ".\u0089\u0092\u0096::\u0089\u0092\u0097",
+      "target_token": "0xa000204",
+      "target": "System.Reflection.Module::ResolveField",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004d1",
+      "field": ".\u0089\u0092\u0098::\u0089\u0092\u0099",
+      "target_token": "0xa000205",
+      "target": "System.Reflection.Module::ResolveString",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40002e0",
+      "field": ".\u0088\u008d\u0093::\u0089\u0092\u009a",
+      "target_token": "0xa000206",
+      "target": "System.Array::get_Length",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004a8",
+      "field": ".\u0089\u008e\u008f::\u0089\u0092\u009b",
+      "target_token": "0x6000537",
+      "target": ".\u0087\u0094\u0087::T\u009bc",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004d2",
+      "field": ".\u0089\u0092\u009c::\u0089\u0092\u009d",
+      "target_token": "0x6000667",
+      "target": ".\u0087\u0096\u0096::\u0087\u009d\u009b",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004d3",
+      "field": ".\u0089\u0092\u009e::\u0089\u0093\u0086",
+      "target_token": "0xa000207",
+      "target": "System.Activator::CreateInstance",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000493",
+      "field": ".\u0089\u008e\u008b::\u0089\u0093\u0087",
+      "target_token": "0x6000542",
+      "target": ".\u0087\u0094\u0087::g\u009bn",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004d4",
+      "field": ".\u0089\u0093\u0088::\u0089\u0093\u0089",
+      "target_token": "0x6000638",
+      "target": ".\u0087\u0096\u008d::\u0087\u0096\u008f",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000485",
+      "field": ".\u0089\u008d\u008a::\u0089\u0093\u008a",
+      "target_token": "0x600047e",
+      "target": ".\u0087\u0093\u0091::\u0087\u0093\u0092",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004d5",
+      "field": ".\u0089\u0093\u008b::\u0089\u0093\u008c",
+      "target_token": "0x6000664",
+      "target": ".\u0087\u0096\u0096::\u0087\u009d\u0098",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004d6",
+      "field": ".\u0089\u0093\u008d::\u0089\u0093\u008e",
+      "target_token": "0x6000668",
+      "target": ".\u0087\u0096\u0096::\u0087\u009d\u009c",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004d7",
+      "field": ".\u0089\u0093\u008f::\u0089\u0093\u0090",
+      "target_token": "0xa000208",
+      "target": "System.Reflection.Module::ResolveMember",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004d8",
+      "field": ".\u0089\u0093\u0091::\u0089\u0093\u0092",
+      "target_token": "0x6000538",
+      "target": ".\u0087\u0094\u0087::q\u009bd",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40002e1",
+      "field": ".\u0088\u008d\u0093::\u0089\u0093\u0093",
+      "target_token": "0x60006d5",
+      "target": ".\u0088\u0086\u0098::dQvuG1HPD6",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004d9",
+      "field": ".\u0089\u0093\u0091::\u0089\u0093\u0094",
+      "target_token": "0x600053c",
+      "target": ".\u0087\u0094\u0087::O\u009bh",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004da",
+      "field": ".\u0089\u0093\u0091::\u0089\u0093\u0095",
+      "target_token": "0x6000546",
+      "target": ".\u0087\u0094\u0087::n\u009bq",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004de",
+      "field": ".\u0089\u0093\u0096::\u0089\u0093\u0097",
+      "target_token": "0xa000209",
+      "target": "System.Array::CreateInstance",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004db",
+      "field": ".\u0089\u0093\u0091::\u0089\u0093\u0098",
+      "target_token": "0x6000545",
+      "target": ".\u0087\u0094\u0087::K\u009bp",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400034d",
+      "field": ".\u0088\u0093\u009b::\u0089\u0093\u0099",
+      "target_token": "0x600065c",
+      "target": ".\u0087\u0096\u0096::\u0087\u009c\u0096",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004dc",
+      "field": ".\u0089\u0093\u0091::\u0089\u0093\u009a",
+      "target_token": "0x600053e",
+      "target": ".\u0087\u0094\u0087::B\u009bj",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004dd",
+      "field": ".\u0089\u0093\u0091::\u0089\u0093\u009b",
+      "target_token": "0x6000547",
+      "target": ".\u0087\u0094\u0087::h\u009br",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004df",
+      "field": ".\u0089\u0093\u009c::\u0089\u0093\u009d",
+      "target_token": "0xa0000c7",
+      "target": "System.Reflection.MethodBase::get_MethodHandle",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004e0",
+      "field": ".\u0089\u0093\u009e::\u0089\u0094\u0086",
+      "target_token": "0xa00020a",
+      "target": "System.RuntimeMethodHandle::GetFunctionPointer",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004e1",
+      "field": ".\u0089\u0094\u0087::\u0089\u0094\u0088",
+      "target_token": "0x6000507",
+      "target": ".\u0087\u0094\u0087::d\u009ao",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004e2",
+      "field": ".\u0089\u0094\u0089::\u0089\u0094\u008a",
+      "target_token": "0x600065d",
+      "target": ".\u0087\u0096\u0096::\u0087\u009d\u008a",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004e3",
+      "field": ".\u0089\u0094\u008b::\u0089\u0094\u008c",
+      "target_token": "0xa000071",
+      "target": "System.Reflection.Emit.DynamicMethod::GetILGenerator",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004e4",
+      "field": ".\u0089\u0094\u008d::\u0089\u0094\u008e",
+      "target_token": "0xa00020b",
+      "target": "System.Reflection.Emit.ILGenerator::Emit",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004e5",
+      "field": ".\u0089\u0094\u008f::\u0089\u0094\u0090",
+      "target_token": "0xa000073",
+      "target": "System.Reflection.Emit.ILGenerator::Emit",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004e6",
+      "field": ".\u0089\u0094\u0091::\u0089\u0094\u0092",
+      "target_token": "0xa000107",
+      "target": "System.Reflection.MethodInfo::op_Inequality",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004e8",
+      "field": ".\u0089\u0094\u0093::\u0089\u0094\u0094",
+      "target_token": "0xa00020c",
+      "target": "System.Reflection.Emit.ILGenerator::DeclareLocal",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000472",
+      "field": ".\u0089\u008b\u0098::\u0089\u0094\u0095",
+      "target_token": "0xa00006c",
+      "target": "System.Type::MakeByRefType",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004e9",
+      "field": ".\u0089\u0094\u0096::\u0089\u0094\u0097",
+      "target_token": "0x6000663",
+      "target": ".\u0087\u0096\u0096::\u0087\u009d\u0097",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004ea",
+      "field": ".\u0089\u0094\u0098::\u0089\u0094\u0099",
+      "target_token": "0xa00020d",
+      "target": "System.Reflection.Emit.ILGenerator::Emit",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004eb",
+      "field": ".\u0089\u0094\u009a::\u0089\u0094\u009b",
+      "target_token": "0xa00020e",
+      "target": "System.Reflection.Emit.ILGenerator::EmitCall",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004ec",
+      "field": ".\u0089\u0094\u009c::\u0089\u0094\u009d",
+      "target_token": "0xa00020f",
+      "target": "System.Reflection.Emit.ILGenerator::Emit",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004e7",
+      "field": ".\u0089\u0094\u0091::\u0089\u0094\u009e",
+      "target_token": "0xa0000e2",
+      "target": "System.Reflection.MethodInfo::op_Equality",
+      "virtual": false
+    },
+    {
+      "field_token": "0x4000473",
+      "field": ".\u0089\u008b\u0098::\u0089\u0095\u0086",
+      "target_token": "0xa000210",
+      "target": "System.Reflection.LocalVariableInfo::get_LocalType",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004ed",
+      "field": ".\u0089\u0095\u0087::\u0089\u0095\u0088",
+      "target_token": "0xa00007e",
+      "target": "System.Reflection.MethodInfo::CreateDelegate",
+      "virtual": true
+    },
+    {
+      "field_token": "0x400045a",
+      "field": ".\u0089\u0089\u008a::\u0089\u0095\u0089",
+      "target_token": "0xa000211",
+      "target": "System.Reflection.FieldInfo::get_IsStatic",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004ee",
+      "field": ".\u0089\u0095\u008a::\u0089\u0095\u008b",
+      "target_token": "0xa000212",
+      "target": "System.Reflection.Emit.ILGenerator::Emit",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004ef",
+      "field": ".\u0089\u0095\u008c::\u0089\u0095\u008d",
+      "target_token": "0xa000213",
+      "target": "System.Reflection.Emit.ILGenerator::Emit",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004f0",
+      "field": ".\u0089\u0095\u008e::\u0089\u0095\u008f",
+      "target_token": "0xa000078",
+      "target": "System.Reflection.Emit.ILGenerator::Emit",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004f1",
+      "field": ".\u0089\u0095\u0090::\u0089\u0095\u0091",
+      "target_token": "0xa000214",
+      "target": "System.Convert::ChangeType",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004c9",
+      "field": ".\u0089\u0091\u009b::\u0089\u0095\u0092",
+      "target_token": "0x60005cf",
+      "target": ".\u0087\u0094\u0092::J\u009c\u008d",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004f2",
+      "field": ".\u0089\u0095\u0093::\u0089\u0095\u0094",
+      "target_token": "0xa000215",
+      "target": "System.Int32::CompareTo",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004f3",
+      "field": ".\u0089\u0095\u0095::\u0089\u0095\u0096",
+      "target_token": "0x60006b4",
+      "target": ".\u0088\u0086\u0087::\u0088\u0086\u008e",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004f4",
+      "field": ".\u0089\u0095\u0097::\u0089\u0095\u0098",
+      "target_token": "0x60006b6",
+      "target": ".\u0088\u0086\u0087::\u0088\u0086\u0090",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004f5",
+      "field": ".\u0089\u0095\u0099::\u0089\u0095\u009a",
+      "target_token": "0xa000216",
+      "target": "System.Reflection.FieldInfo::get_FieldHandle",
+      "virtual": true
+    },
+    {
+      "field_token": "0x40004f6",
+      "field": ".\u0089\u0095\u009b::\u0089\u0095\u009c",
+      "target_token": "0xa000217",
+      "target": "System.Type::get_TypeHandle",
+      "virtual": true
+    },
+    {
+      "field_token": "0x4000494",
+      "field": ".\u0089\u008e\u008b::\u0089\u0095\u009d",
+      "target_token": "0x60006d8",
+      "target": ".\u0088\u0086\u0098::\u0088\u0086\u009b",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40002c1",
+      "field": ".\u0088\u008d\u0086::\u0089\u0095\u009e",
+      "target_token": "0x60006e8",
+      "target": ".<Module>{01c3f361-e624-4ea5-ab76-ca5ac788cc97}::ve8bc3584f9504afdbaaf2a7c540d378f",
+      "virtual": false
+    },
+    {
+      "field_token": "0x40004f7",
+      "field": ".\u0089\u0096\u0086::\u0089\u0096\u0087",
+      "target_token": "0x6000390",
+      "target": "\u0087\u0091\u0095.\u0087\u0091\u0094::\u0087\u0091\u0099",
+      "virtual": false
+    }
+  ]
+}

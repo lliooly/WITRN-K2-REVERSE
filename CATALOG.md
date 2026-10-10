@@ -1,18 +1,25 @@
-# 逐文件目录
+# 逐文件附录
 
-每项对应一个公开文件。`MANIFEST.json` 记录文件大小与 SHA-256（不对其自身计算递归哈希）。
+按材料的作用分组。阅读正文先从 [研究主线](research/README.md) 开始；本页用于查找原文件。大小与 SHA-256 见 [MANIFEST.json](MANIFEST.json)。
+
+## 阅读主线与函数证据
 
 | 文件 | 用途 |
 | --- | --- |
-| [.github/workflows/verify.yml](.github/workflows/verify.yml) | Python 3.9 / 3.13 离线测试和清单 CI |
-| [.gitignore](.gitignore) | 本地输入、厂商文件、私人数据及生成物忽略规则 |
-| [CATALOG.md](CATALOG.md) | 本逐文件索引 |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | 贡献证据、第三方来源与合成测试要求 |
-| [LICENSE](LICENSE) | 来源项目标准 MIT 许可证 |
-| [MANIFEST.json](MANIFEST.json) | 全部发布文件的大小与 SHA-256 清单 |
-| [NOTICE.md](NOTICE.md) | 许可证适用范围、第三方权利及侵权联系删除声明 |
-| [README.md](README.md) | 研究总览、主题导航与离线入口 |
-| [TAKEDOWN.md](TAKEDOWN.md) | 联系入口和删除请求处理方法 |
+| [research/01-method-recovery.md](research/01-method-recovery.md) | 占位 IL、静态恢复、代理、VM 与导出的连接 |
+| [research/02-firmware-dfu.md](research/02-firmware-dfu.md) | 格式、函数证据、地址与升级事务 |
+| [research/03-picture.md](research/03-picture.md) | 参数、像素、资源分配与 worker 调用链 |
+| [research/04-emark.md](research/04-emark.md) | 四种表示、来源字段与独立扇区 |
+| [research/05-monitor-files.md](research/05-monitor-files.md) | 原生入口、数据流、采样与文件交换 |
+| [research/README.md](research/README.md) | 研究对象、证据类型及阅读顺序 |
+| [research/functions/README.md](research/functions/README.md) | 关键职责、RID / token 与本地 C# 定位 |
+| [research/functions/upv30-methods.json](research/functions/upv30-methods.json) | 1269 条恢复方法元数据，无指令或代码体 |
+| [research/functions/upv30-proxies.json](research/functions/upv30-proxies.json) | 574 组代理关联，无函数体 |
+
+## 详细报告、协议与历史实测
+
+| 文件 | 用途 |
+| --- | --- |
 | [docs/k2-emark-design.md](docs/k2-emark-design.md) | E-Mark 设计背景 |
 | [docs/k2-monitor-design.md](docs/k2-monitor-design.md) | 遥测和记录设计背景 |
 | [docs/k2-monitor-hardware-validation.md](docs/k2-monitor-hardware-validation.md) | K2 5.8 历史只读遥测实测汇总 |
@@ -21,21 +28,33 @@
 | [docs/k2-monitor.md](docs/k2-monitor.md) | 采集、文件交换与统计使用说明 |
 | [docs/k2picture-design.md](docs/k2picture-design.md) | 图片和表盘实现设计背景 |
 | [docs/k2picture-plan.md](docs/k2picture-plan.md) | 图片和表盘实现计划历史记录 |
-| [docs/macos-app.md](docs/macos-app.md) | 原应用构建与打包说明；完整应用见来源仓库 |
 | [docs/materials.md](docs/materials.md) | 输入来源与未公开材料类别 |
 | [docs/monitor-performance.md](docs/monitor-performance.md) | 记录和图表查询性能背景 |
 | [docs/protocol.md](docs/protocol.md) | 固件容器、帧、命令、升级顺序与测速实测 |
 | [docs/reproduction.md](docs/reproduction.md) | 依赖、输入哈希、复现顺序与自动化缺口 |
-| [docs/ui-layout-design.md](docs/ui-layout-design.md) | 原应用 UI 设计背景 |
-| [docs/ui-layout-plan.md](docs/ui-layout-plan.md) | 原应用 UI 实现计划背景 |
-| [docs/ui-layout-validation.md](docs/ui-layout-validation.md) | 原应用历史布局验证背景 |
 | [docs/validation.md](docs/validation.md) | 静态、合成测试和历史实机结果边界 |
-| [evidence/README.md](evidence/README.md) | 历史摘要来源及证据限制 |
-| [evidence/dotnet-validation.json](evidence/dotnet-validation.json) | 历史方法恢复验证摘要 |
-| [evidence/firmware-5.8-summary.json](evidence/firmware-5.8-summary.json) | 5.8 固件格式 / 向量 / 地址摘要，不含正文 |
-| [evidence/firmware-validation.json](evidence/firmware-validation.json) | 历史固件校验与破坏样本拒绝摘要 |
-| [evidence/publication-validation.json](evidence/publication-validation.json) | 本次发布离线核验结果 |
-| [evidence/snapshot.json](evidence/snapshot.json) | 来源仓库提交与提取范围 |
+| [reverse/K2EMARK.md](reverse/K2EMARK.md) | E-Mark 文件、VDO 位字段、集合与资源地址 |
+| [reverse/K2PICTURE.md](reverse/K2PICTURE.md) | 图片、表盘布局、资源地址与静态方法证据 |
+| [reverse/README.md](reverse/README.md) | 分析脚本操作说明 |
+| [reverse/REPORT.md](reverse/REPORT.md) | UP V30 方法恢复、固件与实现边界总报告 |
+
+## 静态分析与只读实验工具
+
+| 文件 | 用途 |
+| --- | --- |
+| [reverse/benchmark_dfu_reads.py](reverse/benchmark_dfu_reads.py) | 仅放行 3 / 10 / 11 命令的实机只读测速 |
+| [reverse/extract_delegates.py](reverse/extract_delegates.py) | 恢复代理字段与目标 token |
+| [reverse/extract_tables.py](reverse/extract_tables.py) | 提取字节替换与扇区配置表 |
+| [reverse/inspect_dotnet.py](reverse/inspect_dotnet.py) | 导出托管方法 IL 与嵌入资源 |
+| [reverse/inspect_firmware.py](reverse/inspect_firmware.py) | 依赖本地导出表的离线固件研究检查 |
+| [reverse/parse_vm.py](reverse/parse_vm.py) | 解析保护器 VM 与初始化常量 |
+| [reverse/restore_methods.py](reverse/restore_methods.py) | 恢复方法体并校验记录长度；仅本地生成 DLL |
+| [reverse/unpack_static.py](reverse/unpack_static.py) | 静态解释资源解码器 IL |
+
+## 独立参考实现
+
+| 文件 | 用途 |
+| --- | --- |
 | [k2_gui_backend.py](k2_gui_backend.py) | JSON 后台兼容入口 |
 | [k2_updater.py](k2_updater.py) | 命令行兼容入口 |
 | [k2up/__init__.py](k2up/__init__.py) | 参考实现版本标识 |
@@ -60,20 +79,18 @@
 | [k2up/telemetry.py](k2up/telemetry.py) | 普通模式遥测字段与报告校验；含 MIT 改编 |
 | [k2up/transport.py](k2up/transport.py) | HIDAPI 枚举、选择与报告 ID 适配 |
 | [k2up/updater.py](k2up/updater.py) | 型号核验、擦写阶段、完整比较及提交 |
-| [requirements-analysis.txt](requirements-analysis.txt) | 可选静态 .NET 分析依赖 |
 | [requirements.txt](requirements.txt) | 真实 HID 操作所需 HIDAPI 依赖 |
-| [reverse/K2EMARK.md](reverse/K2EMARK.md) | E-Mark 文件、VDO 位字段、集合与资源地址 |
-| [reverse/K2PICTURE.md](reverse/K2PICTURE.md) | 图片、表盘布局、资源地址与静态方法证据 |
-| [reverse/README.md](reverse/README.md) | 分析脚本操作说明 |
-| [reverse/REPORT.md](reverse/REPORT.md) | UP V30 方法恢复、固件与实现边界总报告 |
-| [reverse/benchmark_dfu_reads.py](reverse/benchmark_dfu_reads.py) | 仅放行 3 / 10 / 11 命令的实机只读测速 |
-| [reverse/extract_delegates.py](reverse/extract_delegates.py) | 恢复代理字段与目标 token |
-| [reverse/extract_tables.py](reverse/extract_tables.py) | 提取字节替换与扇区配置表 |
-| [reverse/inspect_dotnet.py](reverse/inspect_dotnet.py) | 导出托管方法 IL 与嵌入资源 |
-| [reverse/inspect_firmware.py](reverse/inspect_firmware.py) | 依赖本地导出表的离线固件研究检查 |
-| [reverse/parse_vm.py](reverse/parse_vm.py) | 解析保护器 VM 与初始化常量 |
-| [reverse/restore_methods.py](reverse/restore_methods.py) | 恢复方法体并校验记录长度；仅本地生成 DLL |
-| [reverse/unpack_static.py](reverse/unpack_static.py) | 静态解释资源解码器 IL |
+
+## 合成测试与验证摘要
+
+| 文件 | 用途 |
+| --- | --- |
+| [evidence/README.md](evidence/README.md) | 历史摘要来源及证据限制 |
+| [evidence/dotnet-validation.json](evidence/dotnet-validation.json) | 历史方法恢复验证摘要 |
+| [evidence/firmware-5.8-summary.json](evidence/firmware-5.8-summary.json) | 5.8 固件格式 / 向量 / 地址摘要，不含正文 |
+| [evidence/firmware-validation.json](evidence/firmware-validation.json) | 历史固件校验与破坏样本拒绝摘要 |
+| [evidence/publication-validation.json](evidence/publication-validation.json) | 本次发布离线核验结果 |
+| [evidence/snapshot.json](evidence/snapshot.json) | 来源仓库提交与提取范围 |
 | [tests/test_dfu_read_benchmark.py](tests/test_dfu_read_benchmark.py) | 合成 / 模拟回归：dfu_read_benchmark |
 | [tests/test_emark.py](tests/test_emark.py) | 合成 / 模拟回归：emark |
 | [tests/test_gui_bridge.py](tests/test_gui_bridge.py) | 合成 / 模拟回归：gui_bridge |
@@ -84,6 +101,31 @@
 | [tests/test_recording.py](tests/test_recording.py) | 合成 / 模拟回归：recording |
 | [tests/test_recording_stats.py](tests/test_recording_stats.py) | 合成 / 模拟回归：recording_stats |
 | [tests/test_telemetry.py](tests/test_telemetry.py) | 合成 / 模拟回归：telemetry |
+
+## 应用背景附录
+
+| 文件 | 用途 |
+| --- | --- |
+| [archive/application/README.md](archive/application/README.md) | 应用背景附录入口 |
+| [archive/application/macos-app.md](archive/application/macos-app.md) | 原应用构建与打包说明；完整应用见来源仓库 |
+| [archive/application/ui-layout-design.md](archive/application/ui-layout-design.md) | 原应用 UI 设计背景 |
+| [archive/application/ui-layout-plan.md](archive/application/ui-layout-plan.md) | 原应用 UI 实现计划背景 |
+| [archive/application/ui-layout-validation.md](archive/application/ui-layout-validation.md) | 原应用历史布局验证背景 |
+
+## 来源、许可与发布维护
+
+| 文件 | 用途 |
+| --- | --- |
+| [.github/workflows/verify.yml](.github/workflows/verify.yml) | Python 3.9 / 3.13 离线测试和清单 CI |
+| [.gitignore](.gitignore) | 本地输入、厂商文件、私人数据及生成物忽略规则 |
+| [CATALOG.md](CATALOG.md) | 本逐文件索引 |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | 贡献证据、第三方来源与合成测试要求 |
+| [LICENSE](LICENSE) | 来源项目标准 MIT 许可证 |
+| [MANIFEST.json](MANIFEST.json) | 全部发布文件的大小与 SHA-256 清单 |
+| [NOTICE.md](NOTICE.md) | 许可证适用范围、第三方权利及侵权联系删除声明 |
+| [README.md](README.md) | 研究总览、主题导航与离线入口 |
+| [TAKEDOWN.md](TAKEDOWN.md) | 联系入口和删除请求处理方法 |
+| [requirements-analysis.txt](requirements-analysis.txt) | 可选静态 .NET 分析依赖 |
 | [third_party/README.md](third_party/README.md) | 实际改编代码的来源及修改说明 |
 | [third_party/witrn-driver-LICENSE.txt](third_party/witrn-driver-LICENSE.txt) | didim99 上游 MIT 许可证全文 |
 | [tools/manifest.py](tools/manifest.py) | 生成与核验 SHA-256 发布清单 |
