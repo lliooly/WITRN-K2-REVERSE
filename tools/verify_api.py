@@ -21,6 +21,16 @@ def signature(name, node):
     return caller_name + '(' + args + ')'
 
 
+
+def canonical_signature(value):
+    if '(' not in value:
+        return value
+    name, arguments = value.split('(', 1)
+    parsed = ast.parse('def _contract(' + arguments + ':\n    pass').body[0].args
+    # Compare argument syntax, not ast.unparse's version-dependent whitespace.
+    return name, ast.dump(parsed, include_attributes=False)
+
+
 def main():
     expected = {}
     for path in (ROOT / 'k2up').glob('*.py'):
@@ -33,10 +43,10 @@ def main():
                                if isinstance(fn, ast.FunctionDef) and
                                (not fn.name.startswith('_') or fn.name == '__init__'))
             for name, fn in entries:
-                expected[(path.stem, name)] = (signature(name, fn), fn.lineno)
+                expected[(path.stem, name)] = (canonical_signature(signature(name, fn)), fn.lineno)
     index = json.loads((ROOT / 'api/python-functions.json').read_text())
     entries = index['functions']
-    documented = {(e['module'], e['name']): (e['signature'], e['line']) for e in entries}
+    documented = {(e['module'], e['name']): (canonical_signature(e['signature']), e['line']) for e in entries}
     assert len(entries) == len(documented) == index['count']
     assert expected == documented, 'Python API signature or coverage differs from documentation'
     rendered = (ROOT / 'api/python-reference.md').read_text()

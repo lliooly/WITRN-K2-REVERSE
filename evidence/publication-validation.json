@@ -40,6 +40,7 @@
     "result": "passed",
     "usb_accessed": false,
     "copyright_card": "Local SVG thumbnail inspected; mailto contact added.",
-    "reference_implementation_changed": false
+    "reference_implementation_changed": false,
+    "cross_version_signature_validation": "AST argument structure; ignores formatter whitespace while preserving names and defaults"
   }
 }

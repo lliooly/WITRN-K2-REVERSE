@@ -195,8 +195,8 @@
     },
     {
       "path": "evidence/publication-validation.json",
-      "size_bytes": 1592,
-      "sha256": "b23fdad0743f7d46cc968fa7f223aa893c796f9e5f46a7c1a5fa49c7ac5f9a2f"
+      "size_bytes": 1726,
+      "sha256": "569cf9adf45ac2c00e35eff20f5f027d59db988fb73e72835938c85443e7ec2d"
     },
     {
       "path": "evidence/snapshot.json",
@@ -525,8 +525,8 @@
     },
     {
       "path": "tools/verify_api.py",
-      "size_bytes": 2923,
-      "sha256": "75485b602a62dc7e43694cb99574a588ed657f42829360a7095571a5678e2c5b"
+      "size_bytes": 3309,
+      "sha256": "77055696d83606ca3744e9d4ca07fe5bb5aded76d1efb3c1c3ce2d3fb93caaee"
     }
   ]
 }
