@@ -1,0 +1,50 @@
+{
+  "valid_container": true,
+  "checks": {
+    "magic": true,
+    "k2_model_guid": true,
+    "payload_length": true,
+    "payload_xor": true,
+    "payload_sum": true,
+    "vendor_date_upper_bounds": true,
+    "fits_configured_app_sectors": true
+  },
+  "source_sha256": "15d280b385f5899c4c31ea5587ede6e286fecb48783a14764155f7b892c3de9c",
+  "source_size": 716448,
+  "header": {
+    "magic": "gzutapp",
+    "year": 2026,
+    "month": 9,
+    "day": 24,
+    "date": "2026-09-24",
+    "reserved_hex": "ffffffffffffffffff",
+    "model_guid": "5a3f8522-366b-46cc-aacc-dbfbe2fee02a",
+    "payload_size": 716400,
+    "xor_u32": 239,
+    "sum_u32": 73263793
+  },
+  "payload_size": 716400,
+  "payload_sha256": "cf45a7e4969049eba3660a698a22795f48ac71583e07229172fee2bc6a0effa7",
+  "payload_xor": 239,
+  "payload_sum": 73263793,
+  "version_byte_at_payload_0x800": 88,
+  "version": "5.8",
+  "vector_words": [
+    "0x20017D50",
+    "0x08003B11",
+    "0x08006F55",
+    "0x08003FFD",
+    "0x08006F51",
+    "0x08003FF9",
+    "0x08008E65",
+    "0x00000000"
+  ],
+  "app_start_from_updater_config": "0x08003800",
+  "app_end_exclusive": "0x080B2670",
+  "sector_rounding": {
+    "count": 350,
+    "covered_bytes": 716800,
+    "end_exclusive": "0x080B2800",
+    "note": "Derived from configured sectors; not a verified erase plan."
+  }
+}

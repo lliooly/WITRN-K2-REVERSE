@@ -1,0 +1,417 @@
+{
+  "schema": 1,
+  "hash_algorithm": "SHA-256",
+  "scope": "All distributable files except MANIFEST.json itself; caches and local outputs excluded.",
+  "files": [
+    {
+      "path": ".github/workflows/verify.yml",
+      "size_bytes": 425,
+      "sha256": "403cb7db62a0c1e1eedce620b620485cfab21301d1a33e69b2d4bce8dbc9c961"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 1249,
+      "sha256": "4e2455a37b5066c127273321e7b93a791dc5f427d0eeb359a479c117f9bba6c4"
+    },
+    {
+      "path": "CATALOG.md",
+      "size_bytes": 7878,
+      "sha256": "144319fbbb068fe1398bb81747bfa3bcc056b7d7729941b631dbb26f37a7e726"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size_bytes": 802,
+      "sha256": "7a2e74c6ab8ff1abb9cbaa932c8cf301ef7552f21ef31a1fc6d8fa99bfd16495"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 1089,
+      "sha256": "69e0e316956d552b614abcb9f24bbbbc91d9337d37c50f577068f86e806214a4"
+    },
+    {
+      "path": "NOTICE.md",
+      "size_bytes": 2189,
+      "sha256": "ab46dc25e1175062657043b6fa719b3f4e593f9925b0e8a9f400b981e55912aa"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 6722,
+      "sha256": "3db7b932103c8dedd62dc856c9a3b9ebb2fd21883f5bc545edce9b9f9109a9ca"
+    },
+    {
+      "path": "TAKEDOWN.md",
+      "size_bytes": 1443,
+      "sha256": "5c7a289be77b30f809ea05a09e9832fc99714b89b1d29b80ed1ad7e2ae5ec9f4"
+    },
+    {
+      "path": "docs/k2-emark-design.md",
+      "size_bytes": 4901,
+      "sha256": "0c6b2be54b539e8a6ef585e2f5e1e238d9cf9cc888acb648454a6656c81f3fbc"
+    },
+    {
+      "path": "docs/k2-monitor-design.md",
+      "size_bytes": 10194,
+      "sha256": "56525b538d50c06fbab46fb33956c1cb5ccb8239131b2caa8d849f379a091593"
+    },
+    {
+      "path": "docs/k2-monitor-hardware-validation.md",
+      "size_bytes": 5556,
+      "sha256": "72c4b059d1e3020dfbf734572012b21a295a9dbd3935b53a0b9c8b05da2ce000"
+    },
+    {
+      "path": "docs/k2-monitor-plan.md",
+      "size_bytes": 986,
+      "sha256": "1b06cd205516d8f8a5296976069198beb29e777972f794d103f3f658a2200744"
+    },
+    {
+      "path": "docs/k2-monitor-research.md",
+      "size_bytes": 5380,
+      "sha256": "420fa9de6bb1b1472bd66bbbf9b414dc023bc25634794ac94a196d0e250a9e6c"
+    },
+    {
+      "path": "docs/k2-monitor.md",
+      "size_bytes": 6674,
+      "sha256": "7decb048314a85b51934284563ba73cb7eeb160b38d63a44c333a768631345f9"
+    },
+    {
+      "path": "docs/k2picture-design.md",
+      "size_bytes": 5706,
+      "sha256": "01869650b0effeee2bf6132d4ad3b41b3388e9cd9a336857eebaf5369b042126"
+    },
+    {
+      "path": "docs/k2picture-plan.md",
+      "size_bytes": 1726,
+      "sha256": "f6d6f87ed80762bb86d9c11b09cb8122804e6ca8d79a28be81f1d29068d66163"
+    },
+    {
+      "path": "docs/macos-app.md",
+      "size_bytes": 15756,
+      "sha256": "9da5ae1362c22418d49de74e3f654b1dc78de7cec851336fe443b93d3b4f8f02"
+    },
+    {
+      "path": "docs/materials.md",
+      "size_bytes": 2772,
+      "sha256": "40c25f09bae52e938d9f281f459c7b6f750493a91c52d9e15333981565981368"
+    },
+    {
+      "path": "docs/monitor-performance.md",
+      "size_bytes": 4188,
+      "sha256": "1fcd4475230f1403f40b8e2b5659fb0573ab0528178a96e60480dc07bb8a88c5"
+    },
+    {
+      "path": "docs/protocol.md",
+      "size_bytes": 8822,
+      "sha256": "9e703d38b0d8e4336873114f211b4b6cdae2dd46821a226b722b89ac319f9280"
+    },
+    {
+      "path": "docs/reproduction.md",
+      "size_bytes": 3499,
+      "sha256": "0aeb490dd39c8452b0c40443220e7fc4b059198edf37e93d4f0d47e676ea3f1d"
+    },
+    {
+      "path": "docs/ui-layout-design.md",
+      "size_bytes": 14148,
+      "sha256": "0d71fd5e8d3a04bacbd7422bb0f02db8c0c118b1e2d58f6eb7498121bf7f9bdb"
+    },
+    {
+      "path": "docs/ui-layout-plan.md",
+      "size_bytes": 1117,
+      "sha256": "9431972e0be943116b40e567a7db0df31fe93948c757fcb2beaa2920ff887aae"
+    },
+    {
+      "path": "docs/ui-layout-validation.md",
+      "size_bytes": 3532,
+      "sha256": "23b3422f546f9553dde31d6377f39d28d7641f7d5958f5b50d1c94b7a3295a2b"
+    },
+    {
+      "path": "docs/validation.md",
+      "size_bytes": 2167,
+      "sha256": "83fdc069735c05a2dceaf4e829e744383479b2626dedcd3d91bca45758990079"
+    },
+    {
+      "path": "evidence/README.md",
+      "size_bytes": 864,
+      "sha256": "e5e0635e5b40d48d22902c14ab7cb8196e516e59c9f99230768b5ea4c66a5199"
+    },
+    {
+      "path": "evidence/dotnet-validation.json",
+      "size_bytes": 341,
+      "sha256": "a9aff12186353b351fdbe4ee4f91fba7a39b27ecb3b3c542fdfceb374ab41253"
+    },
+    {
+      "path": "evidence/firmware-5.8-summary.json",
+      "size_bytes": 1313,
+      "sha256": "29114a4d44e6b9a32dacbb6fd60b898fe370959d6cad0f2fd74293ccab43b20d"
+    },
+    {
+      "path": "evidence/firmware-validation.json",
+      "size_bytes": 204,
+      "sha256": "7183144c639288dc13d1d61e827257a724dc3d30199662e7a3aacc9b8968ee25"
+    },
+    {
+      "path": "evidence/publication-validation.json",
+      "size_bytes": 753,
+      "sha256": "0c09505370ae849d0ae8b70bba6121ae3d75c9ba789c0c921dd20b11a286001b"
+    },
+    {
+      "path": "evidence/snapshot.json",
+      "size_bytes": 494,
+      "sha256": "6f4cebf6e589eb3d2df6ad833ca1ec95e1b583e75d7bc24538baf34cd5b14adf"
+    },
+    {
+      "path": "k2_gui_backend.py",
+      "size_bytes": 113,
+      "sha256": "0907efe74fc95e25843004e175ca67355633dc6348a1d6345d0e4b59c73ea835"
+    },
+    {
+      "path": "k2_updater.py",
+      "size_bytes": 163,
+      "sha256": "c14dcb39cbff24cebd49cade54afec925f0250dfb5105b02c2115398b103d2e3"
+    },
+    {
+      "path": "k2up/__init__.py",
+      "size_bytes": 93,
+      "sha256": "68a4d820e66d0c014143693de8817cff53c4bba47019f34ccae481c56c93c158"
+    },
+    {
+      "path": "k2up/__main__.py",
+      "size_bytes": 48,
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "k2up/backup.py",
+      "size_bytes": 3844,
+      "sha256": "8cad7277a592bfa231d87fef301290e56dcbba5a6cf08b57b0a1c258e3ed95eb"
+    },
+    {
+      "path": "k2up/cli.py",
+      "size_bytes": 8235,
+      "sha256": "f4acdcba5b8b25cf1812de1ab13e63828bce5a1de6fd3d5fd91d35eb27bad558"
+    },
+    {
+      "path": "k2up/data/firmware_decode.bin",
+      "size_bytes": 256,
+      "sha256": "5868c4849420c76f770b7eb7969a9b60e3ba7e441ef6a775590e9cad29bc0431"
+    },
+    {
+      "path": "k2up/demo.py",
+      "size_bytes": 1557,
+      "sha256": "1bd20f0beb2fe21ce8a8173a296a7a7cef2d3bf8ec06045e1f1c274b34090dee"
+    },
+    {
+      "path": "k2up/emark.py",
+      "size_bytes": 1784,
+      "sha256": "c3eb66431c6b38b915fbe498f0472c02ff89bfbe5b1f52abb82718562661e6c9"
+    },
+    {
+      "path": "k2up/firmware.py",
+      "size_bytes": 5326,
+      "sha256": "443a8e9dbfecdbdbd9e7a64f9f010fd1243dc89e6c8443de4360db0e851472d3"
+    },
+    {
+      "path": "k2up/gui_bridge.py",
+      "size_bytes": 15156,
+      "sha256": "19c88d421b2040110e61265572eee226ca8c030a210f481fed850a59719fd8fc"
+    },
+    {
+      "path": "k2up/monitor.py",
+      "size_bytes": 9138,
+      "sha256": "f9fb522399e0e37e8e590ee7db26ba453bf2a732296ba8299e4950a34272626a"
+    },
+    {
+      "path": "k2up/official_firmware.py",
+      "size_bytes": 1945,
+      "sha256": "5912b7c1504f332da73da7edab224d439d7d9f4ff6021a589f357a42201e0a8e"
+    },
+    {
+      "path": "k2up/picture.py",
+      "size_bytes": 2659,
+      "sha256": "fc6d182bdc072daa141ca341e207090800db753ed512aeb22daea72bfe1286bc"
+    },
+    {
+      "path": "k2up/picture_device.py",
+      "size_bytes": 6758,
+      "sha256": "214d185f26aec95ddd3e41fa34f19e5fe3ff7cb985793fc86e86a23de54e449a"
+    },
+    {
+      "path": "k2up/picture_simulator.py",
+      "size_bytes": 3442,
+      "sha256": "14d4cb064ee0d7e63c9c6bab510d5eaaf318298ff22fcd6609635d47be0a12ee"
+    },
+    {
+      "path": "k2up/protocol.py",
+      "size_bytes": 5274,
+      "sha256": "6bdb187407edc92143ac92638a25f8e8e0bbde1ca33e5e1da43b5945235ef152"
+    },
+    {
+      "path": "k2up/recording.py",
+      "size_bytes": 4965,
+      "sha256": "c24f2c14ffdb99fe9372826377dd3045f5256a32ab0a5f8d05b44e61e76eb3ab"
+    },
+    {
+      "path": "k2up/recording_files.py",
+      "size_bytes": 10766,
+      "sha256": "c78b8bf338015d702dacfd06ac630b4b1191c0bda271b8c029e5aa027683df41"
+    },
+    {
+      "path": "k2up/recording_stats.py",
+      "size_bytes": 6671,
+      "sha256": "776e25da3075c3667418c4d4ae6df76b2904776390b8ddd052890759be5e9923"
+    },
+    {
+      "path": "k2up/simulator.py",
+      "size_bytes": 5716,
+      "sha256": "b259d4bba8da525cd16f5b49a17411fd21f1c863548badf199cb4f6caad5749e"
+    },
+    {
+      "path": "k2up/telemetry.py",
+      "size_bytes": 3238,
+      "sha256": "f48ea42cdfd0b1f2212cd069842bba4640cbc285d92ee59dec6f4a99169129c8"
+    },
+    {
+      "path": "k2up/transport.py",
+      "size_bytes": 3391,
+      "sha256": "942b4d78955abe7045b6e8cf227270de3af68b04e04f9608dc6bba3c44df1347"
+    },
+    {
+      "path": "k2up/updater.py",
+      "size_bytes": 5594,
+      "sha256": "5bd5e0fd685493966ead587eb8b865cace7f2f4ecd21b7273193b6bf6ad1859c"
+    },
+    {
+      "path": "requirements-analysis.txt",
+      "size_bytes": 110,
+      "sha256": "7acb2165fdc81a605126b0afa08f75d89c5a64887f4a9915e0d2c0e7c26c5b55"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 15,
+      "sha256": "6e78c6c5a61dbebf36f570a14685c795efcdb3d8bb6b6118b6aa78dd0aca54d4"
+    },
+    {
+      "path": "reverse/K2EMARK.md",
+      "size_bytes": 5849,
+      "sha256": "480f030024914e1e0ee462255bab36ebaa457d87cf8d76b7d3dfba17a6932b6e"
+    },
+    {
+      "path": "reverse/K2PICTURE.md",
+      "size_bytes": 6801,
+      "sha256": "8c71362244823b89b058e29b53d7c2b0c608eb275e70bb6f49f1d5b7141f7f4e"
+    },
+    {
+      "path": "reverse/README.md",
+      "size_bytes": 2875,
+      "sha256": "3eece854d46c2dfc01836cb6a1ccbbd0277b7eb68e03044a033a6cc1311c5f3d"
+    },
+    {
+      "path": "reverse/REPORT.md",
+      "size_bytes": 3948,
+      "sha256": "f74fd1717cbab79b765f7999f09fac674ee21833bf489a840a58be90e17b4b7e"
+    },
+    {
+      "path": "reverse/benchmark_dfu_reads.py",
+      "size_bytes": 6611,
+      "sha256": "8136020ef8e5494e1270fa87632837569d2052c9afb599b70aae410f6c332fcd"
+    },
+    {
+      "path": "reverse/extract_delegates.py",
+      "size_bytes": 2071,
+      "sha256": "471d40ace088c67d106b835a21c02a49bd56764a81adaa583bbfc4e844fafb86"
+    },
+    {
+      "path": "reverse/extract_tables.py",
+      "size_bytes": 1617,
+      "sha256": "09470060f5a32f731460eb11f09caec31744be674cc3bbfb434bcef6594c7adb"
+    },
+    {
+      "path": "reverse/inspect_dotnet.py",
+      "size_bytes": 2614,
+      "sha256": "1adb16ea50ca2e7b74f41c2ab8cd9d269060057439aa9c403b513aad70deb0b8"
+    },
+    {
+      "path": "reverse/inspect_firmware.py",
+      "size_bytes": 4344,
+      "sha256": "c80b8a54e9f53f1f41b0ef4e9b7ecee51a4aa4c431b3ec6029ea8132f74eb384"
+    },
+    {
+      "path": "reverse/parse_vm.py",
+      "size_bytes": 2737,
+      "sha256": "89388b769e290779639d5acfc9d68285fb63c3aae687f98ea855573abd56cf89"
+    },
+    {
+      "path": "reverse/restore_methods.py",
+      "size_bytes": 3250,
+      "sha256": "4a6fca29be6586651d461900e9fecfb13e12250e8ffa9455f791a989cab6525a"
+    },
+    {
+      "path": "reverse/unpack_static.py",
+      "size_bytes": 9405,
+      "sha256": "2ab09b9624d4fbb4aadcfdbdd0321182616a87da43bad4e8dcb8af5b719db9ac"
+    },
+    {
+      "path": "tests/test_dfu_read_benchmark.py",
+      "size_bytes": 4310,
+      "sha256": "afccbade2244f0b96edc1fabecd625d0de6d1999f21affd2c279169f6fad4078"
+    },
+    {
+      "path": "tests/test_emark.py",
+      "size_bytes": 3770,
+      "sha256": "29ce1ff7e450d975f00fbfe071e0b722a012a62ce6251e6c12433fdd9d5971ff"
+    },
+    {
+      "path": "tests/test_gui_bridge.py",
+      "size_bytes": 6594,
+      "sha256": "d0f22a667cf00f6627e4d6881ae1e4efa0229dc5d1d65f163eed48ed22dfc67e"
+    },
+    {
+      "path": "tests/test_k2up.py",
+      "size_bytes": 18543,
+      "sha256": "b98b0b2ce1a98474c67254cd77a535772e561c2e05dbc85471f46d1eeade8f4e"
+    },
+    {
+      "path": "tests/test_monitor.py",
+      "size_bytes": 4044,
+      "sha256": "9bbed75857b1cf0fe59a5a413f17a49c6bdf5a04f10b24063489c72b7ce65b08"
+    },
+    {
+      "path": "tests/test_official_firmware.py",
+      "size_bytes": 3808,
+      "sha256": "0540cb856f0490916107480cf18cbcd198f7beeaa700910987913fc6d99f807f"
+    },
+    {
+      "path": "tests/test_picture.py",
+      "size_bytes": 10203,
+      "sha256": "17ddcdd616f8e51054606b866c2643ac388f0c2743b94cc2154f1338841a89eb"
+    },
+    {
+      "path": "tests/test_recording.py",
+      "size_bytes": 3548,
+      "sha256": "07225c8b8821b501202ffa3c5ff17dee327f41763d9ace0b1610d075e3213d30"
+    },
+    {
+      "path": "tests/test_recording_stats.py",
+      "size_bytes": 2660,
+      "sha256": "0f1ace3ba1a18a75b179641c1d2d905b3544e78d31a9470a9c0ddeb1d22fd7e1"
+    },
+    {
+      "path": "tests/test_telemetry.py",
+      "size_bytes": 2662,
+      "sha256": "028151d428ca32e638dccd60a4e786b00ca28741376ac50ace6ade0eca3ac0b1"
+    },
+    {
+      "path": "third_party/README.md",
+      "size_bytes": 739,
+      "sha256": "baae84b2676e86ce08f16792f44a7e5c5b25b5129ce6f4b2442d03155a619562"
+    },
+    {
+      "path": "third_party/witrn-driver-LICENSE.txt",
+      "size_bytes": 1064,
+      "sha256": "edae8914c185bc9a6c0cdf66ed928162445631b760f4f11aeddff810bdfb9c88"
+    },
+    {
+      "path": "tools/manifest.py",
+      "size_bytes": 2647,
+      "sha256": "a4916a22d100fa98bb9d300f74d07a6b8cc6bc21bc699f24e0e5cdbfa8d4c5b5"
+    }
+  ]
+}

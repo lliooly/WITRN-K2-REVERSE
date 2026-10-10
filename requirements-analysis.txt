@@ -1,0 +1,5 @@
+# Optional dependencies for static .NET analysis; not needed for unit tests.
+dnfile
+dncil
+pefile
+pycryptodome

@@ -1,0 +1,86 @@
+# Local Python environments and caches
+.venv/
+.venv-app/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and editor state
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Captured device data: may include serial numbers, paths, and raw traffic
+k2_logs/
+k2_backups/
+*.partial
+tests/fixtures/
+*.k2project
+*.k2image
+*.k2emark
+*.k2emarkbin
+*.wtemark
+
+# Vendor applications, firmware, and generated/recovered binaries
+*.dll
+*.exe
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+*.k2
+*.zip
+K2_V*/
+K2Picture_*/
+WITRN_PC_V1.0.4/
+k2_recordings/
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.app.bin
+*.decoded.bin
+*.bin
+
+# Keep the small protocol substitution table required by the Python parser.
+!k2up/data/firmware_decode.bin
+
+# Analysis output that can contain vendor code, full device captures, or large databases
+reverse/validation/
+reverse/dotnet/
+reverse/firmware/
+reverse/tables/
+reverse/decompiled/
+reverse/native-decompiled/
+reverse/focused/*.cs
+reverse/ida_*.json
+docs/superpowers/
+
+# Build and coverage output
+build/
+dist/
+.build/
+.swiftpm/
+htmlcov/
+coverage.xml
+
+# Offline exports and local vendor inputs
+*.cs
+*.sqlite
+*.sqlite3
+*.db
+*.jsonl
+inputs/
+artifacts/
+research-output/

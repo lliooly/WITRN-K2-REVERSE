@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-10",
+  "python_version": "3.9.6",
+  "unittest": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "tests_run": 84,
+    "result": "passed",
+    "usb_accessed": false,
+    "vendor_input_required": false
+  },
+  "offline_firmware_inspection": {
+    "command": "python3 -m k2up inspect <local K2_APP_5.8.k2>",
+    "source_sha256": "15d280b385f5899c4c31ea5587ede6e286fecb48783a14764155f7b892c3de9c",
+    "result": "passed",
+    "vendor_input_published": false,
+    "usb_accessed": false
+  },
+  "publication_scope": "Historical static summaries and sanitized reports; no private hardware logs or vendor executable artifacts.",
+  "github_ci": "Configured for Python 3.9 and 3.13; remote status must be checked separately."
+}

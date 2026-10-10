@@ -1,0 +1,8 @@
+{
+  "original_valid": true,
+  "whole_file_reencode_identical": true,
+  "truncation_rejected": true,
+  "changed_payload_rejected": true,
+  "changed_model_rejected": true,
+  "short_header_rejected": true
+}

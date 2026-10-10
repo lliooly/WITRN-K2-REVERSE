@@ -1,0 +1,7 @@
+{
+  "snapshot_date": "2026-10-10",
+  "source_repository": "https://github.com/lliooly/witrn-k2-updater-re",
+  "source_commit": "04baed2539f869ab2d66b09a0b75704c51473100",
+  "selection": "Tracked reverse-engineering scripts, research and design documents, Python implementation and synthetic tests; excludes SwiftUI application and local uncommitted edits.",
+  "historical_evidence": "Other evidence JSON files are historical local analysis summaries, not newly executed hardware validation."
+}

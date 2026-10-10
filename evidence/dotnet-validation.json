@@ -1,0 +1,9 @@
+{
+  "method_count": 1269,
+  "header_patch_count": 650,
+  "resource_bytes": 292208,
+  "resource_fully_consumed": true,
+  "all_method_bodies_match_resource": true,
+  "original_sha256": "315d274a3c8a1d546174b0f0566089377b278810a20a46bb817f14a75e4c0a37",
+  "restored_sha256": "b67c8ef85646560400a1c59c5f4251e01958b806c8e6213ba751d20b58cf1027"
+}
