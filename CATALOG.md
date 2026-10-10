@@ -2,6 +2,25 @@
 
 按材料的作用分组。阅读正文先从 [研究主线](research/README.md) 开始；本页用于查找原文件。大小与 SHA-256 见 [MANIFEST.json](MANIFEST.json)。
 
+
+## 开发接口与示例
+
+| 文件 | 用途 |
+| --- | --- |
+| [api/README.md](api/README.md) | 三层开发接口与使用选择 |
+| [api/device-commands.md](api/device-commands.md) | HID 命令、输入输出、读写性质、模式与错误 |
+| [api/bridge.md](api/bridge.md) | 15 个 JSON 操作及 NDJSON / 实时控制契约 |
+| [api/python-reference.md](api/python-reference.md) | 112 条逐函数签名、职责、返回与副作用 |
+| [api/python-functions.json](api/python-functions.json) | 机器可读函数契约和源码行号 |
+| [api/integration.md](api/integration.md) | 真实只读接入与完整资源事务 |
+| [api/coverage.md](api/coverage.md) | 开发能力覆盖、证据和缺口 |
+| [examples/README.md](examples/README.md) | 离线示例运行说明 |
+| [examples/sdk_demo.py](examples/sdk_demo.py) | 帧、固件、模拟流程与遥测 |
+| [examples/bridge_demo.py](examples/bridge_demo.py) | 子进程接口与模拟资源读取 |
+| [examples/recording_demo.py](examples/recording_demo.py) | 记录、查询和 CSV 往返 |
+| [assets/copyright-notice.svg](assets/copyright-notice.svg) | 红色版权联系卡片，含邮件入口 |
+| [tools/verify_api.py](tools/verify_api.py) | 校验函数覆盖、签名、操作和文档链接 |
+
 ## 阅读主线与函数证据
 
 | 文件 | 用途 |

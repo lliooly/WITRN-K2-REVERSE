@@ -18,8 +18,10 @@ WITRN、WITRN K2 及相关名称属于各自权利人。本项目是独立研究
 
 ## 如有侵权，请联系删除
 
-**如有侵权，请联系删除。** 权利人或其授权代表可通过 [仓库 Issues](https://github.com/lliooly/witrn-k2-research/issues/new) 联系维护者，说明涉嫌侵权文件、权属依据及联系方式。我们会核查，并对确有侵权或授权不足的相关内容及时删除、修改或下架；处理细节见 [TAKEDOWN.md](TAKEDOWN.md)。
+[![如有侵权，请联系删除；邮箱 1604047731@qq.com](assets/copyright-notice.svg)](mailto:1604047731@qq.com)
 
-If you believe material in this repository infringes your rights, please contact the maintainer through repository Issues with the affected paths and evidence of ownership. We will review the request and remove, modify, or take down affected material where infringement or insufficient permission is established.
+**版权联系邮箱：[1604047731@qq.com](mailto:1604047731@qq.com)**。请提供具体文件、权属依据与联系方式；维护者会核查，并对确有侵权或授权不足的内容及时删除、修改或下架。处理方式见 [TAKEDOWN.md](TAKEDOWN.md)。
+
+Rights holders may email **1604047731@qq.com** with the affected paths, ownership evidence and contact details. The maintainer will review and remove, modify or take down material where infringement or insufficient permission is established.
 
 该声明不替代权利人的授权，也不免除适用法律下的责任。

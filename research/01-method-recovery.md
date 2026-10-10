@@ -52,4 +52,4 @@ K2Picture 数据来自 [专题报告](../reverse/K2PICTURE.md)，此次没有对
 
 ## 验证与缺口
 
-本次整理检查了 UP V30 索引的 RID 唯一性、token 编码、1269 条记录连接、574 组映射及关键函数定位。没有重新执行资源恢复流水线；历史“方法体均可解析”的结论来自已有摘要。完整 VM 语义、跨版本恢复、K2Picture 参数化恢复和 Qt 一键分析尚不完整。复现顺序见 [reproduction.md](../docs/reproduction.md)。
+资料核验检查了 UP V30 索引的 RID 唯一性、token 编码、1269 条记录连接、574 组映射及关键函数定位。没有重新执行资源恢复流水线；历史“方法体均可解析”的结论来自已有摘要。完整 VM 语义、跨版本恢复、K2Picture 参数化恢复和 Qt 一键分析尚不完整。复现顺序见 [reproduction.md](../docs/reproduction.md)。

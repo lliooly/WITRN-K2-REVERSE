@@ -8,7 +8,6 @@
 
 本次只调整 SwiftUI 界面结构、导航、展示状态和操作入口。复用现有 Store、BackendClient、K2Core 及 Python 后端，不更改通信协议、采集、文件格式、备份或写入流程。保留全部现有功能及操作保护。
 
-在当前 checkout 工作，不创建 worktree 或新分支。不使用视觉伴侣。
 
 ## 现状
 

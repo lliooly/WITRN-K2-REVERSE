@@ -37,7 +37,7 @@ python3 -m venv .venv
 
 先导出 IL 方法与资源，再静态解释方法资源、重建方法体、导出格式表、恢复代理、解析 VM。最后的固件研究脚本依赖 `reverse/tables/` 的解码表与扇区表；普通离线解析命令 `python3 -m k2up inspect ...` 使用随库保留的小型协议表，不需要这条恢复流水线。
 
-脚本中 RID、资源 RVA、局部变量编号、输入路径和预期记录数对应上述特定 DLL。其他版本需重新定位；失败时检查来源哈希与报错，不应强行取消断言。历史成功摘要见 [evidence](../evidence/README.md)。本次发布只重新执行合成测试及离线输入检查，没有重新运行全部托管恢复流水线。
+脚本中 RID、资源 RVA、局部变量编号、输入路径和预期记录数对应上述特定 DLL。其他版本需重新定位；失败时检查来源哈希与报错，不应强行取消断言。历史成功摘要见 [evidence](../evidence/README.md)。发布核验只重新执行合成测试及离线输入检查，没有重新运行全部托管恢复流水线。
 
 ## K2Picture 与 Qt 上位机
 
@@ -47,6 +47,6 @@ python3 -m venv .venv
 
 ## 离线与实机区分
 
-`python3 -m unittest discover -s tests -v` 使用合成输入和内存模拟器；`inspect` 和 `dry-run` 不访问 USB。`devices` 会枚举接口；`probe`、`backup` 和研究测速会连接实机；`flash` 会擦写，必须显式声明 DFU 与确认参数。此次整理工作没有执行任何实机操作。
+`python3 -m unittest discover -s tests -v` 使用合成输入和内存模拟器；`inspect` 和 `dry-run` 不访问 USB。`devices` 会枚举接口；`probe`、`backup` 和研究测速会连接实机；`flash` 会擦写，必须显式声明 DFU 与确认参数。资料核验工作没有执行任何实机操作。
 
 完整命令帮助见 `python3 -m k2up --help`。设备使用范围与未验证事项见 [validation.md](validation.md)。

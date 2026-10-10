@@ -27,5 +27,19 @@
     "k2picture_token_rid_discrepancy": "Documented; not resolved without corresponding metadata / VM output.",
     "reference_implementation_changed": false,
     "relative_markdown_links": "passed"
+  },
+  "developer_contract_validation": {
+    "date": "2026-10-11",
+    "python_entries": 112,
+    "json_operations": 15,
+    "offline_examples": [
+      "sdk_demo.py",
+      "bridge_demo.py",
+      "recording_demo.py"
+    ],
+    "result": "passed",
+    "usb_accessed": false,
+    "copyright_card": "Local SVG thumbnail inspected; mailto contact added.",
+    "reference_implementation_changed": false
   }
 }

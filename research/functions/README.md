@@ -62,7 +62,7 @@
 | 537 | 资源 | 资源 worker |
 | 538 | 资源 | 资源 worker |
 
-以上取自 [原报告](../../reverse/K2PICTURE.md)，未连接本次重新解析的 K2Picture 方法元数据。
+以上取自 [原报告](../../reverse/K2PICTURE.md)，未连接独立重新解析的 K2Picture 方法元数据。
 
 原报告的解码入口 RID 724 与 VM 程序 1 token `0x06000724` 不能直接等同：token 的 `0x724` 是十进制 1828。两项关系需要在对应元数据 / VM 输出中复核，当前分别保留来源，不画成同一个入口。
 
@@ -85,4 +85,4 @@ print(next(row for row in data['methods'] if row['rid'] == 439))
 PY
 ```
 
-代理目标可为 MethodDef 或 MemberRef；应先判断 token 高字节，不要把低位都当 MethodDef RID。完整索引是历史产物的元数据连接，不等于此次重跑全部方法恢复。
+代理目标可为 MethodDef 或 MemberRef；应先判断 token 高字节，不要把低位都当 MethodDef RID。完整索引是历史产物的元数据连接，不等于独立重跑全部方法恢复。

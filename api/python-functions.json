@@ -1,0 +1,1241 @@
+{
+  "schema": 1,
+  "scope": "Explicit non-private Python functions/methods/properties/constructors, not vendor methods.",
+  "count": 112,
+  "functions": [
+    {
+      "module": "transport",
+      "name": "enumerate_devices",
+      "signature": "enumerate_devices()",
+      "purpose": "枚举指定 VID / PID 的当前 HID 接口",
+      "returns": "HIDAPI dict 列表",
+      "effects": "USB 枚举",
+      "explicit_raises": [],
+      "line": 19
+    },
+    {
+      "module": "transport",
+      "name": "device_summary",
+      "signature": "device_summary(device)",
+      "purpose": "转换设备条目为 JSON 可序列化摘要，路径转十六进制",
+      "returns": "dict，含 path_hex",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 23
+    },
+    {
+      "module": "transport",
+      "name": "select_device",
+      "signature": "select_device(devices, path_hex=None)",
+      "purpose": "按 path_hex 过滤并要求唯一接口，验证 VID / PID",
+      "returns": "设备 dict",
+      "effects": "离线选择",
+      "explicit_raises": [
+        "OSError"
+      ],
+      "line": 31
+    },
+    {
+      "module": "transport",
+      "name": "normalize_input",
+      "signature": "normalize_input(raw)",
+      "purpose": "接受 64 字节或零 Report ID + 64 字节；空输入保留为空",
+      "returns": "bytes(64) 或 b''",
+      "effects": "离线",
+      "explicit_raises": [
+        "ProtocolError"
+      ],
+      "line": 48
+    },
+    {
+      "module": "transport",
+      "name": "HidTransport.__init__",
+      "signature": "HidTransport(selected)",
+      "purpose": "按 selected['path'] 打开唯一设备，检查 VID / PID",
+      "returns": "实例",
+      "effects": "打开 USB",
+      "explicit_raises": [
+        "OSError"
+      ],
+      "line": 60
+    },
+    {
+      "module": "transport",
+      "name": "HidTransport.write",
+      "signature": "HidTransport.write(frame)",
+      "purpose": "发送 64 字节协议帧，补零 Report ID 并核验写入长度",
+      "returns": "64；异常则未完整发送",
+      "effects": "设备写报告，效果取决于命令",
+      "explicit_raises": [
+        "ProtocolError"
+      ],
+      "line": 71
+    },
+    {
+      "module": "transport",
+      "name": "HidTransport.read",
+      "signature": "HidTransport.read(timeout_ms)",
+      "purpose": "timeout_ms 毫秒；0 临时非阻塞读取",
+      "returns": "规范化 bytes 或空 bytes",
+      "effects": "设备读",
+      "explicit_raises": [],
+      "line": 80
+    },
+    {
+      "module": "transport",
+      "name": "HidTransport.close",
+      "signature": "HidTransport.close()",
+      "purpose": "释放 HID 句柄",
+      "returns": "None",
+      "effects": "关闭 USB",
+      "explicit_raises": [],
+      "line": 91
+    },
+    {
+      "module": "protocol",
+      "name": "build_frame",
+      "signature": "build_frame(command, payload=b'', *, reply=True, tick=None)",
+      "purpose": "编码完整 64 字节帧；command 0…255、payload ≤52；reply 决定请求响应位，tick 为毫秒",
+      "returns": "bytes(64)",
+      "effects": "离线",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 16
+    },
+    {
+      "module": "protocol",
+      "name": "parse_frame",
+      "signature": "parse_frame(raw)",
+      "purpose": "核验长度、魔数、负载和双校验",
+      "returns": "Packet(command, payload, raw)",
+      "effects": "离线",
+      "explicit_raises": [
+        "ProtocolError"
+      ],
+      "line": 38
+    },
+    {
+      "module": "protocol",
+      "name": "Protocol.__init__",
+      "signature": "Protocol(transport, timeout_ms=1000)",
+      "purpose": "绑定 transport；timeout_ms 1…60000",
+      "returns": "Protocol 实例",
+      "effects": "不立即 I/O",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 53
+    },
+    {
+      "module": "protocol",
+      "name": "Protocol.drain",
+      "signature": "Protocol.drain()",
+      "purpose": "非阻塞清理日志，拒绝旧 ACK / 错误包",
+      "returns": "None",
+      "effects": "设备读",
+      "explicit_raises": [
+        "ProtocolError"
+      ],
+      "line": 59
+    },
+    {
+      "module": "protocol",
+      "name": "Protocol.command",
+      "signature": "Protocol.command(command, payload=b'')",
+      "purpose": "发送控制命令并等成功 ACK；不是通用数据查询",
+      "returns": "None",
+      "effects": "设备控制，取决于 command",
+      "explicit_raises": [],
+      "line": 95
+    },
+    {
+      "module": "protocol",
+      "name": "Protocol.erase_sector",
+      "signature": "Protocol.erase_sector(address)",
+      "purpose": "发送一个地址的擦除请求；须合法扇区且已开批次",
+      "returns": "None；未等单扇区 ACK",
+      "effects": "设备擦除",
+      "explicit_raises": [],
+      "line": 100
+    },
+    {
+      "module": "protocol",
+      "name": "Protocol.write_memory",
+      "signature": "Protocol.write_memory(address, data)",
+      "purpose": "地址 + bytes，拆成最多 40 字节包；须已擦除且开批次",
+      "returns": "None；未等单包 ACK",
+      "effects": "设备写",
+      "explicit_raises": [],
+      "line": 105
+    },
+    {
+      "module": "protocol",
+      "name": "Protocol.read_memory",
+      "signature": "Protocol.read_memory(address, size)",
+      "purpose": "address 为字节地址，size 1…1024",
+      "returns": "恰好 size 个 bytes，否则异常",
+      "effects": "设备读请求",
+      "explicit_raises": [
+        "ProtocolError",
+        "ValueError"
+      ],
+      "line": 112
+    },
+    {
+      "module": "protocol",
+      "name": "Protocol.read_marker",
+      "signature": "Protocol.read_marker(address)",
+      "purpose": "从指定地址短读 4 字节",
+      "returns": "bytes(4)",
+      "effects": "设备读请求",
+      "explicit_raises": [
+        "ProtocolError"
+      ],
+      "line": 127
+    },
+    {
+      "module": "firmware",
+      "name": "Firmware.parse",
+      "signature": "Firmware.parse(raw: bytes)",
+      "purpose": "解析 encoded 容器；检查头、日期、型号、大小、校验、未提交标记及向量",
+      "returns": "Firmware",
+      "effects": "离线",
+      "explicit_raises": [
+        "FirmwareError"
+      ],
+      "line": 36
+    },
+    {
+      "module": "firmware",
+      "name": "Firmware.load",
+      "signature": "Firmware.load(path)",
+      "purpose": "从 path 读取并调用 parse",
+      "returns": "Firmware",
+      "effects": "文件读",
+      "explicit_raises": [],
+      "line": 77
+    },
+    {
+      "module": "firmware",
+      "name": "Firmware.from_app",
+      "signature": "Firmware.from_app(app, release=None)",
+      "purpose": "从应用 bytes 构造恢复容器，清提交标记、修剪 FF 尾、保留对齐；release 为 date",
+      "returns": "Firmware；不是厂商发行版",
+      "effects": "离线",
+      "explicit_raises": [
+        "FirmwareError"
+      ],
+      "line": 81
+    },
+    {
+      "module": "firmware",
+      "name": "Firmware.erase_addresses",
+      "signature": "Firmware.erase_addresses",
+      "purpose": "按整个容器长度计算 2 KiB 擦除地址",
+      "returns": "tuple[int]，属性",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 103
+    },
+    {
+      "module": "firmware",
+      "name": "Firmware.chunks",
+      "signature": "Firmware.chunks(size=1024)",
+      "purpose": "按 size 字节分组应用正文；size 应为正，设备流程使用 1024",
+      "returns": "迭代 (address, bytes)",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 108
+    },
+    {
+      "module": "firmware",
+      "name": "Firmware.summary",
+      "signature": "Firmware.summary()",
+      "purpose": "型号、版本、日期、大小、摘要、地址和提交信息",
+      "returns": "dict",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 112
+    },
+    {
+      "module": "updater",
+      "name": "UpgradeError.__init__",
+      "signature": "UpgradeError(stage, message)",
+      "purpose": "包装错误 stage 与 message",
+      "returns": "异常对象",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 10
+    },
+    {
+      "module": "updater",
+      "name": "Identity.confirmed_k2",
+      "signature": "Identity.confirmed_k2",
+      "purpose": "检查三个名称字符串之一是否匹配已识别 K2 名称",
+      "returns": "bool，属性",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 23
+    },
+    {
+      "module": "updater",
+      "name": "Identity.summary",
+      "signature": "Identity.summary()",
+      "purpose": "导出名字、信息摘要、当前版本与标记",
+      "returns": "dict",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 26
+    },
+    {
+      "module": "updater",
+      "name": "Updater.__init__",
+      "signature": "Updater(protocol, progress=None)",
+      "purpose": "绑定 Protocol 与 progress(stage,current,total)，每实例只执行一次流程",
+      "returns": "实例",
+      "effects": "不立即 I/O",
+      "explicit_raises": [],
+      "line": 34
+    },
+    {
+      "module": "updater",
+      "name": "Updater.probe",
+      "signature": "Updater.probe()",
+      "purpose": "握手并读信息、名称、应用版本和标记；未知型号可返回但须检查 confirmed_k2",
+      "returns": "Identity",
+      "effects": "DFU 控制 + 只读，无 Flash 写",
+      "explicit_raises": [
+        "UpgradeError"
+      ],
+      "line": 61
+    },
+    {
+      "module": "updater",
+      "name": "Updater.flash",
+      "signature": "Updater.flash(firmware)",
+      "purpose": "重新校验 Firmware，识别设备、擦写、完整读回、提交、退出；自身不做备份",
+      "returns": "Identity；stage 为 complete",
+      "effects": "真实 Flash 写，模拟取决于 transport",
+      "explicit_raises": [
+        "ProtocolError",
+        "UpgradeError",
+        "ValueError"
+      ],
+      "line": 77
+    },
+    {
+      "module": "backup",
+      "name": "backup_device",
+      "signature": "backup_device(updater, directory)",
+      "purpose": "用新的 updater 身份探测，双遍读取 Bootloader / 信息前缀与完整应用范围，落盘摘要与恢复容器；directory 须不存在",
+      "returns": "备份 manifest dict",
+      "effects": "设备只读 + 文件写；不证明恢复已实机验证",
+      "explicit_raises": [
+        "ProtocolError",
+        "UpgradeError"
+      ],
+      "line": 14
+    },
+    {
+      "module": "picture",
+      "name": "Resource.allocation",
+      "signature": "Resource.allocation",
+      "purpose": "sectors × 2048，字节数",
+      "returns": "int，属性",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 23
+    },
+    {
+      "module": "picture",
+      "name": "Resource.addresses",
+      "signature": "Resource.addresses",
+      "purpose": "分配区每个 2 KiB 扇区起点",
+      "returns": "range，属性",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 27
+    },
+    {
+      "module": "picture",
+      "name": "Resource.validate",
+      "signature": "Resource.validate(data)",
+      "purpose": "核验精确有效长度、标记及类型字段；资源不是原始 PNG / JPEG",
+      "returns": "有效结构 bytes",
+      "effects": "离线",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 30
+    },
+    {
+      "module": "picture",
+      "name": "resource_for",
+      "signature": "resource_for(kind)",
+      "purpose": "按 startup/background/layout/emark/emark-copy 查固定资源",
+      "returns": "Resource",
+      "effects": "离线",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 63
+    },
+    {
+      "module": "picture",
+      "name": "sha",
+      "signature": "sha(data)",
+      "purpose": "对 bytes 计算 SHA-256",
+      "returns": "64 字符十六进制 str",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 70
+    },
+    {
+      "module": "emark",
+      "name": "validate_record",
+      "signature": "validate_record(data)",
+      "purpose": "66 字节、名字结束符、PD 编码与末尾校验",
+      "returns": "bytes(66)",
+      "effects": "离线",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 9
+    },
+    {
+      "module": "emark",
+      "name": "validate_bank",
+      "signature": "validate_bank(data)",
+      "purpose": "666 字节、有效计数与默认索引，仅校验活动槽",
+      "returns": "bytes(666)",
+      "effects": "离线",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 21
+    },
+    {
+      "module": "emark",
+      "name": "sample_record",
+      "signature": "sample_record(name='K2 configuration')",
+      "purpose": "生成合成记录；ASCII 名称 ≤18 字节",
+      "returns": "bytes(66)",
+      "effects": "离线样例，非认证配置",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 33
+    },
+    {
+      "module": "emark",
+      "name": "sample_bank",
+      "signature": "sample_bank()",
+      "purpose": "生成单个合成记录的集合，保留其余 FF 槽位",
+      "returns": "bytes(666)",
+      "effects": "离线样例",
+      "explicit_raises": [],
+      "line": 47
+    },
+    {
+      "module": "picture_device",
+      "name": "read_all",
+      "signature": "read_all(protocol, resource, progress, stage)",
+      "purpose": "固定 Resource，按 ≤1024 读取完整 allocation，调用 progress",
+      "returns": "完整分配区 bytes",
+      "effects": "设备读",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 11
+    },
+    {
+      "module": "picture_device",
+      "name": "durable_write",
+      "signature": "durable_write(path, data)",
+      "purpose": "path 为 Path，排他创建、flush、fsync",
+      "returns": "None",
+      "effects": "文件写，不覆盖",
+      "explicit_raises": [],
+      "line": 23
+    },
+    {
+      "module": "picture_device",
+      "name": "backup_resource",
+      "signature": "backup_resource(protocol, resource, identity, directory, progress, simulation=False)",
+      "purpose": "新目录内保存双遍一致的完整扇区和 identity 元数据；simulation 标记来源",
+      "returns": "tuple(完整 bytes, manifest dict)",
+      "effects": "设备读 + 文件写",
+      "explicit_raises": [
+        "ProtocolError"
+      ],
+      "line": 30
+    },
+    {
+      "module": "picture_device",
+      "name": "load_backup",
+      "signature": "load_backup(path, manifest_data=None)",
+      "purpose": "读取 manifest 与同目录 sectors.bin，验证大小、摘要、范围与 K2 身份字段",
+      "returns": "tuple(Resource, bytes, metadata)",
+      "effects": "文件读",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 59
+    },
+    {
+      "module": "picture_device",
+      "name": "write_resource",
+      "signature": "write_resource(protocol, resource, image, progress)",
+      "purpose": "image 必须覆盖全部 allocation；擦除、写入、比较、退出；不自带备份或身份核验",
+      "returns": "None，失败抛异常",
+      "effects": "设备擦写",
+      "explicit_raises": [
+        "ProtocolError",
+        "ValueError"
+      ],
+      "line": 84
+    },
+    {
+      "module": "picture_device",
+      "name": "transfer_resource",
+      "signature": "transfer_resource(request, events, protocol, identity, directory)",
+      "purpose": "后台内部完整资源操作；request 含桥接预先验证的私有 payload 字段",
+      "returns": "资源结果 dict",
+      "effects": "按 operation 读或擦写 + 文件写",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 112
+    },
+    {
+      "module": "telemetry",
+      "name": "Sample.dictionary",
+      "signature": "Sample.dictionary()",
+      "purpose": "把 Sample 字段转 dict；单位见设备契约",
+      "returns": "dict",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 31
+    },
+    {
+      "module": "telemetry",
+      "name": "decode_report",
+      "signature": "decode_report(raw, elapsed)",
+      "purpose": "解析普通报告；elapsed 为电脑经过秒数，有限且非负；其他命令返回 None",
+      "returns": "Sample 或 None；坏遥测抛 ValueError",
+      "effects": "离线",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 35
+    },
+    {
+      "module": "telemetry",
+      "name": "dfu_checksum_matches",
+      "signature": "dfu_checksum_matches(raw)",
+      "purpose": "规范化报告并检查两个累加和；名字不限制其用于已验证遥测",
+      "returns": "bool；非法帧长度可能异常",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 62
+    },
+    {
+      "module": "telemetry",
+      "name": "Sampler.__init__",
+      "signature": "Sampler(rate=10)",
+      "purpose": "主机采样率 0/1/10/100，0 不限速",
+      "returns": "实例",
+      "effects": "离线",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 70
+    },
+    {
+      "module": "telemetry",
+      "name": "Sampler.accept",
+      "signature": "Sampler.accept(time)",
+      "purpose": "经过秒数进入新时间槽则接受，不补造样本",
+      "returns": "bool",
+      "effects": "主机状态变更",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 76
+    },
+    {
+      "module": "recording",
+      "name": "readonly",
+      "signature": "readonly(path)",
+      "purpose": "path 须存在，打开 mode=ro/query_only 的 SQLite",
+      "returns": "sqlite3.Connection；调用者关闭",
+      "effects": "文件读",
+      "explicit_raises": [],
+      "line": 16
+    },
+    {
+      "module": "recording",
+      "name": "metadata",
+      "signature": "metadata(db)",
+      "purpose": "读取至多 100 项 metadata，缺表为空",
+      "returns": "dict[str,str]",
+      "effects": "数据库读",
+      "explicit_raises": [],
+      "line": 25
+    },
+    {
+      "module": "recording",
+      "name": "validate_local",
+      "signature": "validate_local(db)",
+      "purpose": "验证 schema 与 samples 表 / 必要字段",
+      "returns": "None",
+      "effects": "数据库读",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 32
+    },
+    {
+      "module": "recording",
+      "name": "samples",
+      "signature": "samples(db, start=None, end=None)",
+      "purpose": "按经过秒数闭区间 start/end 迭代，按 time/id 排序",
+      "returns": "迭代 Sample",
+      "effects": "数据库读",
+      "explicit_raises": [],
+      "line": 42
+    },
+    {
+      "module": "recording",
+      "name": "Recording.__init__",
+      "signature": "Recording(path, rate=10, extra=None)",
+      "purpose": "path 不得存在；rate 记元数据，extra 可补元数据；本类不负责采样限速",
+      "returns": "实例",
+      "effects": "创建 SQLite/WAL",
+      "explicit_raises": [],
+      "line": 53
+    },
+    {
+      "module": "recording",
+      "name": "Recording.append",
+      "signature": "Recording.append(sample)",
+      "purpose": "写一个 Sample，检查必要数值；不会替调用者分段或采样",
+      "returns": "None；count 增长",
+      "effects": "数据库写",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 80
+    },
+    {
+      "module": "recording",
+      "name": "Recording.commit",
+      "signature": "Recording.commit()",
+      "purpose": "提交待写样本并更新时间",
+      "returns": "None",
+      "effects": "数据库写",
+      "explicit_raises": [],
+      "line": 95
+    },
+    {
+      "module": "recording",
+      "name": "Recording.close",
+      "signature": "Recording.close(complete=True)",
+      "purpose": "complete=True 标记完成，提交并关闭；异常流程用 false",
+      "returns": "None",
+      "effects": "数据库写 / 关闭",
+      "explicit_raises": [],
+      "line": 98
+    },
+    {
+      "module": "recording",
+      "name": "summary",
+      "signature": "summary(path)",
+      "purpose": "检查本地记录并计算计数、时间范围、元信息",
+      "returns": "dict",
+      "effects": "文件读",
+      "explicit_raises": [],
+      "line": 110
+    },
+    {
+      "module": "recording_files",
+      "name": "elapsed_text",
+      "signature": "elapsed_text(value)",
+      "purpose": "非负经过秒数转 D.hh:mm:ss.mmm 风格文本",
+      "returns": "str",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 20
+    },
+    {
+      "module": "recording_files",
+      "name": "parse_time",
+      "signature": "parse_time(text)",
+      "purpose": "解析官方时间 / Excel 风格时间文本",
+      "returns": "经过秒数 float",
+      "effects": "离线",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 29
+    },
+    {
+      "module": "recording_files",
+      "name": "number",
+      "signature": "number(text, optional=False)",
+      "purpose": "把数值文本转有限数；optional 允许缺值",
+      "returns": "float 或 None",
+      "effects": "离线",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 41
+    },
+    {
+      "module": "recording_files",
+      "name": "row_sample",
+      "signature": "row_sample(row)",
+      "purpose": "把官方列字典转样本；派生有符号与非负功率",
+      "returns": "Sample",
+      "effects": "离线",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 50
+    },
+    {
+      "module": "recording_files",
+      "name": "csv_source",
+      "signature": "csv_source(path, meta)",
+      "purpose": "解析 BOM/元信息/列标题，meta 由调用者传空 dict 并被填充",
+      "returns": "生成器 Sample",
+      "effects": "文件读",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 61
+    },
+    {
+      "module": "recording_files",
+      "name": "sqlite_source",
+      "signature": "sqlite_source(path, meta)",
+      "purpose": "读取官方或本地 SQLite，填充 meta",
+      "returns": "生成器 Sample",
+      "effects": "文件读",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 85
+    },
+    {
+      "module": "recording_files",
+      "name": "import_record",
+      "signature": "import_record(source, destination, cancelled=lambda : False)",
+      "purpose": "CSV/SQLite 转新本地记录，destination 不得存在；cancelled 返回 bool",
+      "returns": "dict(path,count)",
+      "effects": "文件读 / 新文件写",
+      "explicit_raises": [
+        "InterruptedError",
+        "ValueError"
+      ],
+      "line": 113
+    },
+    {
+      "module": "recording_files",
+      "name": "export_record",
+      "signature": "export_record(source, destination, kind, start=None, end=None, cancelled=lambda : False)",
+      "purpose": "本地记录导出 csv/official-sqlite/local-sqlite；范围单位秒；cancelled 可取消",
+      "returns": "dict(path)",
+      "effects": "文件读 / 原子替换目标，可能覆盖",
+      "explicit_raises": [
+        "InterruptedError",
+        "ValueError"
+      ],
+      "line": 158
+    },
+    {
+      "module": "recording_stats",
+      "name": "direction_area",
+      "signature": "direction_area(a, b, dt)",
+      "purpose": "对端点 a/b 数值及 dt 秒积分，分离正负面积",
+      "returns": "tuple(正面积,负面积)",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 9
+    },
+    {
+      "module": "recording_stats",
+      "name": "interpolate",
+      "signature": "interpolate(a, b, t)",
+      "purpose": "同一时间段内用 a/b Sample 插值至 t 秒",
+      "returns": "Sample",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 18
+    },
+    {
+      "module": "recording_stats",
+      "name": "statistics",
+      "signature": "statistics(items, start=None, end=None, gap_limit=2, cancelled=lambda : False)",
+      "purpose": "有序样本区间统计，跨 segment 或 gap_limit 秒断点不积分",
+      "returns": "统计 dict；Ah/Wh、覆盖秒数和通道统计",
+      "effects": "离线，消耗迭代器",
+      "explicit_raises": [
+        "InterruptedError"
+      ],
+      "line": 30
+    },
+    {
+      "module": "recording_stats",
+      "name": "plot_points",
+      "signature": "plot_points(items, start, end, budget=6000, cancelled=lambda : False)",
+      "purpose": "为有序样本保留各时间桶首尾与通道极值，budget 是目标桶预算而非严格输出上限",
+      "returns": "list[Sample dict]",
+      "effects": "离线，消耗迭代器",
+      "explicit_raises": [
+        "InterruptedError"
+      ],
+      "line": 78
+    },
+    {
+      "module": "recording_stats",
+      "name": "query_record",
+      "signature": "query_record(path, start=None, end=None, include_stats=True, cancelled=lambda : False, budget=6000)",
+      "purpose": "本地文件区间查询；可选统计，默认 budget 6000；桥接用 1200",
+      "returns": "摘要、points、统计等 dict；空记录 statistics=None",
+      "effects": "文件读",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 103
+    },
+    {
+      "module": "monitor",
+      "name": "AutoStop.__init__",
+      "signature": "AutoStop(kind='current', threshold=0, duration=0)",
+      "purpose": "kind current/power，阈值 A/W，duration 秒，0 关闭",
+      "returns": "实例",
+      "effects": "离线",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 21
+    },
+    {
+      "module": "monitor",
+      "name": "AutoStop.reset",
+      "signature": "AutoStop.reset()",
+      "purpose": "清除连续低阈值计时",
+      "returns": "None",
+      "effects": "主机状态变更",
+      "explicit_raises": [],
+      "line": 27
+    },
+    {
+      "module": "monitor",
+      "name": "AutoStop.accept",
+      "signature": "AutoStop.accept(sample)",
+      "purpose": "判断 Sample 是否已连续低于阈值足够秒数",
+      "returns": "bool",
+      "effects": "主机状态变更",
+      "explicit_raises": [],
+      "line": 29
+    },
+    {
+      "module": "monitor",
+      "name": "Capture.__init__",
+      "signature": "Capture(directory, rate=10)",
+      "purpose": "记录目录与主机采样率；不立即新建记录",
+      "returns": "实例",
+      "effects": "不立即文件写",
+      "explicit_raises": [],
+      "line": 38
+    },
+    {
+      "module": "monitor",
+      "name": "Capture.control",
+      "signature": "Capture.control(command)",
+      "purpose": "start/pause/resume/stop 字典；字段见桥接控制表",
+      "returns": "None",
+      "effects": "主机状态与记录文件写",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 51
+    },
+    {
+      "module": "monitor",
+      "name": "Capture.stop",
+      "signature": "Capture.stop(complete=True)",
+      "purpose": "结束当前记录，complete=false 保留异常标记",
+      "returns": "None",
+      "effects": "文件写 / 关闭",
+      "explicit_raises": [],
+      "line": 71
+    },
+    {
+      "module": "monitor",
+      "name": "Capture.feed",
+      "signature": "Capture.feed(sample)",
+      "purpose": "接收 Sample，分段、采样、记录和自动停止",
+      "returns": "tuple(带 segment 的 Sample,自动停止 bool)",
+      "effects": "主机状态 / 可能记录写",
+      "explicit_raises": [],
+      "line": 79
+    },
+    {
+      "module": "monitor",
+      "name": "Capture.state",
+      "signature": "Capture.state()",
+      "purpose": "当前或刚关闭记录状态",
+      "returns": "dict(recording,paused,record_path,record_count)",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 96
+    },
+    {
+      "module": "monitor",
+      "name": "run_monitor",
+      "signature": "run_monitor(request, events, input_stream, transport_factory=HidTransport)",
+      "purpose": "桥接内部普通模式实时采集，input_stream 提供控制行，transport_factory 可注入",
+      "returns": "最终 Capture.state dict",
+      "effects": "设备被动读 + 文件写；只宜在子进程主线程使用",
+      "explicit_raises": [
+        "OSError",
+        "ValueError"
+      ],
+      "line": 102
+    },
+    {
+      "module": "official_firmware",
+      "name": "import_archive",
+      "signature": "import_archive(path, directory, expected_version)",
+      "purpose": "读本地 ZIP，要求唯一 .k2、大小与 expected_version 匹配，拒绝演示固件",
+      "returns": "dict(firmware,firmware_path,demo_firmware)",
+      "effects": "文件读 / 新文件写；不下载",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 10
+    },
+    {
+      "module": "gui_bridge",
+      "name": "Events.__init__",
+      "signature": "Events(request, output=None)",
+      "purpose": "绑定 request 与输出流，进度起点 preflight",
+      "returns": "实例",
+      "effects": "不立即输出",
+      "explicit_raises": [],
+      "line": 29
+    },
+    {
+      "module": "gui_bridge",
+      "name": "Events.emit",
+      "signature": "Events.emit(event, **fields)",
+      "purpose": "发送带 schema/id/operation 的一行事件 JSON，立即 flush",
+      "returns": "None",
+      "effects": "流写",
+      "explicit_raises": [],
+      "line": 36
+    },
+    {
+      "module": "gui_bridge",
+      "name": "Events.progress",
+      "signature": "Events.progress(stage, current=0, total=0)",
+      "purpose": "阶段进度去重并发送事件，可能记 trace",
+      "returns": "None",
+      "effects": "流 / 日志写",
+      "explicit_raises": [],
+      "line": 42
+    },
+    {
+      "module": "gui_bridge",
+      "name": "validate_request",
+      "signature": "validate_request(request)",
+      "purpose": "检查操作、UUID、模拟字段、确认与模式前置字段",
+      "returns": "None",
+      "effects": "离线",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 56
+    },
+    {
+      "module": "gui_bridge",
+      "name": "selected_device",
+      "signature": "selected_device(request)",
+      "purpose": "按请求选择真实 / 模拟接口，核对序列号",
+      "returns": "设备 dict",
+      "effects": "真实模式枚举 USB",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 84
+    },
+    {
+      "module": "gui_bridge",
+      "name": "connection",
+      "signature": "connection(request, events, trace, demo=None)",
+      "purpose": "内部上下文管理器，构建 trace transport / updater，退出关句柄",
+      "returns": "上下文 yield (Updater,device)",
+      "effects": "开 / 关 USB 或模拟",
+      "explicit_raises": [],
+      "line": 94
+    },
+    {
+      "module": "gui_bridge",
+      "name": "verify_identity",
+      "signature": "verify_identity(identity, request)",
+      "purpose": "要求 confirmed_k2，若提供预期摘要则比较",
+      "returns": "None",
+      "effects": "离线",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 104
+    },
+    {
+      "module": "gui_bridge",
+      "name": "dispatch",
+      "signature": "dispatch(request, events, input_stream=None)",
+      "purpose": "已公开 JSON 操作的分派；request 和 Events，monitor 需输入流",
+      "returns": "操作结果 dict",
+      "effects": "按 operation 决定",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 112
+    },
+    {
+      "module": "gui_bridge",
+      "name": "updater_identity",
+      "signature": "updater_identity(backup)",
+      "purpose": "把备份 identity 字段转模型",
+      "returns": "Identity",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 269
+    },
+    {
+      "module": "gui_bridge",
+      "name": "main",
+      "signature": "main(input_stream=None, output=None)",
+      "purpose": "读取一行请求、发 ready/result/error，monitor 继续读控制",
+      "returns": "退出码 0/1/130",
+      "effects": "按 operation 决定",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 276
+    },
+    {
+      "module": "demo",
+      "name": "demo_firmware",
+      "signature": "demo_firmware(version=88)",
+      "purpose": "生成版本 byte（默认 0x58）的合成应用容器",
+      "returns": "Firmware",
+      "effects": "离线，禁止真实设备写",
+      "explicit_raises": [],
+      "line": 7
+    },
+    {
+      "module": "demo",
+      "name": "is_demo_firmware",
+      "signature": "is_demo_firmware(firmware)",
+      "purpose": "识别与合成模板匹配的容器，含恢复版本",
+      "returns": "bool",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 15
+    },
+    {
+      "module": "demo",
+      "name": "DemoTransport.__init__",
+      "signature": "DemoTransport()",
+      "purpose": "建立含合成旧应用的模拟 Flash",
+      "returns": "实例",
+      "effects": "内存模拟",
+      "explicit_raises": [],
+      "line": 23
+    },
+    {
+      "module": "demo",
+      "name": "demo_device",
+      "signature": "demo_device()",
+      "purpose": "生成模拟 HID 枚举条目",
+      "returns": "dict",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 36
+    },
+    {
+      "module": "simulator",
+      "name": "SimulatedTransport.__init__",
+      "signature": "SimulatedTransport(*, model='K2', fault=None)",
+      "purpose": "model 和故障标记构造主机流程模拟器；不是 Bootloader 时序仿真",
+      "returns": "实例",
+      "effects": "内存",
+      "explicit_raises": [],
+      "line": 14
+    },
+    {
+      "module": "simulator",
+      "name": "SimulatedTransport.write",
+      "signature": "SimulatedTransport.write(frame)",
+      "purpose": "解析请求并模拟命令与失败响应",
+      "returns": "64",
+      "effects": "内存写，不访问 USB",
+      "explicit_raises": [
+        "OSError",
+        "ProtocolError"
+      ],
+      "line": 49
+    },
+    {
+      "module": "simulator",
+      "name": "SimulatedTransport.read",
+      "signature": "SimulatedTransport.read(timeout_ms)",
+      "purpose": "取模拟队列下一帧，timeout_ms 不模拟真实时序",
+      "returns": "bytes 或 b''",
+      "effects": "内存读",
+      "explicit_raises": [],
+      "line": 130
+    },
+    {
+      "module": "simulator",
+      "name": "SimulatedTransport.close",
+      "signature": "SimulatedTransport.close()",
+      "purpose": "满足 transport 关闭契约",
+      "returns": "None",
+      "effects": "内存",
+      "explicit_raises": [],
+      "line": 133
+    },
+    {
+      "module": "picture_simulator",
+      "name": "PictureTransport.__init__",
+      "signature": "PictureTransport(*, fault=None)",
+      "purpose": "构造五类资源的模拟区，支持 fault",
+      "returns": "实例",
+      "effects": "内存",
+      "explicit_raises": [],
+      "line": 10
+    },
+    {
+      "module": "picture_simulator",
+      "name": "PictureTransport.write",
+      "signature": "PictureTransport.write(frame)",
+      "purpose": "扩展资源范围与命令状态模拟",
+      "returns": "64",
+      "effects": "内存，不访问 USB",
+      "explicit_raises": [
+        "OSError",
+        "ProtocolError"
+      ],
+      "line": 35
+    },
+    {
+      "module": "cli",
+      "name": "Trace.__init__",
+      "signature": "Trace(path)",
+      "purpose": "创建新 JSONL 日志 path，不覆盖",
+      "returns": "实例",
+      "effects": "文件写",
+      "explicit_raises": [],
+      "line": 18
+    },
+    {
+      "module": "cli",
+      "name": "Trace.event",
+      "signature": "Trace.event(kind, **fields)",
+      "purpose": "附 UTC 时间输出日志记录",
+      "returns": "None",
+      "effects": "文件写",
+      "explicit_raises": [],
+      "line": 23
+    },
+    {
+      "module": "cli",
+      "name": "Trace.close",
+      "signature": "Trace.close()",
+      "purpose": "关闭日志",
+      "returns": "None",
+      "effects": "文件关闭",
+      "explicit_raises": [],
+      "line": 27
+    },
+    {
+      "module": "cli",
+      "name": "TracedTransport.__init__",
+      "signature": "TracedTransport(transport, trace)",
+      "purpose": "包装 transport 记录通信",
+      "returns": "实例",
+      "effects": "不立即 I/O",
+      "explicit_raises": [],
+      "line": 32
+    },
+    {
+      "module": "cli",
+      "name": "TracedTransport.write",
+      "signature": "TracedTransport.write(raw)",
+      "purpose": "记录发送尝试和结果并转发",
+      "returns": "底层写入计数",
+      "effects": "设备写报告 + 日志写",
+      "explicit_raises": [],
+      "line": 36
+    },
+    {
+      "module": "cli",
+      "name": "TracedTransport.read",
+      "signature": "TracedTransport.read(timeout_ms)",
+      "purpose": "转发读取并记录非空回包",
+      "returns": "bytes",
+      "effects": "设备读 + 日志写",
+      "explicit_raises": [],
+      "line": 42
+    },
+    {
+      "module": "cli",
+      "name": "Progress.__init__",
+      "signature": "Progress(trace=None)",
+      "purpose": "构造 CLI 进度回调，可带 Trace",
+      "returns": "可调用实例",
+      "effects": "不立即输出",
+      "explicit_raises": [],
+      "line": 50
+    },
+    {
+      "module": "cli",
+      "name": "record_failure",
+      "signature": "record_failure(trace, kind, **fields)",
+      "purpose": "尽可能记录失败，日志错误输出 stderr 不掩盖原错",
+      "returns": "None",
+      "effects": "日志 / stderr 写",
+      "explicit_raises": [],
+      "line": 64
+    },
+    {
+      "module": "cli",
+      "name": "parser",
+      "signature": "parser()",
+      "purpose": "构造 argparse 命令定义",
+      "returns": "ArgumentParser",
+      "effects": "离线",
+      "explicit_raises": [],
+      "line": 72
+    },
+    {
+      "module": "cli",
+      "name": "main",
+      "signature": "main(argv=None)",
+      "purpose": "处理 CLI 参数；设备动作和确认要求见 --help",
+      "returns": "退出码 0/1/130；argparse 可 SystemExit",
+      "effects": "按子命令决定",
+      "explicit_raises": [
+        "ValueError"
+      ],
+      "line": 99
+    }
+  ]
+}

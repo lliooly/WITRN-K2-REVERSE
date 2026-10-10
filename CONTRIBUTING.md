@@ -8,8 +8,14 @@
 
 ```sh
 python3 -m unittest discover -s tests -v
+python3 tools/verify_api.py
+python3 examples/sdk_demo.py
+python3 examples/bridge_demo.py
+python3 examples/recording_demo.py
 python3 tools/manifest.py
 python3 tools/manifest.py --check
 ```
 
 原创贡献沿用项目 MIT；第三方和厂商材料按其实际权利状态声明。删除请求见 [TAKEDOWN.md](TAKEDOWN.md)。
+
+接口变化须同步 `api/` 的参数、返回、副作用、错误和示例。逐函数清单与 JSON 操作通过 `tools/verify_api.py` 核对；文档采用研究与开发者视角，不记录对话、工作区管理或技能审批过程。

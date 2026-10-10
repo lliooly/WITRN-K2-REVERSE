@@ -1,66 +1,60 @@
-# WITRN K2 逆向研究
+# WITRN K2 上位机开发接口与逆向研究
 
-本库按研究问题组织逆向成果：**分析对象 → 方法恢复 → 协议与格式 → 关键函数证据 → 验证结果**。每个主题解释结论、来源函数、数据布局、操作流程和验证状态；文件清单作为附录。
+供开发者实现 K2 上位机、数据采集器和文件编辑器的技术参考。以 USB HID 命令、JSON 进程接口与 Python 函数契约为开发入口，保留静态证据、文件格式和验证范围供复核。
 
-## 阅读顺序
+## 开发者入口
 
-| 顺序 | 主题 | 内容 |
+| 目标 | 参考 | 内容 |
 | --- | --- | --- |
-| 0 | [对象与证据](research/README.md) | 区分三个程序及静态、模拟、实机依据 |
-| 1 | [方法恢复](research/01-method-recovery.md) | 占位 IL、资源、代理映射、VM 与 C# 导出 |
-| 2 | [固件与 DFU](research/02-firmware-dfu.md) | 固件格式、HID 帧、升级事务、地址关系 |
-| 3 | [表盘与图片](research/03-picture.md) | .pic、RGB565、资源分配与函数链 |
-| 4 | [虚拟 E-Mark](research/04-emark.md) | 单条、集合、电脑工程与备份扇区 |
-| 5 | [遥测与文件交换](research/05-monitor-files.md) | 原生函数、报告、采样、CSV / SQLite |
-| 6 | [关键函数与 C# 索引](research/functions/README.md) | 职责、RID / token / 地址与方法元数据 |
-| 7 | [验证状态](docs/validation.md) | 已验证范围与真实缺口 |
+| 自行实现设备通信 | [HID 命令参考](api/device-commands.md) | 命令号、读 / 写 / 控制性质、参数布局、响应与前置条件 |
+| 用新 UI 复用后台 | [JSON / NDJSON 接口](api/bridge.md) | 15 个操作、请求字段、结果、实时控制与错误事件 |
+| 直接调用 Python | [逐函数参考](api/python-reference.md) | 112 个显式函数 / 方法 / 属性：签名、用途、返回、副作用、异常与源码 |
+| 从零接入上位机 | [接入路径](api/integration.md) | 普通读数、身份探测、资源事务与记录流程 |
+| 无设备验证集成 | [可运行示例](examples/README.md) | SDK、子进程、记录查询与文件交换 |
+| 了解支持与缺口 | [开发覆盖评估](api/coverage.md) | 接口覆盖、证据强度、尚未识别能力 |
 
-例如研究开机图：先看资源结构，沿 RID 530 → 531 看像素转换，沿写入封装 → RID 400 / 406 → 411 看传输链，再看原报告的实机结果。
+设备接口是 **USB HID，不是 HTTP**；没有 GET / POST 端点。读请求、写命令、会话控制与主动遥测分别定义。JSON 后台是独立实现的本地接口，不是厂商网络 API。
 
-## 材料分层
+## 最小离线验证
 
-- `research/`：按主题重写的正文；`research/functions/`：关键职责及完整方法 / 代理元数据索引。
-- `reverse/`：详细报告和静态工具；`docs/`：完整协议、实测、复现与技术设计。
-- `k2up/`、`tests/`：独立参考实现及合成 / 模拟检查。
-- `evidence/`：历史分析摘要与发布核验。
-- `archive/application/`：原应用 UI 和打包背景附录。
-- `third_party/`：代码来源与许可；`tools/`：发布清单工具。
-
-[逐文件附录](CATALOG.md) 按用途分组，[MANIFEST.json](MANIFEST.json) 提供大小和 SHA-256。
-
-## C# 函数整理程度
-
-函数索引包含重点 worker、擦写 / 读取封装、恢复入口、K2Picture 函数组与原生入口。UP V30 的 **1269 条恢复方法与 574 组代理**提供限定名、token 及地址定位，不包含完整 C# 函数体。索引说明各个本地导出文件的用途、复现方式、未重新核验条目和一处 token / RID 关系疑点。
-
-## 离线复现
-
-Python 3.9 或以上，在仓库根目录运行：
+Python 3.9 或以上，在根目录运行，不连接 USB：
 
 ```sh
+python3 examples/sdk_demo.py
+python3 examples/bridge_demo.py
+python3 examples/recording_demo.py
 python3 -m unittest discover -s tests -v
 python3 tools/manifest.py --check
-python3 -m k2up --help
 ```
 
-这些命令不访问 USB。固件检查与模拟使用自行取得的本地输入：
+真实 HID 接入需安装 `requirements.txt`，并按接口文档区分普通模式和 DFU。写入前须完成身份核对、用户明确确认与完整备份；底层写包不是完整升级接口。
 
-```sh
-python3 -m k2up inspect /path/to/K2_APP.k2
-python3 -m k2up dry-run /path/to/K2_APP.k2
-```
+## 研究与证据
 
-输入哈希、依赖和步骤见 [复现指南](docs/reproduction.md)。K2Picture 工具尚未参数化，Qt 无完整自动脚本；真实写入和恢复限制见验证状态。
+[研究主线](research/README.md) 按方法恢复、固件 / DFU、表盘图片、E-Mark、遥测组织。每个主题连接结论、原函数、数据布局、操作流程和验证边界。
 
-## 来源与公开范围
+[函数定位索引](research/functions/README.md) 包含已识别职责与原函数 RID / token / 地址，另有 1269 条恢复方法和 574 组代理元数据。该元数据不代表全部方法已获语义解释；未知厂商内部方法不是可供集成的公开 API。
 
-整理日期为 2026-10-10，原成果来自 [应用仓库](https://github.com/lliooly/witrn-k2-updater-re)，来源提交见 [snapshot.json](evidence/snapshot.json)。原应用设计是历史背景，不替代协议与实测证据。
+## 仓库结构
 
-厂商程序、固件、恢复 DLL、完整反编译、IDA 数据库、设备备份、序列号和原始日志留在本地；公开材料采用报告、必要协议表、函数定位、脚本和合成测试，详见 [材料来源](docs/materials.md)。
+- `api/`：开发接口、逐函数契约与覆盖评估。
+- `examples/`：可执行的离线集成示例。
+- `research/`：研究主线及原函数定位。
+- `reverse/`：静态工具和详细报告；`docs/`：协议、实测与复现资料。
+- `k2up/`、`tests/`：Python 实现与合成 / 模拟测试。
+- `evidence/`：分析摘要；`archive/application/`：应用背景附录。
+- `third_party/`：改编来源；`assets/`：文档图像；`tools/`：文件清单维护。
 
-## 许可证与侵权联系删除
+[逐文件附录](CATALOG.md) 和 [SHA-256 清单](MANIFEST.json) 用于检索材料。输入来源、未公开材料及可复现方式见 [materials.md](docs/materials.md)。厂商程序、固件、完整反编译、恢复 DLL、IDA 数据库和私人设备数据不随库发布。
 
-原创代码和文档使用标准 [MIT](LICENSE)。第三方代码保留原许可；厂商材料、协议表和商标范围见 [NOTICE.md](NOTICE.md)。MIT 不授予我们无权许可的第三方内容。
+原研究来源为 [应用仓库](https://github.com/lliooly/witrn-k2-updater-re)，输入版本与哈希见 [复现指南](docs/reproduction.md)。硬件实测只覆盖特定单台 K2，其他型号与恢复流程不能据此推定兼容。
 
-**如有侵权，请联系删除。** 权利人可通过 [Issues](https://github.com/lliooly/witrn-k2-research/issues/new) 提供具体文件、权属依据和联系方式。维护者会核查，对确有侵权或授权不足的内容及时删除、修改或下架。不宜公开的版权投诉可使用 [GitHub 官方入口](https://github.com/contact/dmca)，详见 [TAKEDOWN.md](TAKEDOWN.md)。
+## 许可证与版权联系
 
-联系删除声明不替代授权。本项目为独立研究，与 WITRN 无隶属关系，未获厂商认可或赞助。
+原创代码和文档使用标准 [MIT](LICENSE)。第三方代码保留原许可，厂商材料、协议表与商标的权利范围见 [NOTICE.md](NOTICE.md)。MIT 不授予维护者无权许可的第三方内容。
+
+[![如有侵权，请联系删除；邮箱 1604047731@qq.com](assets/copyright-notice.svg)](mailto:1604047731@qq.com)
+
+**版权联系邮箱：[1604047731@qq.com](mailto:1604047731@qq.com)**。请提供具体文件、权属依据与联系方式；维护者会核查，并对确有侵权或授权不足的内容及时删除、修改或下架。处理方式见 [TAKEDOWN.md](TAKEDOWN.md)。
+
+本项目为独立研究，与 WITRN 无隶属关系，未获厂商认可或赞助。联系删除声明不替代授权。

@@ -1,8 +1,14 @@
 # 侵权联系与删除请求
 
-**如有侵权，请联系删除。** 本库尊重软件、文档、固件、图片及商标等权利人的合法权益。
+[![如有侵权，请联系删除；邮箱 1604047731@qq.com](assets/copyright-notice.svg)](mailto:1604047731@qq.com)
+
+**版权联系邮箱：[1604047731@qq.com](mailto:1604047731@qq.com)**。请提供具体文件、权属依据与联系方式；维护者会核查，并对确有侵权或授权不足的内容及时删除、修改或下架。处理方式见下方说明。
+
+本库尊重软件、文档、固件、图片及商标等权利人的合法权益。
 
 ## 联系入口
+
+- 邮件：[1604047731@qq.com](mailto:1604047731@qq.com)，标题建议「WITRN K2 版权 / 删除请求」。
 
 - [新建 Issue](https://github.com/lliooly/witrn-k2-research/issues/new)：标题可使用「侵权 / 删除请求」。
 - 不宜公开的版权投诉可通过 [GitHub 官方入口](https://github.com/contact/dmca) 提交，相关流程见 [GitHub DMCA 政策](https://docs.github.com/en/site-policy/content-removal-policies/dmca-takedown-policy)。
