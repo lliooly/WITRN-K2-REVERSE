@@ -47,7 +47,7 @@
 | `monitor-export` | 导出本地记录；文件写 | `record_path`、`output_path`、`export_kind`；可选范围 | `path`；kind = `csv` / `official-sqlite` / `local-sqlite` |
 | `monitor-list` | 列举本地记录；文件读 | `data_directory` | `records`；其 `Recordings/` 下最近至多 200 个 SQLite，坏记录跳过 |
 
-`resource_kind` = `startup` / `background` / `layout` / `emark` / `emark-copy`。字段时间单位为电脑经过秒数；路径由调用应用提供，不来自网络 URL。
+`resource_kind` = `startup` / `background` / `layout` / `emark` / `emark-copy`。字段时间单位为电脑经过秒数；本地文件路径由调用应用提供。
 
 ### 真实设备选择与身份
 

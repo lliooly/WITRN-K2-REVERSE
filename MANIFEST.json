@@ -50,8 +50,8 @@
     },
     {
       "path": "api/bridge.md",
-      "size_bytes": 9286,
-      "sha256": "d0bbf1c2dfdea9a8ef4e3e214e6c75e93f90d88c6eeda669aa1cda9821606433"
+      "size_bytes": 9276,
+      "sha256": "6a86e3d202e3db8d4cb762a2f88714c3cb60ab68ca8ce79493d175a995eecc9f"
     },
     {
       "path": "api/coverage.md",
@@ -105,8 +105,8 @@
     },
     {
       "path": "assets/copyright-notice.svg",
-      "size_bytes": 1211,
-      "sha256": "736c5d477d07361198ee7b5e6834df70cfef66d057995bb5666375ebc82d5ceb"
+      "size_bytes": 1202,
+      "sha256": "560180bee98c5d2d479e4fd1427c2575358415f1b1a278e498ae28212dcda5f9"
     },
     {
       "path": "docs/k2-emark-design.md",
