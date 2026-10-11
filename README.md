@@ -2,6 +2,12 @@
 
 我在这里整理 WITRN K2 的逆向分析、协议与开发接口，供实现上位机、数据采集器和文件编辑器参考。以 USB HID 命令、JSON 进程接口与 Python 函数契约为开发入口，保留静态证据、文件格式和验证范围供复核。
 
+## 配套 Mac 应用
+
+[维简 Mac · WITRN K2 工具箱](https://github.com/lliooly/witrn-k2-mac) 提供原生 SwiftUI 上位机、曲线记录、固件升级、表盘、开机图和虚拟 E-Mark 管理。安装、使用与应用问题请从应用仓库开始；协议、文件格式与开发接口继续在本仓库查阅。
+
+两边的 Python 实现独立维护，不是自动同步的共享 SDK。跨仓库协议修改应关联具体提交并说明静态、模拟与实机验证范围，详见应用仓库的[联动约定](https://github.com/lliooly/witrn-k2-mac/blob/main/docs/repository-map.md)。
+
 ## 开发者入口
 
 | 目标 | 参考 | 内容 |
