@@ -20,8 +20,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "size_bytes": 1172,
-      "sha256": "566c02fa542c7d6e8a5442b6753adf60db66cb5f083be5bdfb81a1f2e7b0ac0e"
+      "size_bytes": 1148,
+      "sha256": "8c5959551c9cd4d614cf94a5a2b0d71e2d3a8d34e44edb7d2ac6688de20d25e5"
     },
     {
       "path": "LICENSE",
@@ -30,33 +30,33 @@
     },
     {
       "path": "NOTICE.md",
-      "size_bytes": 2186,
-      "sha256": "cc8ddde1082dca7a9f215d35b746af411866d17929b5bfeefc3e60dc39850414"
+      "size_bytes": 2155,
+      "sha256": "e1c5781db48b84e506a9bc765c0995388d5b565244e00114aca57804c3626d8e"
     },
     {
       "path": "README.md",
-      "size_bytes": 4111,
-      "sha256": "f904632d0e32a7909adf96b3459e7e9b4ac0ad84d38c35f3b00d91bac0fc72dd"
+      "size_bytes": 3910,
+      "sha256": "ab6f371601d47c2954f059273b92cea110ba2550a2c4244f589e32fa9dececa2"
     },
     {
       "path": "TAKEDOWN.md",
-      "size_bytes": 1891,
-      "sha256": "046f7bbb9ab932b4c36d7137066e600e6685268b2c3f043e2fbd69efc84a2866"
+      "size_bytes": 1884,
+      "sha256": "51a1c69bc0f8d934dafaf87a995db781a521395cf9f97d5345909ced0c4e1989"
     },
     {
       "path": "api/README.md",
-      "size_bytes": 2514,
-      "sha256": "c8a97abd668164d571ae3d5b35086d03ae6c0d1bf6383b34415de819a5d50410"
+      "size_bytes": 2013,
+      "sha256": "0b4b17da0c28e9141c74073a2c9cf6457eb762b4eeed444fa31883b689b796ed"
     },
     {
       "path": "api/bridge.md",
-      "size_bytes": 9358,
-      "sha256": "0ba6ddaaa0f110630a6b23ae036d15a7960f9b6437be2a8731984be8b7f828c8"
+      "size_bytes": 9286,
+      "sha256": "d0bbf1c2dfdea9a8ef4e3e214e6c75e93f90d88c6eeda669aa1cda9821606433"
     },
     {
       "path": "api/coverage.md",
-      "size_bytes": 2878,
-      "sha256": "85524b4b5d7d2293e14d410e03a22cb80fb5b73c3729e50cac3f6fd50e5bd9f0"
+      "size_bytes": 2842,
+      "sha256": "566ea11b2eae913cb6526822cf5fb9ab08f37c1c8520f1cd73286198f61a85df"
     },
     {
       "path": "api/device-commands.md",
@@ -65,8 +65,8 @@
     },
     {
       "path": "api/integration.md",
-      "size_bytes": 3602,
-      "sha256": "0bd59157ef7c4f62f237abd37405e7e318d910ec609d9b6beda421c74f32e560"
+      "size_bytes": 3482,
+      "sha256": "acb0fbd68b2daabdcd8e84578996a7a685a4192db24671ae23472025f2610aff"
     },
     {
       "path": "api/python-functions.json",
@@ -85,8 +85,8 @@
     },
     {
       "path": "archive/application/macos-app.md",
-      "size_bytes": 15781,
-      "sha256": "95e988533943f1b7228a382c206136e75092ea3ca14c9b88a723a551c9f304c2"
+      "size_bytes": 15621,
+      "sha256": "b71a40846360a93f7a2da1b7f9f3f25a17da8d4d50d1711ac671531fa0f8d14f"
     },
     {
       "path": "archive/application/ui-layout-design.md",
@@ -100,8 +100,8 @@
     },
     {
       "path": "archive/application/ui-layout-validation.md",
-      "size_bytes": 3532,
-      "sha256": "23b3422f546f9553dde31d6377f39d28d7641f7d5958f5b50d1c94b7a3295a2b"
+      "size_bytes": 3320,
+      "sha256": "1b91c617a2ab791a769aa064890beccacb5513446c4f34921f5b8b9b9fab5616"
     },
     {
       "path": "assets/copyright-notice.svg",
@@ -115,13 +115,13 @@
     },
     {
       "path": "docs/k2-monitor-design.md",
-      "size_bytes": 10096,
-      "sha256": "2a25068913050238e8d57f923dc14bf2e504ea6982cc6cd8db623175a3e3135e"
+      "size_bytes": 9601,
+      "sha256": "92fecb3c218f84fcc2c0e34217bbb33dcd75f652eed0c9dfb376ab2cdcc9ee79"
     },
     {
       "path": "docs/k2-monitor-hardware-validation.md",
-      "size_bytes": 5553,
-      "sha256": "a34a624259f5c1b80062999ca5ab8e501b958330c8be0ef32115c9cdbe25667f"
+      "size_bytes": 5544,
+      "sha256": "96408e90c51b4bb33a6f2feae6d42f5d9c70a01d083309e83502840ce7c0cff8"
     },
     {
       "path": "docs/k2-monitor-plan.md",
@@ -130,23 +130,23 @@
     },
     {
       "path": "docs/k2-monitor-research.md",
-      "size_bytes": 5386,
-      "sha256": "c70cc8e43e6fa2e6736069722ad244bcca380be4d0885ee90b08b38b9be2ddaf"
+      "size_bytes": 5321,
+      "sha256": "a6bc3c30a81a46a91bf4186632bd36f6b01bca17c70db8c1bf98f28c1497801a"
     },
     {
       "path": "docs/k2-monitor.md",
-      "size_bytes": 6674,
-      "sha256": "7decb048314a85b51934284563ba73cb7eeb160b38d63a44c333a768631345f9"
+      "size_bytes": 6551,
+      "sha256": "14a0948a0f3e29e42e0c09676bc214f7d20ac23b04a04ad86170f3cc7e5ec18d"
     },
     {
       "path": "docs/k2picture-design.md",
-      "size_bytes": 5712,
-      "sha256": "4f00c8578d78941131c9d984613cb893360323331d76e95a1d252d7fb4fda37b"
+      "size_bytes": 5595,
+      "sha256": "6baa5926cd54bf225f55cae10f387a7c68c58c4e4539e32f25cb71f9370f75d7"
     },
     {
       "path": "docs/k2picture-plan.md",
-      "size_bytes": 1657,
-      "sha256": "3dba0033bca478c0c10da3307ff30dbe38f7e43e5c71bf9853cd12b721d90816"
+      "size_bytes": 1645,
+      "sha256": "f75c264968d926ca4aad6dda28b50d1525991d7b21281638c4ff505e20b2ed38"
     },
     {
       "path": "docs/materials.md",
@@ -155,8 +155,8 @@
     },
     {
       "path": "docs/monitor-performance.md",
-      "size_bytes": 4188,
-      "sha256": "1fcd4475230f1403f40b8e2b5659fb0573ab0528178a96e60480dc07bb8a88c5"
+      "size_bytes": 3946,
+      "sha256": "ec7c69a341f61b1cc7263779bbeac48cdbee89dd653afd6b51f06756bd25ef6c"
     },
     {
       "path": "docs/protocol.md",
@@ -380,8 +380,8 @@
     },
     {
       "path": "research/README.md",
-      "size_bytes": 3218,
-      "sha256": "7fc6df8773b3fa384581a37da091220c80015a8ee4b9eff9c2fbb5d991b2ca72"
+      "size_bytes": 3153,
+      "sha256": "daa12ad54ab7d8a833b39b3007cebc58a16468f63385bbf7fdb168491bba9d95"
     },
     {
       "path": "research/functions/README.md",

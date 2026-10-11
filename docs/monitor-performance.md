@@ -37,4 +37,4 @@
 
 本轮实机预览采样 `second-before-live.sample.txt` 的主线程 SwiftUI `flushObservers` 为 844/3000，约 28%；批量绘线运行满一分钟窗口后的 `second-after-steady.sample.txt` 为 289/3473，约 8%。这些是短时调用栈采样比例，不是帧率或 CPU 使用率，且两次输入波形并非完全一致。上述后测包含批量绘线，未包含随后完成的查询状态隔离和控件禁用修正。
 
-最终通用 Release 构建及签名校验通过，完整版本放置于 `dist/K2 Updater.app`。原生自动化的拖动调用导致工具连接中断，无法继续验证拖选或安全退出当前进程；没有强制终止设备预览。运行中的批量绘线版本保留在 `build/performance/running-vectorized-before-controls.app`，退出并重开主应用后启用最终控件修正。
+最终通用 Release 构建及签名校验通过，产物为 `dist/K2 Updater.app`。此轮尚未完成实际窗口拖选与正常退出的交互验证。

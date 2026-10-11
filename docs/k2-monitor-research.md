@@ -1,6 +1,6 @@
 # K2 上位机调查
 
-调查日期：2026-10-08。范围为 K2 实时曲线、长期记录、CSV/SQLite 交换和区间统计。当前阶段只审查源码和静态反编译，没有执行第三方程序或向设备发命令。
+调查日期：2026-10-08。范围为 K2 实时曲线、长期记录、CSV/SQLite 交换和区间统计。初始调查采用源码审查与静态反编译；后续实机结果见本文末尾的验证记录。
 
 ## 开源项目与选择
 
@@ -8,8 +8,8 @@
 | --- | --- | --- |
 | [didim99/witrn-driver](https://github.com/didim99/witrn-driver) | MIT；README 列出社区测试过 K2；解析电压、电流、温度、D±、Ah/Wh 和运行时间 | PyUSB 传输会重置 USB 并接管接口；复用协议定义，传输改用本项目现有 HIDAPI |
 | [Fescron/witrn-ui-bokeh](https://github.com/Fescron/witrn-ui-bokeh) | MIT；浏览器实时曲线、CSV 记录 | 作者仅测试 C4，历史文件回放列为 TODO；可参考交互，不作为原生界面的运行依赖 |
-| [JohnScotttt/WITRN_HID_API](https://github.com/JohnScotttt/WITRN_HID_API) | HIDAPI；普通读数和 PD 报文解析 | 当前 LGPL-3.0-or-later、Python ≥3.10；现有后台为 Python 3.9，本次不复制其代码或引入依赖 |
-| [JohnScotttt/witrn_pd_sniffer](https://github.com/JohnScotttt/witrn_pd_sniffer) | 独立 PD 报文工具 | 不是本次选择的完整曲线工具；不纳入此次实现 |
+| [JohnScotttt/WITRN_HID_API](https://github.com/JohnScotttt/WITRN_HID_API) | HIDAPI；普通读数和 PD 报文解析 | 当前 LGPL-3.0-or-later、Python ≥3.10；参考实现后台为 Python 3.9，未复制其代码或引入依赖 |
+| [JohnScotttt/witrn_pd_sniffer](https://github.com/JohnScotttt/witrn_pd_sniffer) | 独立 PD 报文工具 | 用于独立 PD 报文分析，未作为曲线采集依赖 |
 | [didim99/usbmeter-utils](https://github.com/didim99/usbmeter-utils) | 旧版记录文件转换 | 面向 U2p/旧版上位机，不能据此声称兼容当前官方 SQLite |
 
 审查的源码版本：
@@ -18,7 +18,7 @@
 - witrn-ui-bokeh：`35493e5ae48989ca191932ae91b38865dcd94a39`。
 - WITRN_HID_API：`f13f3374c91e76a26b557d3786832653b924e0f8`。
 
-推荐：改编 MIT 驱动中的采集协议定义，保留许可证与来源说明，结合现有 HIDAPI、Python SQLite 和 SwiftUI。没有找到能直接替换现有应用、同时满足所选全部功能的 Mac 项目。
+参考实现改编 MIT 驱动中的采集协议定义，保留许可证与来源说明，使用 HIDAPI 传输与 Python SQLite 记录；应用层采用 SwiftUI。
 
 ## 官方程序证据
 

@@ -60,7 +60,7 @@ finally:
 4. 用户明确确认后，调用 `resource-write`，传原身份摘要和编辑文件摘要。
 5. 后台再次核对身份，备份当前完整分配区，合并尾部、擦写、完整读回，才返回成功。
 
-底层 `write_resource` 只执行擦写和读回，不自己做备份或身份校验。把它直接连到 UI 的“保存”按钮会遗漏保护步骤；完整流程见 [JSON 接口](bridge.md)。
+底层 `write_resource` 执行擦写和读回；备份与身份校验由上层事务完成。完整调用流程见 [JSON 接口](bridge.md)。
 
 ## 文件编辑和记录
 
@@ -70,4 +70,4 @@ finally:
 - `.wtemark` 使用 `validate_record`；集合使用 `validate_bank`，不要把 JSON 工程作为二进制集合写入。
 - 记录使用 `Recording` 和 `Sample`；查询用 `query_record`，导入导出用 `import_record / export_record`。
 
-[可运行离线示例](../examples/README.md) 演示三种常见开发路径。文件路径必须由上层应用可信选择；JSON 后台不会替应用实现网络权限或沙箱边界。
+[可运行离线示例](../examples/README.md) 演示三种常见开发路径。文件路径由上层应用选择并校验。
